@@ -1,0 +1,51 @@
+store_id,store_name,store_type,city,state,store_manager
+1,Motihari Flagship,Physical,Alwar,Goa,Ikshita Dara
+2,Khammam Flagship,Physical,Jaunpur,Kerala,Chanakya Dass
+3,Vadodara Flagship,Physical,Jodhpur,Punjab,Ekaraj Butala
+4,Bidhannagar Online,Online,,,Pranav Kadakia
+5,Sagar Online,Online,,,Krishna Chaudry
+6,Raichur Online,Online,,,Anika Gupta
+7,Eluru Flagship,Physical,Anantapuram,Nagaland,Udant Raman
+8,Burhanpur Online,Online,,,Daniel Mody
+9,Nangloi Jat Flagship,Physical,Aizawl,Bihar,Kala Iyengar
+10,Belgaum Flagship,Physical,Siliguri,Nagaland,Tara Barad
+11,Serampore Online,Online,,,Pallavi Gopal
+12,Sagar Online,Online,,,Forum Sarraf
+13,Bokaro Online,Online,,,Faraj Jhaveri
+14,Solapur Online,Online,,,Fariq Goswami
+15,Chandrapur Flagship,Physical,Visakhapatnam,Odisha,Chandresh Chana
+16,Burhanpur Flagship,Physical,Kalyan-Dombivli,Uttar Pradesh,Aarush Hayer
+17,Howrah Online,Online,,,Kabir Chaudhuri
+18,Udupi Online,Online,,,Abeer Dixit
+19,Allahabad Online,Online,,,Samesh Nadig
+20,Bongaigaon Online,Online,,,Agastya Kalla
+21,Akola Online,Online,,,Arunima Agate
+22,Ambattur Flagship,Physical,Tenali,Arunachal Pradesh,Anay Krishnamurthy
+23,Gangtok Online,Online,,,Samarth Nagarajan
+24,Sambalpur Flagship,Physical,Pallavaram,Sikkim,Oeshi Shah
+25,Bhavnagar Online,Online,,,Irya Gupta
+26,Davanagere Flagship,Physical,Mysore,Andhra Pradesh,Veda Grover
+27,Rewa Online,Online,,,Ranveer Rana
+28,Karawal Nagar Flagship,Physical,Mahbubnagar,Gujarat,Wridesh Mital
+29,Ahmedabad Online,Online,,,Ojasvi Iyengar
+30,Dehri Online,Online,,,Devansh Deo
+31,Jorhat Online,Online,,,Arjun Johal
+32,Guntakal Flagship,Physical,Mango,Andhra Pradesh,Faras Swaminathan
+33,Proddatur Flagship,Physical,Sirsa,Meghalaya,Yahvi Tank
+34,Vadodara Online,Online,,,Hamsini Raman
+35,Narasaraopet Flagship,Physical,Raebareli,Gujarat,Christopher Karan
+36,Kamarhati Online,Online,,,Isaiah Dara
+37,Cuttack Online,Online,,,Aradhana Rajan
+38,Mirzapur Online,Online,,,Geetika Rajagopalan
+39,Mira-Bhayandar Online,Online,,,Pallavi Puri
+40,Morbi Flagship,Physical,Rajahmundry,Mizoram,Tara Nagy
+41,Bally Online,Online,,,Jacob Kannan
+42,Kolkata Online,Online,,,Christopher Nazareth
+43,Ghaziabad Flagship,Physical,Karaikudi,Odisha,Udyati Bhakta
+44,Kolkata Flagship,Physical,Tadipatri,Jharkhand,Timothy Ganguly
+45,Indore Online,Online,,,Brinda Nadig
+46,Raichur Online,Online,,,Radhika Sur
+47,Bhubaneswar Flagship,Physical,Dibrugarh,Rajasthan,Upadhriti Sodhi
+48,Rampur Flagship,Physical,Madurai,Jharkhand,Champak Misra
+49,Surendranagar Dudhrej Flagship,Physical,Mysore,Uttarakhand,Bahadurjit Dua
+50,Ludhiana Flagship,Physical,Jorhat,Andhra Pradesh,Timothy Sule

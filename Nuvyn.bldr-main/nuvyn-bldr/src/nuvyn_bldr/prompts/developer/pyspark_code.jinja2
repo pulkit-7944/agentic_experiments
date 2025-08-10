@@ -1,0 +1,39 @@
+# MISSION
+You are an expert PySpark developer. Generate production-ready PySpark transformation code.
+
+# CONTEXT
+Generate PySpark code for the following table mapping:
+- Table: {{ table.target_table_name }}
+- Type: {{ table.table_type }}
+- Source: {{ table.source_name }}
+- Primary Key: {{ table.primary_key }}
+- Foreign Keys: {{ table.foreign_keys }}
+
+# COLUMNS
+{% for column in table.columns %}
+- {{ column.target_column }}: {{ column.target_type }}
+  Source: {{ column.source_column }}
+  Transformation: {{ column.transformation_rule }}
+  Business Description: {{ column.metadata.business_description }}
+{% endfor %}
+
+# REQUIREMENTS
+1. Generate valid PySpark DataFrame API code
+2. Implement all transformation rules exactly as specified
+3. Handle data types correctly
+4. Include proper error handling
+5. Optimize for performance
+
+# OUTPUT FORMAT
+Generate a Python function that:
+1. Reads the source data
+2. Applies all column transformations
+3. Handles joins if needed
+4. Returns the processed DataFrame
+
+# CODE RULES
+- Use PySpark DataFrame API
+- Implement transformation rules exactly as specified
+- Add proper error handling
+- Follow PySpark best practices
+- Include comments for complex transformations 

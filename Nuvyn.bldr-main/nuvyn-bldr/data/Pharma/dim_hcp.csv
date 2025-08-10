@@ -1,0 +1,1501 @@
+hcp_id,npi_number,hcp_full_name,specialty,secondary_specialty
+1,282048427,Dr. Saumya Rattan,Cardiology,
+2,5393831549,Dr. Bahadurjit Kar,Neurology,
+3,1353120910,Dr. Chavvi Rana,Oncology,Pediatrics
+4,4469481197,Dr. Alexander Kakar,Neurology,
+5,1672881855,Dr. Yutika Sarna,Pediatrics,
+6,4753048874,Dr. Yashvi Narain,Pediatrics,Cardiology
+7,1932839738,Dr. Aryan Raman,Oncology,Oncology
+8,4277463337,Dr. Madhav Chacko,General Practice,Neurology
+9,9233314971,Dr. Ijaya Sehgal,Pediatrics,Oncology
+10,4092107998,Dr. Ekanta Rastogi,Pediatrics,General Practice
+11,7413013264,Dr. Gauri Vala,General Practice,
+12,6439025303,Dr. Tanmayi Varkey,Pediatrics,Cardiology
+13,7547445290,Dr. Rachita Shukla,General Practice,Pediatrics
+14,3824167472,Dr. Thomas Pant,Neurology,Cardiology
+15,7659341963,Dr. Arya Sankar,General Practice,
+16,4351591209,Dr. Viraj Raj,General Practice,
+17,334206734,Dr. Xavier Rai,Pediatrics,General Practice
+18,7563033898,Dr. Balveer Chowdhury,General Practice,
+19,9279956109,Dr. Hredhaan Swamy,General Practice,
+20,5245470953,Dr. Riya Lalla,General Practice,
+21,6244949212,Dr. Fariq Malhotra,General Practice,Oncology
+22,6834076907,Dr. Azad Pandit,Cardiology,
+23,3639653674,Dr. Jagrati Saha,General Practice,Pediatrics
+24,7366963965,Dr. Kalpit Malhotra,General Practice,Cardiology
+25,3945690279,Dr. Nathan Patla,Neurology,Neurology
+26,7032585085,Dr. Nachiket Prasad,Cardiology,General Practice
+27,8329467908,Dr. Saksham Lanka,Cardiology,
+28,4878179683,Dr. Dhruv Nagar,Oncology,
+29,60502404,Dr. Anika Kala,Pediatrics,Neurology
+30,7274237552,Dr. Yahvi Rai,General Practice,Pediatrics
+31,2777204088,Dr. Ganga Bail,Pediatrics,Pediatrics
+32,7066770529,Dr. George Chahal,Pediatrics,Pediatrics
+33,8876558081,Dr. Mohammed Dave,Neurology,
+34,833351989,Dr. Krisha Chaudry,Pediatrics,Cardiology
+35,7253337325,Dr. Sanaya Chawla,General Practice,
+36,8882605580,Dr. Vincent Merchant,General Practice,
+37,9764359261,Dr. Kala Bajaj,General Practice,
+38,2706529345,Dr. Pavani Memon,Oncology,Cardiology
+39,1692585196,Dr. Yoshita Acharya,General Practice,
+40,6011721839,Dr. Wishi Sodhi,Oncology,Cardiology
+41,534520808,Dr. Balendra Gokhale,Cardiology,General Practice
+42,1628155597,Dr. Maanas Bobal,General Practice,Oncology
+43,6777847746,Dr. Ubika Srinivasan,Neurology,
+44,4418603830,Dr. Faris Gola,Neurology,
+45,7550595857,Dr. David Seth,Oncology,Oncology
+46,4829366346,Dr. Avni Kant,Neurology,
+47,7458157855,Dr. Eshana Rai,General Practice,
+48,6693981795,Dr. Rachana Shukla,Pediatrics,
+49,2559303979,Dr. Megha Dani,Cardiology,
+50,3715425180,Dr. Varsha Saini,Cardiology,Oncology
+51,3372105958,Dr. Frederick Naidu,General Practice,
+52,6253772465,Dr. Diya Walla,Neurology,
+53,6545924207,Dr. Naksh Taneja,General Practice,Cardiology
+54,4849313712,Dr. Aarna Bhagat,Neurology,Pediatrics
+55,4485702076,Dr. Urmi Rege,Oncology,
+56,4334425964,Dr. Falguni Ramakrishnan,Oncology,
+57,6240310434,Dr. Adya Prashad,Cardiology,
+58,7542713788,Dr. Ranbir Kale,Oncology,
+59,4532411712,Dr. Sara Dasgupta,Cardiology,General Practice
+60,1391279469,Dr. Dalaja Verma,Pediatrics,Neurology
+61,3847631208,Dr. Jacob Thaman,Oncology,
+62,2164388841,Dr. Chameli Chaudhry,General Practice,
+63,7137128881,Dr. Sneha Tiwari,Cardiology,
+64,7047130863,Dr. Lavanya Tiwari,Neurology,Neurology
+65,8167131226,Dr. Ishwar Radhakrishnan,Oncology,Cardiology
+66,7627465991,Dr. Ridhi Doctor,Oncology,Pediatrics
+67,973090385,Dr. Rachita Varkey,Oncology,Pediatrics
+68,2489173711,Dr. Kritika Borde,Cardiology,Oncology
+69,229926873,Dr. Akshay Patil,General Practice,
+70,602784275,Dr. Victor Jani,Cardiology,Oncology
+71,5050399583,Dr. Raagini Baria,General Practice,Oncology
+72,2078617380,Dr. Pooja Dua,Pediatrics,
+73,6315304080,Dr. Upadhriti Lanka,Pediatrics,Neurology
+74,6962801875,Dr. Aryan Anand,Oncology,
+75,8312028748,Dr. Zansi Sarraf,Oncology,Neurology
+76,4018314846,Dr. Gunbir Bhandari,Cardiology,General Practice
+77,4804559106,Dr. Yochana Sinha,Pediatrics,General Practice
+78,8103052540,Dr. Ekapad Dhillon,General Practice,Pediatrics
+79,66150033,Dr. Ayaan Sarna,Cardiology,
+80,2568351394,Dr. Vamakshi Kota,General Practice,Pediatrics
+81,5976431204,Dr. Aarna Malhotra,Pediatrics,Neurology
+82,557449461,Dr. Victor Ram,Oncology,
+83,3714545225,Dr. Ekbal Arora,General Practice,Oncology
+84,8912143267,Dr. Vasatika Mishra,General Practice,Oncology
+85,2493766394,Dr. Abhimanyu Ramakrishnan,Neurology,
+86,2502197085,Dr. Mason Taneja,Cardiology,General Practice
+87,653589710,Dr. Hritik Butala,Neurology,Pediatrics
+88,7202643726,Dr. Ekbal Nagy,Neurology,
+89,8643877968,Dr. Kai Gade,Cardiology,
+90,937579898,Dr. Udarsh Pant,Cardiology,
+91,4358824030,Dr. Ubika Mistry,Pediatrics,
+92,4514571707,Dr. Jack Doshi,Pediatrics,
+93,5089345065,Dr. Anirudh Thaman,General Practice,General Practice
+94,5349366974,Dr. Anya Loyal,Neurology,
+95,3491875730,Dr. Ishani Shan,Oncology,
+96,982807303,Dr. Eesha Peri,General Practice,General Practice
+97,8715400824,Dr. Tanveer Jain,Oncology,
+98,621883168,Dr. Rachit Bhatti,Pediatrics,
+99,2261154757,Dr. Balvan Chandran,Neurology,
+100,5484948394,Dr. Ekantika Tailor,Oncology,
+101,6889203397,Dr. Divya Modi,General Practice,
+102,8476034615,Dr. Inaya Ramachandran,Oncology,
+103,9647230012,Dr. Ijaya Hans,Cardiology,
+104,378210098,Dr. Azad D’Alia,Oncology,Neurology
+105,7977085474,Dr. Faqid Sandal,Cardiology,
+106,2600489240,Dr. Yashasvi Dua,Cardiology,Oncology
+107,6214028013,Dr. Netra Thaman,Neurology,
+108,4376210857,Dr. Omkaar Gala,Oncology,
+109,6508816163,Dr. Devansh Kunda,General Practice,Oncology
+110,3447962547,Dr. Anvi Chaudhry,Oncology,
+111,3041085841,Dr. Maanav Merchant,Neurology,
+112,7071966051,Dr. Warhi Dora,Oncology,Neurology
+113,4071165781,Dr. Aarush Verma,Pediatrics,
+114,1458235895,Dr. Karan Nair,Neurology,
+115,4189426705,Dr. Patrick Ramesh,Pediatrics,Neurology
+116,6288486795,Dr. Patrick Sarraf,Neurology,General Practice
+117,5539663973,Dr. Mitesh Mitra,Pediatrics,General Practice
+118,1238651990,Dr. Omkaar Naidu,Cardiology,Pediatrics
+119,2655855025,Dr. Oni Ghose,Neurology,Pediatrics
+120,6903717443,Dr. Harrison Grewal,Oncology,Neurology
+121,5900675470,Dr. Harish Mukhopadhyay,Cardiology,General Practice
+122,5235589608,Dr. Gaurangi Khare,Cardiology,General Practice
+123,451820693,Dr. Dalaja Pathak,Oncology,
+124,5466622389,Dr. Chasmum Natarajan,Neurology,Neurology
+125,2702359645,Dr. Odika Munshi,Pediatrics,
+126,2533245248,Dr. Girik Radhakrishnan,Oncology,
+127,3409808689,Dr. Rohan Dixit,Pediatrics,
+128,2851538740,Dr. Abeer Vyas,Pediatrics,
+129,3534653009,Dr. Januja Wable,Cardiology,
+130,2224027245,Dr. Zashil Varty,Pediatrics,Pediatrics
+131,8926027053,Dr. Chavvi Gulati,Neurology,Cardiology
+132,3685343737,Dr. Osha Khanna,Cardiology,General Practice
+133,9723107111,Dr. Hitesh Chauhan,Oncology,
+134,1338607903,Dr. Aachal Barad,Neurology,General Practice
+135,5292571104,Dr. Dominic Yohannan,Oncology,
+136,9071880475,Dr. Maya Mitter,Neurology,Pediatrics
+137,1842049417,Dr. Indrajit Pathak,Cardiology,
+138,7806349018,Dr. Gauri Suresh,Neurology,
+139,2382512386,Dr. Mitesh Sachdeva,Neurology,
+140,1341942383,Dr. Kamala Barad,Neurology,
+141,5382802175,Dr. Kiaan Sridhar,General Practice,
+142,8508242200,Dr. Naksh Sridhar,Cardiology,Cardiology
+143,4247868724,Dr. Yahvi Chaudhary,Oncology,
+144,1045131472,Dr. Maya Majumdar,General Practice,Pediatrics
+145,3512847300,Dr. Nachiket Bhat,General Practice,Pediatrics
+146,7813440824,Dr. Krish Oommen,Pediatrics,Pediatrics
+147,2632538857,Dr. Lipika Dubey,Neurology,
+148,1740730136,Dr. Nilima Menon,Pediatrics,Pediatrics
+149,6593344898,Dr. Zinal Bhatti,Cardiology,Neurology
+150,9458840419,Dr. Eshana Chad,Oncology,
+151,225458881,Dr. Oeshi Trivedi,Pediatrics,Cardiology
+152,7941269775,Dr. Rudra Prashad,Pediatrics,
+153,7140191172,Dr. Advika Tank,General Practice,Pediatrics
+154,8855760016,Dr. Chandresh Bhat,Oncology,General Practice
+155,1527530863,Dr. Upma Chawla,Neurology,General Practice
+156,7846135497,Dr. Panini Narayanan,General Practice,
+157,756598560,Dr. Ayush Goyal,General Practice,Oncology
+158,8719727988,Dr. Lopa Bera,Neurology,
+159,7304493060,Dr. Nilima Kari,Neurology,
+160,5229075536,Dr. Falguni Sarma,Neurology,Neurology
+161,7180416635,Dr. Gabriel Choudhary,Neurology,
+162,745771864,Dr. Utkarsh Verma,Cardiology,Cardiology
+163,5921510135,Dr. Anay Bhardwaj,Neurology,
+164,2418799326,Dr. Vansha Shanker,Neurology,Cardiology
+165,6736088135,Dr. Ekanta Dhaliwal,Cardiology,Oncology
+166,5892993942,Dr. Nachiket Mandal,Oncology,
+167,8116812668,Dr. Ishita Chaudhary,Pediatrics,
+168,3814270663,Dr. Balveer Khare,Pediatrics,
+169,7813440727,Dr. Shivansh Parsa,Neurology,Pediatrics
+170,4415121117,Dr. Joshua Balakrishnan,Oncology,
+171,4198565732,Dr. Kevin Goswami,Oncology,
+172,4042605569,Dr. Gaurika Karnik,Oncology,Pediatrics
+173,5155547820,Dr. Umang Singh,General Practice,
+174,5561869434,Dr. Libni Prabhu,General Practice,
+175,3701328663,Dr. Adya Prakash,Pediatrics,Neurology
+176,3652052567,Dr. Megha Kannan,Neurology,
+177,2528880198,Dr. Zarna Panchal,Neurology,General Practice
+178,74668062,Dr. Urvashi Mitter,Neurology,
+179,7425001523,Dr. Rachana Kala,Neurology,
+180,8158637293,Dr. Wazir Ghose,Pediatrics,
+181,1730584625,Dr. Ayush Bhalla,Pediatrics,General Practice
+182,882944370,Dr. Ethan Sehgal,Pediatrics,General Practice
+183,8977039547,Dr. Frado Bhatnagar,Cardiology,
+184,6009714542,Dr. Aarav Gokhale,Cardiology,Cardiology
+185,9060371573,Dr. Ekansh Prasad,Pediatrics,Pediatrics
+186,6504792486,Dr. Amol Shanker,General Practice,Neurology
+187,3780114815,Dr. Pavani Jayaraman,Cardiology,
+188,7029042377,Dr. Netra Chaudhry,Oncology,
+189,8837517054,Dr. Girish Naik,General Practice,Cardiology
+190,7123792421,Dr. Samar Chahal,Neurology,Oncology
+191,1571120625,Dr. Anay Mohanty,Neurology,General Practice
+192,5913324839,Dr. Andrew Vaidya,Pediatrics,Oncology
+193,9316136076,Dr. Wazir Parmer,Oncology,
+194,5399905581,Dr. Upasna Mangat,General Practice,Pediatrics
+195,9997067193,Dr. Reva Barad,General Practice,Oncology
+196,966870518,Dr. Dalaja Lad,Oncology,Neurology
+197,1066669926,Dr. Yochana Nagar,General Practice,Cardiology
+198,7202602118,Dr. Yauvani Varty,Pediatrics,Pediatrics
+199,5312288175,Dr. Tripti Borde,Oncology,Oncology
+200,1551425802,Dr. Jack Pai,Pediatrics,Neurology
+201,7937651602,Dr. Daksh Chaudry,Pediatrics,
+202,7046242579,Dr. Arjun Sarin,Neurology,General Practice
+203,674295400,Dr. Girish Prasad,Neurology,
+204,7415348493,Dr. Krishna Sane,Neurology,Oncology
+205,8098366828,Dr. Chakradhar Trivedi,Cardiology,Oncology
+206,1473073368,Dr. Maya Dugar,Cardiology,General Practice
+207,2263899930,Dr. Hemal Wadhwa,Pediatrics,
+208,4011713901,Dr. Aadhya Ganesh,Neurology,
+209,6771712823,Dr. Utkarsh Kapur,Neurology,Oncology
+210,1512226009,Dr. Shravya Chander,General Practice,Cardiology
+211,5844786278,Dr. Sarthak Venkatesh,Pediatrics,
+212,3395625680,Dr. Kevin Wadhwa,Oncology,
+213,5307018188,Dr. Turvi Ram,Oncology,
+214,1368026812,Dr. Benjamin Sem,Neurology,
+215,925984743,Dr. Indira Prabhu,Neurology,
+216,2210967335,Dr. Falak Bhavsar,General Practice,
+217,7198969805,Dr. Faqid Kannan,Neurology,General Practice
+218,3546703016,Dr. Hredhaan Sarraf,Cardiology,
+219,482175562,Dr. Vaishnavi Samra,General Practice,Cardiology
+220,4743150109,Dr. Krisha Kaul,Oncology,
+221,6144464736,Dr. Girindra Prakash,Pediatrics,
+222,2906280358,Dr. Lavanya Amble,Neurology,
+223,1755370734,Dr. Jagrati Pathak,Neurology,
+224,7570162796,Dr. Simon Mannan,General Practice,Oncology
+225,1268178963,Dr. Saumya Loke,Oncology,General Practice
+226,6969526501,Dr. Krisha Bera,Cardiology,Pediatrics
+227,1397593746,Dr. Yashodhara Jha,Cardiology,
+228,4898519582,Dr. Dalbir Bandi,Oncology,
+229,520788592,Dr. Nidhi Bahri,General Practice,
+230,3592009944,Dr. Pranit Minhas,Neurology,
+231,762133706,Dr. Lipika Mitra,Oncology,
+232,270543156,Dr. Zarna Balan,General Practice,
+233,620739296,Dr. Oscar Bala,Oncology,Cardiology
+234,8149300448,Dr. Ekapad Goda,Neurology,
+235,2427295985,Dr. Ijaya Vasa,Oncology,Pediatrics
+236,9577268283,Dr. Lekha Narasimhan,Cardiology,
+237,6476015920,Dr. Anamika Sachar,Neurology,
+238,2894296254,Dr. Qasim Bhavsar,General Practice,Pediatrics
+239,6595048270,Dr. Pranav Tata,Oncology,
+240,3553340865,Dr. Rudra Virk,Pediatrics,Neurology
+241,4208786490,Dr. Wyatt Subramaniam,General Practice,Pediatrics
+242,8287188224,Dr. Yashoda Rajagopal,Cardiology,
+243,9004132710,Dr. Vrishti Mukhopadhyay,Oncology,
+244,4015828203,Dr. Chaman Pathak,Oncology,Oncology
+245,1438545775,Dr. Owen Dewan,Pediatrics,
+246,4411121530,Dr. Rohan Char,General Practice,Neurology
+247,900357035,Dr. Siddharth Suresh,Oncology,
+248,1074611966,Dr. Siddharth Kaur,General Practice,
+249,7459490939,Dr. Vedika Mani,Pediatrics,
+250,5732337300,Dr. Peter Prakash,Pediatrics,
+251,7965460893,Dr. Laban Magar,Cardiology,Oncology
+252,2447983148,Dr. Manthan Sunder,Neurology,Neurology
+253,3900005841,Dr. Elijah Chahal,Neurology,
+254,7324738208,Dr. Jagrati Sarma,Cardiology,General Practice
+255,8087396382,Dr. Raghav Varma,Neurology,
+256,5122865333,Dr. Falak Badal,Pediatrics,
+257,5458732935,Dr. Veda Buch,Pediatrics,Cardiology
+258,3387022595,Dr. Samar Maharaj,Pediatrics,
+259,2750103988,Dr. Anmol Sastry,Neurology,
+260,9859425124,Dr. Falak Verma,Neurology,
+261,4104756865,Dr. Nathan Tandon,Cardiology,
+262,17816966,Dr. Ethan Badal,Pediatrics,
+263,6281085154,Dr. Ekiya Kota,Neurology,General Practice
+264,7186626243,Dr. Karan Andra,Neurology,
+265,2135118033,Dr. Ikshita Gulati,Neurology,Cardiology
+266,1641355742,Dr. Warjas Bala,Oncology,Cardiology
+267,9991078875,Dr. Kashvi Taneja,Cardiology,
+268,1839068731,Dr. Yatan Saran,Cardiology,Neurology
+269,9799975469,Dr. Azaan Gill,Oncology,
+270,7462704949,Dr. Naveen Chahal,Oncology,Neurology
+271,5817195213,Dr. Charita Peri,Cardiology,
+272,2316277960,Dr. Ayaan Date,General Practice,General Practice
+273,8102492374,Dr. Advaith Kumer,Cardiology,Pediatrics
+274,3192058364,Dr. Zaid Wali,Cardiology,
+275,5648429261,Dr. Yachana Agrawal,Neurology,
+276,2612442730,Dr. Yash Vora,General Practice,
+277,5401265864,Dr. Tanish Vala,Pediatrics,Pediatrics
+278,9778730113,Dr. Sathvik Panchal,Pediatrics,Pediatrics
+279,7863863771,Dr. Sara Shan,Neurology,
+280,6367559994,Dr. Darika Bansal,Pediatrics,
+281,1969924988,Dr. Vincent Kota,Oncology,Pediatrics
+282,5918815518,Dr. Chakradhar Gola,Oncology,Oncology
+283,429408702,Dr. Nimrat Pillai,Neurology,
+284,2704378267,Dr. Ekiya Lalla,Pediatrics,Cardiology
+285,3839728978,Dr. Nitesh Borra,Neurology,Oncology
+286,2011160797,Dr. Anya Bhatti,Neurology,
+287,3951778648,Dr. Nikita Mohanty,General Practice,
+288,1109836700,Dr. Kamya Sood,General Practice,Neurology
+289,692327890,Dr. Barkha Ben,Pediatrics,
+290,5595113584,Dr. Ekavir Wable,Neurology,General Practice
+291,8232622924,Dr. Ethan Randhawa,Neurology,Neurology
+292,8003505223,Dr. Noah Grover,General Practice,Cardiology
+293,9174083646,Dr. Vasana Palla,Cardiology,Oncology
+294,5006569955,Dr. Manbir Dave,Neurology,Cardiology
+295,9965161583,Dr. Chaaya Nadig,Neurology,Pediatrics
+296,1274984449,Dr. Pranav Kunda,Cardiology,General Practice
+297,3123627217,Dr. Fiyaz Kohli,General Practice,Pediatrics
+298,9039712590,Dr. Bhavya Narayanan,Cardiology,
+299,6589906524,Dr. Dhruv Swaminathan,Oncology,
+300,6641831684,Dr. Bina Murthy,General Practice,Pediatrics
+301,8513468413,Dr. Utkarsh Kakar,General Practice,
+302,4618001493,Dr. Yashoda Bobal,Neurology,
+303,9835424977,Dr. Libni Kari,Neurology,General Practice
+304,4456426100,Dr. Chakradev Dara,Oncology,Oncology
+305,9214264745,Dr. Vihaan Mani,Cardiology,
+306,652986100,Dr. Darsh Sura,Cardiology,Pediatrics
+307,5946968944,Dr. Ekani Wadhwa,Pediatrics,
+308,3711389025,Dr. Girindra Kara,Pediatrics,
+309,720578518,Dr. Aadhya Mohan,General Practice,Neurology
+310,358919684,Dr. Zayan Vasa,Oncology,Pediatrics
+311,9698214402,Dr. Yashica Chad,Pediatrics,General Practice
+312,7880354756,Dr. Yochana Cheema,Oncology,
+313,2657339728,Dr. Saksham Agrawal,Pediatrics,
+314,7316413876,Dr. Joshua Prasad,General Practice,Cardiology
+315,7967282926,Dr. Zilmil Varghese,General Practice,
+316,8424948510,Dr. Owen Sagar,Neurology,General Practice
+317,7323786234,Dr. Imaran Sathe,Pediatrics,
+318,7569392261,Dr. Mohammed Shere,Oncology,
+319,3096042906,Dr. Priya Hans,Pediatrics,Neurology
+320,5953361336,Dr. Tanay Issac,General Practice,
+321,5730666037,Dr. Watika Kala,Cardiology,
+322,9173149264,Dr. Chanchal Raman,General Practice,Cardiology
+323,4310426650,Dr. Harshil Khosla,Pediatrics,Cardiology
+324,8685143454,Dr. Deepa Kothari,Pediatrics,
+325,7029534975,Dr. Falguni Lad,Oncology,
+326,5927793629,Dr. Vritti Dar,Oncology,
+327,1642111888,Dr. Varsha Chaudhry,Neurology,
+328,2942303657,Dr. Robert Basak,Oncology,Cardiology
+329,5723645253,Dr. Sathvik Purohit,General Practice,
+330,4146286286,Dr. Wazir Dutt,Pediatrics,Oncology
+331,1059962538,Dr. Advaith Dara,Oncology,
+332,2745894193,Dr. Advik Narang,Oncology,Oncology
+333,1717848064,Dr. Tarak Nayar,General Practice,
+334,4315744309,Dr. Hiral Sawhney,Pediatrics,
+335,4786087075,Dr. Nandini Saini,General Practice,
+336,3081568578,Dr. Sathvik Rout,Pediatrics,
+337,3226462998,Dr. Rachita Sabharwal,Oncology,Cardiology
+338,9347520843,Dr. Janya Naidu,Oncology,Pediatrics
+339,5275969512,Dr. Manbir Morar,Cardiology,Cardiology
+340,9144223874,Dr. Vedant Yogi,Pediatrics,
+341,5640321145,Dr. Rudra Divan,Neurology,Cardiology
+342,6944187435,Dr. Ubika Kalla,General Practice,Oncology
+343,4068471870,Dr. Bina Naik,Pediatrics,Oncology
+344,6375791323,Dr. Ishwar Jayaraman,Cardiology,Oncology
+345,235841758,Dr. Balvan Bobal,Pediatrics,
+346,2089985901,Dr. Aryan Singhal,Oncology,Neurology
+347,1249688714,Dr. Dev Mohan,Cardiology,
+348,4955108113,Dr. Sanaya Jayaraman,Oncology,General Practice
+349,3037591739,Dr. Hamsini Badal,Neurology,Neurology
+350,3560364691,Dr. Zayyan Hayre,Oncology,
+351,6584432040,Dr. Zayan Sarma,Pediatrics,Neurology
+352,6049938786,Dr. Atharv Mittal,General Practice,Neurology
+353,8194379683,Dr. Anmol Saran,General Practice,Oncology
+354,2684312347,Dr. Manbir Sridhar,Oncology,General Practice
+355,9280678100,Dr. Jagat Dada,Cardiology,
+356,8136305956,Dr. Pavani Srivastava,General Practice,Pediatrics
+357,9556650995,Dr. Harrison Bedi,Neurology,General Practice
+358,7542884475,Dr. Indrajit Som,Cardiology,
+359,2052277184,Dr. Ikshita Bhatt,General Practice,Pediatrics
+360,832996216,Dr. Naveen Bala,Neurology,
+361,7103951138,Dr. Inaya Atwal,Neurology,Oncology
+362,1298907419,Dr. Kalpit Tripathi,Pediatrics,
+363,3216754300,Dr. Warinder Bhatia,Cardiology,
+364,2988249443,Dr. Vinaya Khatri,Cardiology,Pediatrics
+365,1298382886,Dr. Turvi Patil,Cardiology,Pediatrics
+366,3041501410,Dr. Unnati Pau,Cardiology,Oncology
+367,5520076707,Dr. Manan Gola,Oncology,
+368,2230606208,Dr. Vritti Chhabra,Neurology,Oncology
+369,6134337738,Dr. Libni Mandal,Cardiology,Cardiology
+370,4987692008,Dr. Oeshi Bala,General Practice,
+371,4083824919,Dr. Lipika Kannan,Neurology,Neurology
+372,5086224425,Dr. Anthony Krishnamurthy,General Practice,
+373,8577955972,Dr. Gabriel Buch,Oncology,
+374,5400766096,Dr. Finn Roy,General Practice,
+375,3116405503,Dr. Ishani Trivedi,Neurology,Pediatrics
+376,9966971702,Dr. Jyoti Kari,Oncology,
+377,5202457004,Dr. Veer Narayanan,General Practice,General Practice
+378,4332188209,Dr. Tarak Goda,Neurology,
+379,4458595575,Dr. Yashodhara Sachdev,Oncology,Cardiology
+380,3516042103,Dr. Zashil Kalla,Cardiology,General Practice
+381,5781238467,Dr. Faraj Amble,Cardiology,
+382,2352059912,Dr. Azad Dhillon,Pediatrics,
+383,2604326718,Dr. Shaurya Kulkarni,General Practice,
+384,198966887,Dr. Ikbal Ghosh,Cardiology,Oncology
+385,2026651784,Dr. Panini Halder,Cardiology,Oncology
+386,1564282252,Dr. Bishakha Wason,General Practice,Cardiology
+387,3411891731,Dr. Raksha Mitra,Cardiology,
+388,3945321180,Dr. Nathaniel Nadkarni,General Practice,General Practice
+389,4742335849,Dr. Dakshesh Srinivas,Cardiology,Cardiology
+390,5586953572,Dr. Abhiram Bhatti,General Practice,
+391,6622308334,Dr. Arya Doshi,General Practice,Neurology
+392,3212081438,Dr. Jai Aggarwal,Neurology,
+393,6340585838,Dr. Yochana Kannan,Neurology,
+394,334052360,Dr. Anamika Sawhney,Pediatrics,
+395,2014280806,Dr. Samarth Handa,Pediatrics,Pediatrics
+396,6196615100,Dr. Anirudh Srinivasan,Oncology,
+397,1293807437,Dr. Meghana Prasad,General Practice,
+398,4170885703,Dr. Utkarsh Kuruvilla,Oncology,
+399,46223358,Dr. Yamini Ahuja,General Practice,Oncology
+400,1414395124,Dr. Tejas Sur,General Practice,Pediatrics
+401,4430122428,Dr. Divya Prabhu,Oncology,Cardiology
+402,5398606893,Dr. Manan Sani,Neurology,
+403,316842857,Dr. Chakradev Sarna,General Practice,
+404,2535966250,Dr. Raghav Murty,Neurology,
+405,2362372836,Dr. Yashica Srinivasan,General Practice,Cardiology
+406,2914147656,Dr. Alexander Lal,Pediatrics,
+407,5375077441,Dr. Tripti Prakash,Oncology,Cardiology
+408,848099496,Dr. Adweta Shanker,General Practice,General Practice
+409,5229396703,Dr. William Mahajan,Cardiology,
+410,5417168408,Dr. Unni Swamy,Cardiology,General Practice
+411,2905382028,Dr. Lekha Pau,Neurology,
+412,2949637294,Dr. Ira Nair,Cardiology,
+413,6027425833,Dr. Gauri Tara,Oncology,Cardiology
+414,3052520190,Dr. Ishita Agarwal,Pediatrics,
+415,7847750382,Dr. Jacob Devi,Oncology,
+416,766555563,Dr. Janaki Bajwa,General Practice,
+417,1500882243,Dr. Chaitanya Narain,Neurology,
+418,1414588605,Dr. Finn Dey,Cardiology,
+419,7704015056,Dr. Lohit Rau,General Practice,
+420,6681029883,Dr. Nidhi Jha,Cardiology,
+421,7817311466,Dr. Ojasvi Dutta,Neurology,Neurology
+422,4319928096,Dr. Nisha Maharaj,Oncology,Oncology
+423,9526861763,Dr. Ronith Bava,Oncology,
+424,4830854381,Dr. Samaksh Sule,Neurology,General Practice
+425,4952102095,Dr. Wishi Dutta,Neurology,Pediatrics
+426,6663181199,Dr. Divya Sidhu,Pediatrics,
+427,8891704731,Dr. Aarav Singhal,Pediatrics,Oncology
+428,9864104219,Dr. Timothy Vora,Cardiology,Oncology
+429,6481174295,Dr. Libni Pandit,Oncology,
+430,5777952963,Dr. Max Lal,Cardiology,Pediatrics
+431,8061596876,Dr. Hamsini Bali,Cardiology,
+432,9471832615,Dr. Max Zachariah,Cardiology,Cardiology
+433,7005582054,Dr. Ekaja Kalla,General Practice,
+434,2520754903,Dr. Ojas Wali,Oncology,Pediatrics
+435,7963715042,Dr. Ryan Mitter,Cardiology,
+436,3688602519,Dr. Meghana Pingle,General Practice,Pediatrics
+437,3751609158,Dr. Harita Iyengar,Cardiology,Pediatrics
+438,9627109533,Dr. Idika Kaul,Cardiology,
+439,7337489974,Dr. Nitesh Majumdar,General Practice,Pediatrics
+440,3668763939,Dr. Anamika Sunder,Neurology,
+441,7216271254,Dr. Anmol Narasimhan,Oncology,
+442,3415883159,Dr. Chakradhar Mannan,Pediatrics,Oncology
+443,7786323786,Dr. Keya Anne,Cardiology,Pediatrics
+444,1760364947,Dr. Sathvik Oommen,Neurology,Neurology
+445,4686014587,Dr. Vanya Gera,Pediatrics,Neurology
+446,2078699806,Dr. Irya Parmar,Cardiology,Neurology
+447,9721030168,Dr. Aditya Date,Cardiology,Pediatrics
+448,8375510507,Dr. Leela Nagy,Pediatrics,
+449,7972599624,Dr. Triya Grewal,General Practice,General Practice
+450,2265890148,Dr. Sudiksha Bail,Pediatrics,
+451,8760254721,Dr. Lohit Nayar,Pediatrics,
+452,9870083964,Dr. Falan Reddy,Pediatrics,Oncology
+453,7751508840,Dr. Jalsa Dey,Oncology,Oncology
+454,3292047292,Dr. Faqid Ramesh,Oncology,Pediatrics
+455,5291262122,Dr. Ansh Mann,Pediatrics,
+456,1069424217,Dr. Lohit Mutti,Pediatrics,
+457,2081859529,Dr. Ryan Din,Pediatrics,Cardiology
+458,8073322994,Dr. Gagan Kaul,Pediatrics,Cardiology
+459,6730446667,Dr. Amrita Peri,General Practice,
+460,7995686673,Dr. Udyati Thakkar,Cardiology,
+461,2064737216,Dr. Jai Srivastava,Pediatrics,
+462,343448122,Dr. Chameli Apte,General Practice,Cardiology
+463,4928330395,Dr. Anvi Chaudhari,General Practice,
+464,1887189011,Dr. Bhavini Vala,Neurology,
+465,7121585514,Dr. Vrinda Dave,Pediatrics,General Practice
+466,5139857798,Dr. Pavani Bobal,Oncology,Oncology
+467,8605835528,Dr. Onkar Ramesh,Oncology,
+468,133212596,Dr. Orinder Seshadri,Neurology,
+469,8423998131,Dr. Arin Nagi,Neurology,
+470,7153314719,Dr. Jasmit Chadha,Neurology,Neurology
+471,9438332465,Dr. Shivansh Sachdev,Cardiology,General Practice
+472,9473433398,Dr. Yasti Sur,Pediatrics,Neurology
+473,5245499503,Dr. Imaran Edwin,Neurology,Cardiology
+474,1409594616,Dr. Pahal Kashyap,Cardiology,
+475,8196339290,Dr. Indrajit Gour,Pediatrics,
+476,7660437469,Dr. Harish Mistry,Cardiology,
+477,2560829632,Dr. Gautami Chowdhury,Neurology,Oncology
+478,598415454,Dr. Sarthak Bhandari,Oncology,
+479,8161632162,Dr. Nitara Deshpande,Neurology,
+480,9487749916,Dr. Nisha Thakkar,Cardiology,
+481,2408450332,Dr. Omaja Guha,Pediatrics,Oncology
+482,5318827731,Dr. Saumya Borah,Oncology,
+483,7412072605,Dr. Zilmil Maharaj,General Practice,Neurology
+484,5627929636,Dr. Logan Panchal,Oncology,General Practice
+485,4872987507,Dr. Neelima Sheth,Pediatrics,
+486,2628422416,Dr. Anusha Biswas,Pediatrics,
+487,894510593,Dr. Samesh Sinha,General Practice,Cardiology
+488,8563201899,Dr. Wahab Chada,Oncology,
+489,9290122673,Dr. Joshua Bassi,General Practice,
+490,6378228358,Dr. Chaitaly Gole,Cardiology,Cardiology
+491,621780621,Dr. Yug Sha,Neurology,
+492,6430655805,Dr. Ranveer Pillay,Oncology,
+493,1625432763,Dr. Rushil Nair,Pediatrics,
+494,3679303279,Dr. Champak Saraf,Cardiology,
+495,8778152521,Dr. Ekansh Majumdar,Pediatrics,
+496,2337087212,Dr. Falan Deshmukh,Pediatrics,Neurology
+497,3828136636,Dr. Lakshmi Gupta,Pediatrics,
+498,5670147474,Dr. Januja Saraf,Oncology,Oncology
+499,2832954291,Dr. Jeet Khatri,General Practice,Pediatrics
+500,7244840823,Dr. Maya Kulkarni,Oncology,
+501,4642480367,Dr. Bhavna Bassi,General Practice,Pediatrics
+502,4661978288,Dr. Neha Venkataraman,Oncology,Cardiology
+503,2070368989,Dr. Vaishnavi Cheema,Pediatrics,
+504,2365906022,Dr. Raagini Dasgupta,Pediatrics,Cardiology
+505,8287745589,Dr. Yashodhara Varma,Pediatrics,
+506,4588543001,Dr. Girish Dayal,Pediatrics,
+507,6268528557,Dr. Bachittar Jhaveri,Oncology,General Practice
+508,941891782,Dr. Nathaniel Malhotra,Oncology,Cardiology
+509,5202374039,Dr. Harrison Balay,General Practice,
+510,6560291036,Dr. Bhavya Ray,General Practice,
+511,2541218661,Dr. Radhika Badal,Cardiology,
+512,1225505537,Dr. Upkaar Balasubramanian,Oncology,
+513,1194165131,Dr. Ekaraj Gaba,Cardiology,
+514,2427032504,Dr. Darpan Saini,Neurology,Neurology
+515,7580616035,Dr. Ojasvi Sankaran,Oncology,Pediatrics
+516,4708714132,Dr. Ekaja Bassi,Pediatrics,General Practice
+517,8960737041,Dr. Aachal Nanda,Cardiology,General Practice
+518,4033778294,Dr. Bakhshi Nigam,Cardiology,Cardiology
+519,592696568,Dr. Forum Karpe,Neurology,Cardiology
+520,4671574970,Dr. Abeer Sekhon,General Practice,
+521,5518453948,Dr. Mekhala Balasubramanian,Pediatrics,Neurology
+522,4060778385,Dr. Laban Balay,Pediatrics,Cardiology
+523,4801500079,Dr. Kavya Joshi,Neurology,Pediatrics
+524,6310786606,Dr. Manan Ratti,Neurology,
+525,6225067005,Dr. Barkha Oza,Cardiology,
+526,3567550430,Dr. Zansi Subramanian,Oncology,Cardiology
+527,3303246734,Dr. Laksh Madan,Neurology,Oncology
+528,6959987631,Dr. Siya Sridhar,Oncology,Cardiology
+529,9775271230,Dr. Lopa Hari,Pediatrics,
+530,9598794879,Dr. Rushil Deshpande,Pediatrics,Neurology
+531,476657878,Dr. Aarav Radhakrishnan,General Practice,Oncology
+532,515362002,Dr. Darika Dave,Neurology,Pediatrics
+533,2916992965,Dr. Ronith Keer,Cardiology,Cardiology
+534,225489968,Dr. Turvi Gandhi,Pediatrics,
+535,3113138689,Dr. Diya Bala,Cardiology,
+536,3848589618,Dr. Tripti Yogi,Neurology,Oncology
+537,1624615599,Dr. Januja Thaman,General Practice,Pediatrics
+538,5607539387,Dr. Karan Dayal,General Practice,
+539,237920394,Dr. Triveni Chauhan,Neurology,
+540,1770586689,Dr. Jagrati Viswanathan,Neurology,Cardiology
+541,8811121878,Dr. Chandani Krishnamurthy,Neurology,General Practice
+542,1420111543,Dr. Amol Merchant,General Practice,
+543,8300244827,Dr. Vedika Oommen,Pediatrics,Pediatrics
+544,9179303355,Dr. Upasna More,Neurology,
+545,4255880092,Dr. Arunima Dani,Oncology,
+546,8286336483,Dr. Mitesh Mutti,General Practice,Pediatrics
+547,727233226,Dr. Mahika Kade,General Practice,
+548,7644564252,Dr. Bakhshi Iyengar,Cardiology,
+549,9180350262,Dr. Advika Behl,Oncology,
+550,3356626571,Dr. Agastya Desai,Oncology,Oncology
+551,4737831873,Dr. Bhanumati Sen,Pediatrics,Neurology
+552,3180146374,Dr. Bhavika Johal,General Practice,Cardiology
+553,4633232156,Dr. Falguni Ghosh,Cardiology,General Practice
+554,7249315618,Dr. Janya Shere,General Practice,
+555,1524754824,Dr. Xavier Ravi,Pediatrics,General Practice
+556,5356449280,Dr. Barkha Dugar,Cardiology,Oncology
+557,5262410092,Dr. Odika Soman,Pediatrics,Pediatrics
+558,4629140679,Dr. Oviya Behl,Neurology,
+559,3686726429,Dr. Warda Lad,Oncology,
+560,7474834344,Dr. Gagan Chaudhuri,Oncology,General Practice
+561,1234650103,Dr. Aadi Gala,Oncology,General Practice
+562,2672797750,Dr. Vansha Gala,Cardiology,Oncology
+563,2516072929,Dr. Advika Vig,Cardiology,
+564,6727403960,Dr. Yashasvi Dhillon,Cardiology,Pediatrics
+565,8723563438,Dr. Shaurya Sabharwal,Neurology,Neurology
+566,4168461626,Dr. Janani Dave,Cardiology,
+567,3410473395,Dr. Bahadurjit Divan,Pediatrics,
+568,7632072532,Dr. Zarna Samra,General Practice,
+569,9994422630,Dr. Anjali Dara,Pediatrics,Cardiology
+570,3814733385,Dr. Charvi Nagarajan,Cardiology,General Practice
+571,5900838344,Dr. Gaurang Warrior,Pediatrics,Pediatrics
+572,4425566814,Dr. Chanakya Dhillon,Cardiology,
+573,4552381820,Dr. Avni Pall,Pediatrics,Cardiology
+574,1244401851,Dr. Chaman Basu,Neurology,General Practice
+575,3694670420,Dr. Aarav Trivedi,Oncology,Neurology
+576,2862689204,Dr. Wazir Pant,Pediatrics,
+577,7559200486,Dr. Lavanya Shankar,Cardiology,
+578,8024176442,Dr. Ekaraj Upadhyay,Cardiology,
+579,6320132790,Dr. Lekha Dey,Neurology,
+580,5101072425,Dr. Osha Chacko,General Practice,
+581,87937890,Dr. Sarthak Dutta,Pediatrics,General Practice
+582,1408445651,Dr. Hitesh Mohanty,General Practice,
+583,7461362376,Dr. Sarthak Bassi,General Practice,Pediatrics
+584,2032756225,Dr. Omaja Loyal,Pediatrics,Oncology
+585,1142304941,Dr. Advaith Dani,Pediatrics,
+586,1801303106,Dr. Falan Tailor,Cardiology,
+587,2618371748,Dr. Victor Sachdeva,General Practice,General Practice
+588,4642941455,Dr. Balvan Sastry,Cardiology,Oncology
+589,7290722938,Dr. Xavier Chaudhary,Neurology,Cardiology
+590,4463102367,Dr. Chaaya Vyas,Neurology,
+591,9622213170,Dr. Anusha Rai,Oncology,General Practice
+592,9264504363,Dr. Farhan Sankar,Cardiology,General Practice
+593,3452309609,Dr. Jeet Deep,Neurology,General Practice
+594,5918124868,Dr. Tanvi Warrior,Neurology,Neurology
+595,1096682149,Dr. Ekavir Sarraf,Oncology,
+596,2430415753,Dr. Pavani Brar,Oncology,Oncology
+597,4765715169,Dr. Kashish Gopal,General Practice,
+598,7399368653,Dr. Gautam Handa,Neurology,General Practice
+599,548582035,Dr. Aditya Patil,General Practice,Neurology
+600,4198200927,Dr. Rajeshri Desai,General Practice,Cardiology
+601,9617446600,Dr. Jeet Sandal,Pediatrics,Cardiology
+602,5524154313,Dr. Urvashi Deep,Neurology,General Practice
+603,5483594600,Dr. Waida Pal,Cardiology,Neurology
+604,7045473822,Dr. Neel Karan,Pediatrics,
+605,7278203471,Dr. Ganga Yogi,Oncology,
+606,259691962,Dr. Ganga Devi,Cardiology,Pediatrics
+607,1174086102,Dr. Sara Karpe,Oncology,
+608,4125120812,Dr. Qadim Dugal,Cardiology,
+609,230991220,Dr. Alka Yogi,General Practice,Pediatrics
+610,2171374424,Dr. Falak Prabhakar,Neurology,
+611,3483477473,Dr. Tripti Dayal,Cardiology,
+612,9550339698,Dr. Sai Chaudry,Oncology,Cardiology
+613,9085257898,Dr. Hemani Panchal,Pediatrics,
+614,9574834300,Dr. Vansha Guha,General Practice,
+615,6136392357,Dr. Kalpit Chhabra,Pediatrics,General Practice
+616,3800628541,Dr. Hemangini Dhar,General Practice,Oncology
+617,8004584987,Dr. Hardik Choudhury,Pediatrics,Oncology
+618,3333922961,Dr. Zansi Bail,Oncology,Pediatrics
+619,1648241707,Dr. Rayaan Apte,Cardiology,Cardiology
+620,2887803651,Dr. Kavya Seshadri,General Practice,
+621,7154289396,Dr. William Minhas,Neurology,
+622,3531186868,Dr. Daniel Reddy,General Practice,
+623,5811453462,Dr. Omya Sekhon,General Practice,
+624,7050265447,Dr. Chakradev Dhaliwal,Neurology,Pediatrics
+625,6692960055,Dr. Vrinda Virk,Oncology,Pediatrics
+626,3048698909,Dr. Gauri Amble,Cardiology,General Practice
+627,7473654146,Dr. Sara Bakshi,Pediatrics,
+628,6147764400,Dr. Bhavika Salvi,Neurology,
+629,633943197,Dr. Bhavya Saran,Cardiology,
+630,2866967717,Dr. Leela Srinivasan,Pediatrics,Neurology
+631,6650493943,Dr. Gauri More,Cardiology,General Practice
+632,7450955318,Dr. Chandran Natt,Cardiology,Pediatrics
+633,1267710937,Dr. Xalak Grewal,Cardiology,Neurology
+634,566453500,Dr. Raghav Vasa,Pediatrics,
+635,9939435774,Dr. Baghyawati Kurian,Oncology,
+636,5002517173,Dr. Siya Comar,Cardiology,General Practice
+637,229782125,Dr. Ishaan Sankaran,Cardiology,General Practice
+638,1697791385,Dr. Alka Doshi,Oncology,Neurology
+639,8680813017,Dr. Advik Jha,General Practice,
+640,7477972425,Dr. Alexander Raghavan,Pediatrics,Cardiology
+641,2839675277,Dr. Utkarsh Din,General Practice,Pediatrics
+642,6301177770,Dr. Vansha Kala,Pediatrics,Oncology
+643,2698445320,Dr. Aditya Deol,Oncology,
+644,1826433775,Dr. Hema Bhattacharyya,Cardiology,
+645,7116045206,Dr. Adweta Bansal,General Practice,
+646,4751710469,Dr. Chakradhar Nagi,Oncology,
+647,9899165223,Dr. Nikita Bora,Cardiology,Cardiology
+648,5872353162,Dr. Anita Raju,Neurology,General Practice
+649,393984916,Dr. Ekaja Chhabra,Cardiology,Cardiology
+650,6952846911,Dr. Irya Pillai,Oncology,
+651,8722746084,Dr. Abeer Hora,Pediatrics,Neurology
+652,4439271265,Dr. Yatan Halder,Neurology,
+653,9284878812,Dr. Triveni Bandi,Oncology,
+654,9513565611,Dr. Unnati Chaudhuri,General Practice,
+655,3858765979,Dr. Naveen Raman,Oncology,
+656,2655116693,Dr. Nidhi Kala,Cardiology,General Practice
+657,7081087294,Dr. Varsha Joshi,Neurology,
+658,3517807315,Dr. Krisha Dhillon,Pediatrics,Neurology
+659,3111710479,Dr. Yug Borde,Pediatrics,General Practice
+660,5152706499,Dr. Upma Kale,Oncology,Neurology
+661,3074440109,Dr. Niharika Gara,Pediatrics,Cardiology
+662,6827536718,Dr. Vivaan Manda,Cardiology,
+663,3208497964,Dr. Gaurang Mahal,Pediatrics,Pediatrics
+664,9809331115,Dr. Anya Dutta,General Practice,Cardiology
+665,5079547065,Dr. Kamya Patla,Oncology,
+666,6205325772,Dr. Utkarsh Dhar,General Practice,Neurology
+667,1088079301,Dr. Ria Sani,Oncology,
+668,1783616623,Dr. Abeer Luthra,Pediatrics,General Practice
+669,7074906371,Dr. Mekhala Bakshi,Oncology,Oncology
+670,3295798578,Dr. Anmol Majumdar,General Practice,
+671,4637311602,Dr. Rehaan Kota,Oncology,Pediatrics
+672,2526345628,Dr. Logan Hari,General Practice,General Practice
+673,3797078556,Dr. Hemangini Wali,Cardiology,
+674,8523814559,Dr. Kala Kata,General Practice,Neurology
+675,2729431400,Dr. Anay Mann,Cardiology,General Practice
+676,6213601420,Dr. Amruta Shanker,Pediatrics,General Practice
+677,7928974735,Dr. Harita Choudhury,Oncology,
+678,4304065156,Dr. Dhruv Tara,Oncology,General Practice
+679,2114142724,Dr. Pahal Sarkar,Neurology,Pediatrics
+680,1332938590,Dr. Timothy Deol,Cardiology,Pediatrics
+681,506647006,Dr. Darsh Tella,Oncology,
+682,9730964717,Dr. Maya Behl,Pediatrics,
+683,2775226253,Dr. Daksh Murthy,Neurology,
+684,6249846447,Dr. Lajita Panchal,Oncology,
+685,5023457184,Dr. Arya Pant,General Practice,
+686,3763387105,Dr. Anita Swaminathan,Cardiology,
+687,6660207064,Dr. Harish Balasubramanian,Cardiology,Cardiology
+688,7009417190,Dr. Gunbir Pradhan,Cardiology,Pediatrics
+689,7494603605,Dr. Indira Hayre,Oncology,Neurology
+690,239576415,Dr. Avi Thakur,Pediatrics,
+691,5971047203,Dr. Lucky Bir,Pediatrics,
+692,4432068271,Dr. Nitara Boase,Neurology,Pediatrics
+693,2956205675,Dr. Vanya Mandal,Oncology,Pediatrics
+694,7342808204,Dr. Hema Murty,Cardiology,
+695,8820434093,Dr. Gaurav Gera,Neurology,
+696,3981921588,Dr. Manthan Hari,Oncology,Oncology
+697,294892442,Dr. Yashawini Om,Oncology,Oncology
+698,6882187228,Dr. Adya Kakar,Oncology,General Practice
+699,986287775,Dr. Devika Lad,Pediatrics,Oncology
+700,1503285145,Dr. Triveni Sem,Oncology,
+701,5820437994,Dr. Balhaar Batra,Oncology,
+702,1778927185,Dr. Ira Ramachandran,Oncology,Neurology
+703,1606634864,Dr. Bhavani Subramaniam,Cardiology,
+704,8068724100,Dr. Aarush Agarwal,Neurology,
+705,8462497952,Dr. Balveer Wagle,General Practice,
+706,1329536614,Dr. Urishilla Murty,General Practice,General Practice
+707,8972926263,Dr. Bhanumati Dave,General Practice,
+708,5047918257,Dr. Arya Saxena,General Practice,Oncology
+709,3214943686,Dr. Advik Sehgal,Cardiology,
+710,1460294978,Dr. Ladli Cherian,Cardiology,
+711,3906657050,Dr. Xavier Edwin,General Practice,
+712,7142657303,Dr. Reva Cheema,Neurology,
+713,8738676198,Dr. Aarav Ravel,General Practice,
+714,1187451836,Dr. Wakeeta Dewan,Oncology,
+715,7380023128,Dr. Hardik Nagar,Neurology,
+716,2180395027,Dr. Yuvraj Saxena,Cardiology,
+717,8293937374,Dr. Pratyush Mutti,Oncology,General Practice
+718,6135046956,Dr. Owen Bhalla,Neurology,
+719,982688930,Dr. Lakshmi Kohli,Neurology,
+720,3528778284,Dr. Jeevika Dewan,Pediatrics,Oncology
+721,3137983182,Dr. Arin Sibal,Cardiology,
+722,2585207429,Dr. Kritika Thaker,Pediatrics,
+723,258940846,Dr. Banjeet Deshpande,Pediatrics,Pediatrics
+724,8654574568,Dr. Vrishti Soni,Oncology,General Practice
+725,7765937784,Dr. Ojas Samra,Pediatrics,
+726,5214517067,Dr. Bhavna Parekh,Neurology,Cardiology
+727,6925521044,Dr. Kiaan Ray,Pediatrics,Cardiology
+728,1281649448,Dr. Diya Murthy,Pediatrics,General Practice
+729,3783157111,Dr. Laksh Dhar,General Practice,
+730,6583627402,Dr. Krish Arora,Cardiology,Oncology
+731,6732528109,Dr. Jagrati Ramachandran,Neurology,General Practice
+732,6991877415,Dr. Brinda Kari,Pediatrics,Pediatrics
+733,8417895014,Dr. Elijah Pillai,Cardiology,
+734,9534141195,Dr. Victor Bhatti,Pediatrics,
+735,6132242779,Dr. Vasudha Dhaliwal,General Practice,General Practice
+736,4098549964,Dr. Yash Koshy,Neurology,Pediatrics
+737,550933144,Dr. Vritti Acharya,Cardiology,
+738,4754248131,Dr. Tara Chacko,Cardiology,
+739,8740787325,Dr. Rayaan Varghese,General Practice,General Practice
+740,3701731932,Dr. William Mukhopadhyay,General Practice,General Practice
+741,6973607523,Dr. Amaira Barman,Pediatrics,
+742,9502550690,Dr. Adya Sheth,General Practice,Oncology
+743,6617096119,Dr. Netra Kara,General Practice,
+744,5172512433,Dr. Orinder Palla,Neurology,Oncology
+745,6624650754,Dr. Mahika Nagarajan,Cardiology,
+746,6613921055,Dr. Qarin Dora,General Practice,Cardiology
+747,6847987136,Dr. Chaitaly Rau,General Practice,Pediatrics
+748,5017556307,Dr. Anamika Morar,Pediatrics,
+749,4129618698,Dr. Turvi Setty,General Practice,
+750,6539680352,Dr. Christopher Sridhar,General Practice,Oncology
+751,2317465459,Dr. Advik Grover,Neurology,
+752,6888797247,Dr. Chandran Mannan,Cardiology,Pediatrics
+753,1754357662,Dr. Anthony Gupta,Cardiology,General Practice
+754,2384164973,Dr. Jagvi Basak,Pediatrics,
+755,377906958,Dr. Nathan Kata,Pediatrics,General Practice
+756,7961330594,Dr. Jason Keer,Oncology,
+757,8948782745,Dr. Vivaan Sankar,Cardiology,
+758,2686238348,Dr. Deepa Parikh,Pediatrics,Pediatrics
+759,4720796967,Dr. Tejas Kaur,Pediatrics,
+760,9574725189,Dr. Anirudh Bava,Pediatrics,Pediatrics
+761,8685711536,Dr. Guneet Bhandari,Cardiology,Cardiology
+762,2978586893,Dr. Chanakya Sami,General Practice,Cardiology
+763,3628176923,Dr. Ranbir Sharaf,Pediatrics,
+764,5333132069,Dr. Alka Patla,Pediatrics,Pediatrics
+765,6369713534,Dr. Yashvi Prabhu,Neurology,Neurology
+766,940936193,Dr. Naksh Talwar,Neurology,
+767,5772929907,Dr. Udarsh Chad,Neurology,
+768,1788308446,Dr. Ria Ganesan,General Practice,Oncology
+769,8700607524,Dr. Kabir Bhakta,Cardiology,Cardiology
+770,9949319341,Dr. Janani Devan,General Practice,General Practice
+771,3078493303,Dr. Zehaan Dalal,Neurology,
+772,7897021335,Dr. Chandresh Narasimhan,Pediatrics,
+773,8743171583,Dr. Kai Venkatesh,Cardiology,Cardiology
+774,7586965115,Dr. Samar Hans,General Practice,General Practice
+775,6844513921,Dr. Kamya Wason,General Practice,
+776,705017506,Dr. Daksha Kuruvilla,Neurology,Neurology
+777,2874521010,Dr. Yahvi Sarraf,Cardiology,
+778,9592806970,Dr. Raghav Dara,Pediatrics,General Practice
+779,1486485069,Dr. Yashawini Sahni,General Practice,Cardiology
+780,3869993899,Dr. Osha Chaudhry,Cardiology,
+781,1466424001,Dr. Pushti Wable,Oncology,
+782,9422235166,Dr. Vihaan Bhakta,Oncology,Oncology
+783,6468590104,Dr. Amol Dugar,Oncology,Cardiology
+784,955302893,Dr. Champak Gour,Cardiology,Cardiology
+785,6741237815,Dr. Vrinda Mukhopadhyay,General Practice,
+786,7961065173,Dr. Ranbir Dyal,Oncology,Neurology
+787,6597562770,Dr. Hredhaan Narain,General Practice,Neurology
+788,1776504192,Dr. Alexander Amble,Cardiology,Cardiology
+789,5058116678,Dr. Ishita Chada,Cardiology,Pediatrics
+790,6763377205,Dr. Libni Bhardwaj,Cardiology,General Practice
+791,4432275177,Dr. Tejas Bhagat,General Practice,Neurology
+792,1924949935,Dr. Abdul Thaman,Pediatrics,
+793,4710673016,Dr. Sneha Singhal,Neurology,
+794,7079325339,Dr. Lakshmi Kadakia,Pediatrics,
+795,7889287269,Dr. Pooja Arya,Neurology,Neurology
+796,8326614680,Dr. Kritika Choudhry,Oncology,
+797,7241324280,Dr. Faraj Chopra,General Practice,Oncology
+798,2488719119,Dr. Harshil Doshi,Oncology,Neurology
+799,3048291671,Dr. Charles Sura,General Practice,
+800,4399255503,Dr. Inaya Varghese,Neurology,
+801,8464533302,Dr. Atharv Garg,Cardiology,
+802,1819213086,Dr. Oliver Baral,Pediatrics,Oncology
+803,540783386,Dr. Ekapad Bava,Cardiology,Oncology
+804,6806361343,Dr. David Deshpande,General Practice,
+805,7485693999,Dr. Aditya Deo,Pediatrics,Cardiology
+806,6264403299,Dr. Charles Bose,General Practice,General Practice
+807,1511058935,Dr. Jeevika Ramakrishnan,Oncology,
+808,8150996800,Dr. Chanakya Raja,Oncology,
+809,5792683136,Dr. Qushi Sule,Neurology,
+810,2087116478,Dr. Darika Naidu,General Practice,Neurology
+811,8685815297,Dr. Netra Chadha,Oncology,Pediatrics
+812,368153656,Dr. Lakshit Singhal,Neurology,
+813,4159095079,Dr. Lajita Narayanan,General Practice,
+814,4400290257,Dr. Jacob Saini,General Practice,Pediatrics
+815,6211135417,Dr. Aarnav Andra,Cardiology,Pediatrics
+816,8533776409,Dr. Hitesh Gour,Neurology,General Practice
+817,1783264541,Dr. Champak Chanda,Neurology,
+818,2124779585,Dr. Harish Sankar,Pediatrics,
+819,9731379868,Dr. Priya Banerjee,Cardiology,
+820,2693681848,Dr. Harshil Mukhopadhyay,Oncology,Neurology
+821,7742211117,Dr. Aarini Chakrabarti,General Practice,Cardiology
+822,3446737970,Dr. Champak Sheth,Cardiology,General Practice
+823,8790720669,Dr. Varsha Thaker,Neurology,
+824,9289866594,Dr. Mitali Sood,Pediatrics,Neurology
+825,8703156675,Dr. Vihaan Goda,General Practice,Pediatrics
+826,3492925633,Dr. Urvashi Gandhi,Oncology,Cardiology
+827,1066924466,Dr. Oliver Suri,Cardiology,Pediatrics
+828,1272155551,Dr. Ansh Mangat,Pediatrics,
+829,6351612248,Dr. Rishi Bumb,Cardiology,
+830,4775519529,Dr. Harish Walia,General Practice,
+831,5422129586,Dr. Vrishti Shan,Cardiology,Oncology
+832,2063941703,Dr. Tanvi Chaudhuri,Neurology,Neurology
+833,4052760596,Dr. Ekiya Butala,Oncology,General Practice
+834,2083584838,Dr. Xavier Dyal,Neurology,Oncology
+835,1197870817,Dr. Hitesh Tata,General Practice,Pediatrics
+836,9858278082,Dr. Waida Pandya,Pediatrics,Neurology
+837,3764426435,Dr. Prisha Ramachandran,Oncology,
+838,8164915618,Dr. Yash Gara,General Practice,
+839,3554716821,Dr. Vyanjana Warrior,General Practice,General Practice
+840,246869782,Dr. Zilmil Sidhu,Cardiology,
+841,4772439772,Dr. Pushti Gala,Neurology,Neurology
+842,3716227899,Dr. Vihaan Dara,General Practice,
+843,8222938983,Dr. Daksh Choudhury,General Practice,
+844,3007993807,Dr. Aachal Shroff,Oncology,
+845,6801342413,Dr. Unni Parmar,Cardiology,General Practice
+846,2330456067,Dr. Chaman Ramachandran,Oncology,Neurology
+847,8545110448,Dr. Rishi Mane,Pediatrics,
+848,8398596479,Dr. Aahana Randhawa,Neurology,
+849,690539470,Dr. Viraj Deol,Pediatrics,
+850,6052167517,Dr. Nisha Jain,Pediatrics,
+851,9922034177,Dr. Kashvi Nagy,Pediatrics,
+852,9895451325,Dr. Nicholas Subramanian,Oncology,
+853,7257658215,Dr. Dipta Nayar,Cardiology,
+854,5446807332,Dr. Wishi Pant,Cardiology,
+855,4657835108,Dr. Kala Das,Oncology,General Practice
+856,2034182133,Dr. Bhanumati Sule,General Practice,
+857,7471180545,Dr. Chaman Acharya,General Practice,General Practice
+858,9669165994,Dr. Wahab Kade,Oncology,Pediatrics
+859,141315038,Dr. Omya Om,General Practice,Pediatrics
+860,5444206296,Dr. Nilima Wagle,Neurology,
+861,5867055040,Dr. Nikita Bassi,Cardiology,
+862,8348222574,Dr. Yashawini Raghavan,Cardiology,
+863,1846718371,Dr. Yasti Bhatt,General Practice,
+864,7989315923,Dr. Kiaan Din,Pediatrics,
+865,4155025526,Dr. Manya Mahajan,Cardiology,Cardiology
+866,5910479306,Dr. Eiravati Kant,Neurology,General Practice
+867,1729631512,Dr. Garima Kalita,Neurology,Neurology
+868,9831759627,Dr. Mason Tailor,General Practice,
+869,4063957282,Dr. Amruta Ravel,Neurology,Cardiology
+870,984882373,Dr. Christopher Sood,Oncology,
+871,1712167827,Dr. Aarush Randhawa,General Practice,Pediatrics
+872,6074803126,Dr. Bhavini Choudhury,Pediatrics,
+873,3435997283,Dr. Dominic Bhagat,Neurology,Pediatrics
+874,4807094680,Dr. Gavin Sahni,Neurology,Neurology
+875,5600414846,Dr. Quincy Virk,Pediatrics,Oncology
+876,9555058313,Dr. Anthony Manda,Cardiology,Oncology
+877,4415057768,Dr. Forum Pathak,Cardiology,
+878,7310156271,Dr. Rachita Majumdar,General Practice,
+879,5557272855,Dr. Brinda Comar,Oncology,Cardiology
+880,3536655009,Dr. Hamsini Rajan,General Practice,
+881,2336509829,Dr. Atharv Kata,Cardiology,Oncology
+882,2159114534,Dr. Rachit Solanki,General Practice,
+883,8739343546,Dr. Urmi Ganesan,General Practice,Neurology
+884,2088214221,Dr. Ekbal Raju,Pediatrics,General Practice
+885,1395484138,Dr. Janaki Srinivas,General Practice,
+886,2266955602,Dr. Sneha Agarwal,Cardiology,
+887,1182918318,Dr. Gayathri Khosla,General Practice,Oncology
+888,3203731069,Dr. Tarak Sengupta,Neurology,
+889,8510269134,Dr. Wahab Saini,Pediatrics,Cardiology
+890,8380676307,Dr. Ishani Patla,Neurology,Pediatrics
+891,2669308586,Dr. Nidhi Naik,Cardiology,
+892,2148068395,Dr. Anmol Nadig,Oncology,Oncology
+893,7008834474,Dr. Parth Dada,Cardiology,General Practice
+894,6780837138,Dr. Zashil Dyal,Cardiology,
+895,2438523569,Dr. William Shan,Neurology,
+896,7716924777,Dr. Gaurika Wason,Oncology,
+897,9507506078,Dr. Harish Tata,Cardiology,
+898,2769426388,Dr. Ansh Chanda,Neurology,
+899,4720137187,Dr. Lakshit Kota,Cardiology,Neurology
+900,7696900488,Dr. Caleb Rastogi,Neurology,Pediatrics
+901,6823525922,Dr. Brijesh Kapadia,Oncology,
+902,1303968414,Dr. Orinder Ranganathan,Oncology,
+903,2718432125,Dr. Liam Walla,Cardiology,
+904,295345752,Dr. Xavier Pandit,General Practice,
+905,4728769799,Dr. Ekanta Mitter,General Practice,Neurology
+906,4999551422,Dr. Yachana Kala,Neurology,Pediatrics
+907,8943593850,Dr. Gunbir Luthra,General Practice,
+908,7688381047,Dr. Kalpit Thaker,Neurology,General Practice
+909,4578022469,Dr. Advaith Swamy,Pediatrics,
+910,852130744,Dr. Xalak Prashad,Cardiology,
+911,2161101263,Dr. Yashvi Bose,Neurology,
+912,5466876419,Dr. Kritika Chaudhari,Cardiology,Cardiology
+913,9773132371,Dr. Turvi Sengupta,Pediatrics,
+914,3263825934,Dr. Orinder Vasa,Pediatrics,Cardiology
+915,9208804701,Dr. Manan Bhargava,Neurology,
+916,5626968433,Dr. Turvi Ben,Pediatrics,Pediatrics
+917,6571280024,Dr. Vihaan Sachar,Pediatrics,Neurology
+918,869448258,Dr. Meera Bains,Cardiology,
+919,4427902308,Dr. Indira Karan,Pediatrics,
+920,3856285588,Dr. Odika Mitra,Pediatrics,Cardiology
+921,9775189018,Dr. Urmi Thakkar,Pediatrics,Pediatrics
+922,1757458265,Dr. Dev Das,General Practice,
+923,7891864994,Dr. Samarth Ramakrishnan,General Practice,
+924,3505371847,Dr. Xiti Dubey,Oncology,Oncology
+925,320719376,Dr. Inaya Bains,Cardiology,Neurology
+926,5869454949,Dr. Ekaraj Swamy,Oncology,Cardiology
+927,9824345320,Dr. Ronith Munshi,Neurology,General Practice
+928,8140488384,Dr. Maanas Chandra,Cardiology,
+929,9942881042,Dr. William Ramakrishnan,Cardiology,
+930,188152023,Dr. Hamsini Joshi,Pediatrics,General Practice
+931,4091901391,Dr. Aadi Basu,Neurology,General Practice
+932,4507886075,Dr. Naksh Khalsa,Cardiology,
+933,9034845516,Dr. Sudiksha Viswanathan,Cardiology,Pediatrics
+934,1042588159,Dr. Gautami Ranganathan,Pediatrics,Neurology
+935,5033018251,Dr. Vyanjana Loke,Neurology,
+936,1290411268,Dr. Nandini Rai,Cardiology,Pediatrics
+937,4618625998,Dr. Yashvi Pandey,Cardiology,
+938,9663882136,Dr. Dayita Jhaveri,Pediatrics,General Practice
+939,9020922074,Dr. Samar Morar,Pediatrics,
+940,868294084,Dr. Bhavya Ratti,Oncology,General Practice
+941,5519110770,Dr. Nilima Anne,General Practice,Neurology
+942,314017090,Dr. Qadim Nagy,Neurology,Pediatrics
+943,1581555514,Dr. Utkarsh Bala,Neurology,Cardiology
+944,6766165115,Dr. Chatura Yadav,Pediatrics,
+945,4968954482,Dr. Adya Dey,General Practice,
+946,4047198494,Dr. Abeer Arya,Oncology,General Practice
+947,3884919556,Dr. Wridesh Kalita,General Practice,
+948,8751693795,Dr. Geetika Bajwa,Oncology,Oncology
+949,3074246824,Dr. Arin Keer,Oncology,
+950,9879069083,Dr. Nitesh Balan,Oncology,
+951,2587237330,Dr. Omaja Saini,Oncology,Oncology
+952,7283037916,Dr. Dhriti Malhotra,Pediatrics,Pediatrics
+953,2306730852,Dr. Zayyan Bahl,General Practice,
+954,9840509705,Dr. Harrison Butala,General Practice,Pediatrics
+955,5762425149,Dr. Gopal Aurora,Neurology,
+956,9555459225,Dr. Udarsh Grover,Oncology,
+957,6558225717,Dr. Anika Kari,Pediatrics,Neurology
+958,8647277568,Dr. Manthan Vaidya,Neurology,
+959,8594487615,Dr. Darsh Menon,Pediatrics,
+960,2675189912,Dr. Faras Ramakrishnan,General Practice,Oncology
+961,1720752644,Dr. Chaitaly Pandya,Pediatrics,Cardiology
+962,8162081628,Dr. Fitan Kota,Oncology,Neurology
+963,6551013776,Dr. Sachi Goel,General Practice,
+964,1610258802,Dr. Ladli Kapoor,Neurology,
+965,1648960191,Dr. Chavvi Chand,Oncology,Cardiology
+966,3663976102,Dr. Vedant Mangat,General Practice,
+967,2576409797,Dr. Kamala Nagar,Oncology,General Practice
+968,8375795921,Dr. Maanas Kaul,Oncology,Cardiology
+969,7086093192,Dr. Qadim Mohan,Cardiology,Pediatrics
+970,1941936124,Dr. Janya Deol,Neurology,General Practice
+971,9836235311,Dr. Harrison Sachdev,General Practice,Cardiology
+972,814922483,Dr. Kalpit Kumer,Cardiology,Pediatrics
+973,1319309857,Dr. Gopal Desai,Neurology,
+974,7509427938,Dr. Qabil Krishnan,General Practice,
+975,6959414480,Dr. Osha Sharma,Oncology,Oncology
+976,8931971673,Dr. Ijaya Shankar,Oncology,
+977,5421607866,Dr. Raghav Dhillon,Pediatrics,Cardiology
+978,5047216314,Dr. Triya Din,Cardiology,
+979,9979451744,Dr. Gaurika Dara,Cardiology,
+980,1450886317,Dr. Yatan Seth,Cardiology,
+981,2342442157,Dr. Dominic Desai,Neurology,Cardiology
+982,2116456294,Dr. Teerth Merchant,Oncology,Oncology
+983,1487682920,Dr. Lipika Grewal,Cardiology,
+984,4555571212,Dr. Omisha More,Neurology,
+985,238935732,Dr. Warhi Kamdar,Neurology,
+986,6127724606,Dr. Thomas Deep,Cardiology,
+987,7481514808,Dr. Parth Issac,Cardiology,Neurology
+988,7847317212,Dr. Ekavir Bahri,Oncology,
+989,481714641,Dr. Neel Sinha,Cardiology,Pediatrics
+990,3387512648,Dr. Odika Ganguly,Cardiology,Oncology
+991,6496657277,Dr. Zaitra Sekhon,General Practice,General Practice
+992,9038425802,Dr. Upadhriti Bajaj,Neurology,Neurology
+993,1483153660,Dr. Bimala Sant,Neurology,Pediatrics
+994,3828957193,Dr. Ishaan Buch,General Practice,Cardiology
+995,7838420130,Dr. Ucchal Sharaf,Oncology,Neurology
+996,8594976075,Dr. Isaiah Raju,Neurology,
+997,8888972433,Dr. Mugdha Vaidya,Cardiology,
+998,9843314251,Dr. Sara Raman,Cardiology,Cardiology
+999,9882881418,Dr. Samaksh Dube,Neurology,
+1000,5192648147,Dr. Viraj Dugal,Pediatrics,General Practice
+1001,8939334124,Dr. Leela Manda,Cardiology,
+1002,744438459,Dr. Laksh Yohannan,General Practice,Pediatrics
+1003,8713023872,Dr. Zansi Mody,Neurology,Oncology
+1004,370561764,Dr. Avni Bhatt,General Practice,
+1005,5634034321,Dr. Aarini Gupta,Oncology,
+1006,4975429391,Dr. Inaya Kale,Neurology,
+1007,8714083425,Dr. Jeet Doctor,General Practice,
+1008,4659777186,Dr. Lipika Mistry,Neurology,
+1009,9733952588,Dr. Aditya Panchal,Neurology,Oncology
+1010,6498028202,Dr. Aishani Ray,Oncology,
+1011,5892927504,Dr. Wriddhish Parikh,Pediatrics,
+1012,520888236,Dr. Tanveer Srivastava,Pediatrics,
+1013,5383380974,Dr. Logan Kala,General Practice,Cardiology
+1014,5655759064,Dr. Darika Nagi,Pediatrics,Oncology
+1015,8182261045,Dr. Gaurang Master,Oncology,Oncology
+1016,6274943914,Dr. Darsh Sane,Oncology,
+1017,4891332925,Dr. Amruta Prashad,Pediatrics,
+1018,7959686786,Dr. Rudra Lad,Neurology,Oncology
+1019,9474815503,Dr. Harrison Gupta,Neurology,
+1020,341863381,Dr. Siddharth Ranganathan,Pediatrics,
+1021,5608570153,Dr. Bhavani Naik,Neurology,Pediatrics
+1022,878347768,Dr. Avni Bedi,Neurology,Cardiology
+1023,4285964432,Dr. Mohammed Bhavsar,Cardiology,Cardiology
+1024,7850021037,Dr. Dalaja Palan,Neurology,General Practice
+1025,9292362981,Dr. Luke Agrawal,Pediatrics,General Practice
+1026,1876483990,Dr. Watika Sandhu,Oncology,General Practice
+1027,2679930645,Dr. Yutika Shukla,General Practice,General Practice
+1028,9374881090,Dr. Ekanta Mitter,General Practice,
+1029,6075231722,Dr. Kavya Batta,General Practice,
+1030,5385639565,Dr. Tejas Vasa,Cardiology,General Practice
+1031,856327927,Dr. Arya Palan,Cardiology,Pediatrics
+1032,8451631968,Dr. Urvi Tata,Pediatrics,
+1033,1965225288,Dr. Wyatt Gala,General Practice,Pediatrics
+1034,4643910983,Dr. Sudiksha Khatri,Pediatrics,Pediatrics
+1035,5102425419,Dr. Anya Garde,General Practice,
+1036,2787648459,Dr. Oeshi Dora,Pediatrics,
+1037,8898671629,Dr. Nitesh Kadakia,Oncology,
+1038,742225814,Dr. Amruta Sankaran,Cardiology,
+1039,2668225296,Dr. Banjeet Iyengar,General Practice,
+1040,1589730439,Dr. Omisha Mohan,Neurology,
+1041,2915570042,Dr. Vincent Divan,Neurology,
+1042,1594773564,Dr. Pooja Chaudhary,General Practice,Oncology
+1043,8803268473,Dr. Sathvik Palla,Pediatrics,
+1044,4730586091,Dr. Nathaniel Kala,General Practice,
+1045,499402276,Dr. Nathan Tara,Cardiology,
+1046,2146178795,Dr. Daniel Prashad,General Practice,Pediatrics
+1047,3163264335,Dr. Vivaan Dar,Cardiology,General Practice
+1048,2247283544,Dr. Vamakshi Uppal,General Practice,Cardiology
+1049,3578877559,Dr. Jagat Murthy,Cardiology,Cardiology
+1050,460939172,Dr. Mohini Sidhu,Cardiology,Oncology
+1051,1769870899,Dr. Darpan Gill,Cardiology,
+1052,3565475812,Dr. Krish Narayanan,Oncology,General Practice
+1053,8492379646,Dr. Vivaan Issac,Cardiology,Oncology
+1054,2581657468,Dr. Pooja Pau,Pediatrics,
+1055,9529702900,Dr. Akshay Venkatesh,Cardiology,Pediatrics
+1056,9329713786,Dr. Bhavna Varty,Pediatrics,
+1057,9872449424,Dr. Mugdha Narayan,Oncology,Pediatrics
+1058,7709360437,Dr. Vidhi Hayre,Neurology,
+1059,7478945182,Dr. Manan Baral,Cardiology,
+1060,6736993938,Dr. Bhanumati Banerjee,Cardiology,
+1061,3775462800,Dr. Bina Mahajan,Pediatrics,Cardiology
+1062,1079939256,Dr. Aarav Cheema,Pediatrics,
+1063,915428378,Dr. Hardik Tailor,Cardiology,Cardiology
+1064,4901519320,Dr. Omisha Borah,Oncology,
+1065,8189320420,Dr. Anirudh Karnik,Cardiology,
+1066,2754431191,Dr. Hamsini Bandi,Oncology,
+1067,2219993528,Dr. Pahal Viswanathan,Pediatrics,Pediatrics
+1068,9224183818,Dr. Yahvi Dalal,Pediatrics,
+1069,3944186339,Dr. Avi Bhatia,Cardiology,
+1070,2835241298,Dr. Rudra Baral,Neurology,
+1071,7288353679,Dr. Tejas Rao,Pediatrics,
+1072,4197389480,Dr. Ethan Subramaniam,Cardiology,Pediatrics
+1073,9692605889,Dr. Atharv Boase,Oncology,
+1074,9687178230,Dr. Chaaya Pal,Neurology,
+1075,7464634827,Dr. Lajita Kakar,Neurology,Oncology
+1076,1892606368,Dr. Janya Bahl,Pediatrics,Cardiology
+1077,173201845,Dr. Nandini Babu,Oncology,
+1078,8402740650,Dr. Sanya Ganguly,Pediatrics,Cardiology
+1079,2769397330,Dr. Urvashi Chandran,Oncology,
+1080,1311309433,Dr. Henry Pathak,General Practice,
+1081,5366862217,Dr. Chavvi Mandal,Pediatrics,Oncology
+1082,9006310045,Dr. Sachi Chanda,Pediatrics,Cardiology
+1083,4938413371,Dr. Dhriti Mistry,Oncology,Neurology
+1084,6273762925,Dr. Anamika Sanghvi,General Practice,Pediatrics
+1085,7186124558,Dr. Yochana Tata,Neurology,Cardiology
+1086,1461457314,Dr. Jeevika Jaggi,Neurology,Oncology
+1087,1364545703,Dr. Qushi Chana,General Practice,General Practice
+1088,2426767244,Dr. Sneha Hora,Oncology,
+1089,9294945286,Dr. Jeremiah Venkatesh,Pediatrics,General Practice
+1090,1753580140,Dr. Vivaan Magar,Pediatrics,Pediatrics
+1091,8599096978,Dr. Finn Shenoy,Neurology,
+1092,5626371607,Dr. Omaja Sachdev,Pediatrics,General Practice
+1093,2262209346,Dr. Urvi Bawa,General Practice,General Practice
+1094,3153147181,Dr. Akshay Jhaveri,Neurology,
+1095,5540925452,Dr. Sneha Bail,Oncology,Oncology
+1096,1729712949,Dr. Tanay Lall,Cardiology,Neurology
+1097,7285992272,Dr. Kamya Pall,Oncology,Neurology
+1098,4454195985,Dr. Mohammed Rajan,Neurology,Cardiology
+1099,1875727565,Dr. Shaurya Bala,Oncology,
+1100,6884554033,Dr. Madhavi Lanka,Oncology,Neurology
+1101,7533290702,Dr. Abdul Sami,Pediatrics,
+1102,508260876,Dr. Gautam Shanker,Cardiology,Cardiology
+1103,1166832448,Dr. Logan Shukla,General Practice,
+1104,9155435604,Dr. Bhanumati Lalla,General Practice,
+1105,5613450866,Dr. Peter Wadhwa,General Practice,
+1106,1807580173,Dr. Xiti Ganesh,Neurology,Cardiology
+1107,5573002214,Dr. Aashi Srinivas,Neurology,Cardiology
+1108,5425720627,Dr. Yashodhara Suri,General Practice,
+1109,7698472139,Dr. Pranav Chopra,General Practice,General Practice
+1110,6403949301,Dr. Bina Badami,Cardiology,Neurology
+1111,6677841483,Dr. Vansha Vyas,Oncology,General Practice
+1112,5381328716,Dr. Siddharth Sridhar,Pediatrics,
+1113,1539997095,Dr. Max Saran,General Practice,
+1114,2203153384,Dr. Chaitaly Bhargava,General Practice,General Practice
+1115,2143277654,Dr. Damini Rajagopal,General Practice,Cardiology
+1116,244927898,Dr. Amaira Sunder,Oncology,Neurology
+1117,4451943207,Dr. Oni Dua,General Practice,
+1118,7155549992,Dr. Pranav Lanka,General Practice,Neurology
+1119,205471480,Dr. Ojas Wason,Cardiology,
+1120,2686190654,Dr. Anita Raj,Cardiology,
+1121,7679073100,Dr. Omya Goel,Oncology,
+1122,8696197907,Dr. Gaurangi Mital,General Practice,
+1123,3752498820,Dr. Ekansh Sagar,General Practice,Cardiology
+1124,1552050697,Dr. Yadavi Desai,Cardiology,Oncology
+1125,2952242091,Dr. Gayathri Bajaj,Oncology,Oncology
+1126,3343201557,Dr. Brinda Sarna,Pediatrics,Cardiology
+1127,7530237859,Dr. Deepa Tailor,Oncology,
+1128,8614990820,Dr. Libni Chand,Neurology,Neurology
+1129,6739919304,Dr. David Dugar,Pediatrics,General Practice
+1130,925484759,Dr. Ishaan Raghavan,Cardiology,
+1131,4528449208,Dr. Advik Karpe,Oncology,
+1132,3675642425,Dr. Vamakshi Singh,Neurology,Cardiology
+1133,7850556324,Dr. Xavier Kar,Neurology,
+1134,515447712,Dr. Lila Lal,Pediatrics,Pediatrics
+1135,554610285,Dr. Michael Gala,General Practice,Oncology
+1136,875404705,Dr. Harita Agarwal,Oncology,
+1137,4972178846,Dr. Omisha Goda,Neurology,
+1138,5973424917,Dr. Ladli Goda,Neurology,
+1139,7051882643,Dr. Frado Sundaram,Cardiology,Cardiology
+1140,9773443191,Dr. Netra Bhandari,Cardiology,General Practice
+1141,4659249193,Dr. Leela Sachdev,General Practice,Oncology
+1142,2295230575,Dr. Neel Comar,Neurology,
+1143,1465640307,Dr. Umang Kari,General Practice,Cardiology
+1144,5372855003,Dr. Yashodhara Raghavan,Cardiology,
+1145,6016133513,Dr. Ubika Narayan,Oncology,
+1146,4548982335,Dr. Gautam Bali,General Practice,
+1147,4455754471,Dr. Balhaar Golla,Oncology,Cardiology
+1148,5374880383,Dr. Aradhana Ganesan,General Practice,
+1149,9265394092,Dr. Anjali Divan,General Practice,General Practice
+1150,1571167467,Dr. Gaurangi Bedi,Cardiology,Neurology
+1151,4895080327,Dr. Lohit Tripathi,General Practice,
+1152,7550884808,Dr. Ayaan Boase,General Practice,Oncology
+1153,6201840482,Dr. Lajita Sunder,Oncology,General Practice
+1154,573084428,Dr. Sai Butala,Neurology,
+1155,6676038268,Dr. Harita Doshi,Cardiology,Cardiology
+1156,4424976394,Dr. Ekapad Deep,General Practice,
+1157,7377164410,Dr. Rajata Dua,Pediatrics,
+1158,1261214827,Dr. Owen Gulati,General Practice,
+1159,9898251059,Dr. Onkar Wable,Cardiology,
+1160,8804158726,Dr. Sai Devi,Neurology,
+1161,2290742395,Dr. Ekaraj Kalla,Cardiology,Pediatrics
+1162,8923171866,Dr. Utkarsh Zachariah,Neurology,Cardiology
+1163,7070637856,Dr. Chandran More,General Practice,Cardiology
+1164,3575461597,Dr. Inaya Saha,Neurology,
+1165,8137575040,Dr. Yashica Kara,Neurology,Oncology
+1166,4793875817,Dr. Bhavna Narayanan,General Practice,Cardiology
+1167,1229200584,Dr. Devansh Johal,Cardiology,
+1168,3636915067,Dr. Champak Sandal,Cardiology,Pediatrics
+1169,9160859198,Dr. Vanya Chahal,Cardiology,
+1170,1917577526,Dr. Xalak Prasad,Cardiology,Neurology
+1171,8147222648,Dr. Nitesh Warrior,Cardiology,Neurology
+1172,6607435210,Dr. Vedhika Sinha,General Practice,
+1173,1550071298,Dr. Vrishti Palan,Oncology,
+1174,7462628748,Dr. Isha Choudhary,Neurology,Neurology
+1175,4793768749,Dr. Dalbir Sangha,Cardiology,
+1176,6811402882,Dr. Oscar Jani,Neurology,
+1177,125743264,Dr. Indrajit Sarma,Neurology,Oncology
+1178,490520584,Dr. Hredhaan Dugal,Neurology,
+1179,660849502,Dr. Ria Viswanathan,Pediatrics,
+1180,4813789183,Dr. Hiral Bhatti,General Practice,Pediatrics
+1181,1499377146,Dr. Lakshmi Barman,Pediatrics,Oncology
+1182,5752812294,Dr. Falguni Varughese,Pediatrics,
+1183,8412637784,Dr. Jalsa Thaman,Cardiology,Cardiology
+1184,7055056196,Dr. George Chanda,Oncology,Cardiology
+1185,4646167896,Dr. Naksh Muni,Neurology,
+1186,2982818067,Dr. Aradhana Bhalla,Neurology,Cardiology
+1187,5570341081,Dr. Ladli Sathe,Cardiology,Neurology
+1188,9708915240,Dr. Sachi Rajagopalan,Cardiology,General Practice
+1189,7076910959,Dr. Samesh Chada,Neurology,
+1190,8491330781,Dr. Xavier Hari,Neurology,
+1191,6352753997,Dr. Mekhala Chaudhari,General Practice,General Practice
+1192,9929785934,Dr. Ishwar Sami,Neurology,
+1193,4522990438,Dr. Tanveer More,Cardiology,Oncology
+1194,3254779168,Dr. Omya Dara,General Practice,Oncology
+1195,5323707563,Dr. Wahab Dixit,Neurology,General Practice
+1196,5621725143,Dr. Tanay Gaba,Oncology,
+1197,1924512120,Dr. Radhika Banerjee,General Practice,Cardiology
+1198,1424146475,Dr. Keya Bali,General Practice,Oncology
+1199,3391563388,Dr. Zinal Kannan,General Practice,General Practice
+1200,7970743240,Dr. Jeevika Banerjee,Pediatrics,
+1201,5043571431,Dr. Ijaya Chokshi,Neurology,
+1202,7369297882,Dr. Ijaya Mall,Oncology,General Practice
+1203,918604350,Dr. Gauri Sankaran,Neurology,
+1204,1757457441,Dr. Hemang Upadhyay,Pediatrics,
+1205,6871148691,Dr. Nilima Narayan,General Practice,
+1206,6860298598,Dr. Nakul Narayan,Pediatrics,
+1207,7859392998,Dr. Pranav Kohli,Pediatrics,Pediatrics
+1208,5943780622,Dr. Nidhi Chhabra,Neurology,General Practice
+1209,9774342016,Dr. Jyoti Kala,Oncology,
+1210,2988468247,Dr. Shaurya Agarwal,Neurology,Cardiology
+1211,3243635164,Dr. Radha Barad,Neurology,
+1212,9951651360,Dr. Zayyan Brar,Oncology,
+1213,1353782163,Dr. Bhavini Prabhakar,Cardiology,
+1214,269451951,Dr. Diya Chaudhry,Neurology,Cardiology
+1215,5591460190,Dr. Bina Kuruvilla,General Practice,Pediatrics
+1216,4575266960,Dr. Wazir Taneja,Neurology,
+1217,3469196261,Dr. Unni Sarma,General Practice,Oncology
+1218,7615968665,Dr. Frado Balan,Oncology,General Practice
+1219,1017323881,Dr. Gunbir Batra,General Practice,
+1220,2942611716,Dr. Laban Mann,Cardiology,Cardiology
+1221,6901433303,Dr. Rayaan Morar,General Practice,Oncology
+1222,8755301078,Dr. Upasna Prabhu,General Practice,Oncology
+1223,9056087570,Dr. Rajeshri Sengupta,Neurology,Cardiology
+1224,5271496183,Dr. Sara Parmer,Oncology,Cardiology
+1225,6690594799,Dr. Sarthak Soman,Cardiology,
+1226,3650761733,Dr. Tripti Gour,Cardiology,Oncology
+1227,6977672851,Dr. Varenya Dhaliwal,Cardiology,Cardiology
+1228,6918349144,Dr. Chaitanya Puri,Pediatrics,Cardiology
+1229,1453853101,Dr. Girindra Koshy,Cardiology,General Practice
+1230,7572672785,Dr. Jasmit Gokhale,General Practice,Pediatrics
+1231,3508961449,Dr. Omkaar Krishnan,Oncology,Cardiology
+1232,5672035153,Dr. Mohini Ganesan,Oncology,General Practice
+1233,6764058938,Dr. Vasudha Ramaswamy,Pediatrics,Cardiology
+1234,6901659411,Dr. Ojas Singh,Neurology,General Practice
+1235,2241680087,Dr. Yasti Mandal,Cardiology,
+1236,2018341204,Dr. Kala Sharma,Oncology,General Practice
+1237,2925850643,Dr. Christopher Kari,Pediatrics,
+1238,7056394275,Dr. Tripti Varughese,Cardiology,Cardiology
+1239,7042346618,Dr. Aachal Kannan,Neurology,Cardiology
+1240,5220383391,Dr. Nandini Bhalla,General Practice,Neurology
+1241,6026677623,Dr. Yug Sarkar,Cardiology,
+1242,2601114497,Dr. Yasti Nair,Pediatrics,General Practice
+1243,1971532163,Dr. Brijesh Shenoy,Neurology,
+1244,140195997,Dr. Yoshita Sehgal,Pediatrics,
+1245,4938867092,Dr. Anirudh Kala,Neurology,Pediatrics
+1246,3691680804,Dr. Rayaan Parsa,Neurology,General Practice
+1247,4841947165,Dr. Mekhala Sibal,Neurology,Pediatrics
+1248,4566111627,Dr. Vrinda Peri,Pediatrics,Cardiology
+1249,4998595110,Dr. Harrison Chokshi,Pediatrics,Cardiology
+1250,9896691603,Dr. Rachita Sabharwal,Oncology,
+1251,5928545625,Dr. Jack Pant,Cardiology,
+1252,6187316407,Dr. Deepa Dube,General Practice,Cardiology
+1253,9268590911,Dr. Adweta Dewan,Pediatrics,
+1254,7422382347,Dr. Wahab Gole,Neurology,Oncology
+1255,4427515357,Dr. Samesh Bobal,Cardiology,Oncology
+1256,8367905546,Dr. Harish Mahal,Neurology,
+1257,7874527559,Dr. Chakradev Shenoy,General Practice,General Practice
+1258,9919122634,Dr. Darika Gokhale,Oncology,Cardiology
+1259,7748551056,Dr. Chakradhar Sarma,Cardiology,Pediatrics
+1260,693031788,Dr. Maanas Bajwa,General Practice,
+1261,3700538550,Dr. Triya Kulkarni,Pediatrics,Oncology
+1262,808600208,Dr. Qushi Kunda,Oncology,Pediatrics
+1263,5185699178,Dr. Falak Das,Oncology,Neurology
+1264,9510203820,Dr. Ekani Anne,Pediatrics,
+1265,7047154508,Dr. Finn Suri,General Practice,
+1266,8189926748,Dr. Oni Tandon,General Practice,Cardiology
+1267,1949347575,Dr. Champak Tella,Neurology,Neurology
+1268,1121122502,Dr. Yachana Sehgal,Oncology,General Practice
+1269,7567923908,Dr. Aarna Murty,Oncology,
+1270,6716655215,Dr. Vasudha Mitra,Cardiology,
+1271,2056826629,Dr. Gavin Kumar,Oncology,
+1272,9426804097,Dr. Mekhala Rajagopal,Neurology,
+1273,2043662044,Dr. Priya Parsa,General Practice,
+1274,9844621415,Dr. Kalpit Ranganathan,Oncology,
+1275,5001923585,Dr. Yachana Sangha,General Practice,Cardiology
+1276,7076032862,Dr. Ekanta Modi,Neurology,Pediatrics
+1277,9585678263,Dr. Gaurika Dayal,Oncology,Pediatrics
+1278,1117794803,Dr. Leela Arora,General Practice,Cardiology
+1279,3052391620,Dr. Ekiya Mohanty,General Practice,
+1280,1893209907,Dr. Advika Ratta,Oncology,Cardiology
+1281,2003036217,Dr. Omya Dasgupta,Neurology,
+1282,393740067,Dr. Ekapad Bansal,Oncology,General Practice
+1283,4370510911,Dr. Jasmit Butala,Cardiology,
+1284,1874401453,Dr. Yashica Nagi,Oncology,Cardiology
+1285,8586312412,Dr. Vasudha Tak,General Practice,Pediatrics
+1286,5896326702,Dr. Saanvi Nigam,Oncology,Pediatrics
+1287,9153252347,Dr. Meghana Samra,Neurology,Cardiology
+1288,324131355,Dr. Devika Patla,Oncology,General Practice
+1289,6621467695,Dr. Bimala Sandhu,Oncology,
+1290,7498578858,Dr. Tanay Varma,Pediatrics,
+1291,6270875572,Dr. Qabil Parikh,Pediatrics,General Practice
+1292,7822419622,Dr. Neelima Vohra,Oncology,
+1293,1404206596,Dr. Azad Kapoor,Pediatrics,
+1294,806220598,Dr. Oeshi Ganguly,General Practice,General Practice
+1295,1872493325,Dr. Daksh Pillay,Cardiology,
+1296,6161473988,Dr. Karan Bobal,Cardiology,
+1297,2512458125,Dr. Ucchal Keer,Cardiology,Neurology
+1298,2680807708,Dr. Anya Zacharia,Cardiology,
+1299,6779979082,Dr. Harita Vaidya,Oncology,General Practice
+1300,456900647,Dr. Ekavir Gola,Cardiology,
+1301,2350182026,Dr. Dipta Patil,Pediatrics,
+1302,2289840646,Dr. Robert Mistry,General Practice,General Practice
+1303,2134634567,Dr. Irya Bhavsar,Oncology,
+1304,5637096599,Dr. Timothy Borah,Oncology,
+1305,9869318608,Dr. Aachal Sahota,General Practice,
+1306,4369971855,Dr. Ryan Tara,Cardiology,
+1307,1800478742,Dr. Devansh Goswami,Pediatrics,
+1308,1629292982,Dr. Naveen Patil,General Practice,
+1309,2317210971,Dr. Yashoda Gara,Oncology,General Practice
+1310,645972475,Dr. Zansi Ahuja,Neurology,
+1311,156466764,Dr. Zinal Patla,Pediatrics,
+1312,5523267341,Dr. Upasna Mallick,Pediatrics,Pediatrics
+1313,2877963379,Dr. Vasana Kulkarni,Neurology,Pediatrics
+1314,8815682359,Dr. Unnati Bali,Cardiology,General Practice
+1315,228610704,Dr. Jalsa Jhaveri,General Practice,Oncology
+1316,140387101,Dr. Ira Agrawal,General Practice,
+1317,8938201304,Dr. Januja Keer,Pediatrics,Neurology
+1318,663832687,Dr. Ubika Viswanathan,Pediatrics,Neurology
+1319,2503145039,Dr. Rachita Singhal,General Practice,
+1320,9585580581,Dr. Dev More,Neurology,Pediatrics
+1321,7244282068,Dr. Zaitra Parikh,Pediatrics,
+1322,8809603339,Dr. Akshay Mohan,Neurology,
+1323,6982261560,Dr. Aryan Kade,Neurology,General Practice
+1324,9523635800,Dr. Faras Prabhu,Cardiology,Oncology
+1325,5366996888,Dr. Ayush Panchal,General Practice,
+1326,1356324131,Dr. Ronith Rege,Oncology,
+1327,2342505583,Dr. Xavier Sathe,Neurology,Cardiology
+1328,9338099306,Dr. Amruta Sekhon,Pediatrics,
+1329,2574638308,Dr. Gaurangi Atwal,General Practice,
+1330,1293051013,Dr. Girindra Chandran,General Practice,Oncology
+1331,5113627077,Dr. Rajeshri Gara,Cardiology,Pediatrics
+1332,4541580508,Dr. Harsh Ghose,Neurology,Cardiology
+1333,4292375909,Dr. Balhaar Gokhale,Oncology,
+1334,7881160440,Dr. Yug Goel,Oncology,
+1335,3456498807,Dr. Liam Gandhi,Pediatrics,Cardiology
+1336,4182163634,Dr. Advik Suri,General Practice,
+1337,1689184990,Dr. Qadim Yogi,Oncology,
+1338,2938453129,Dr. Dalaja Chandran,General Practice,
+1339,7631665421,Dr. Ronith Kohli,General Practice,Pediatrics
+1340,4480767351,Dr. Geetika Verma,Neurology,Neurology
+1341,818590530,Dr. Kabir Ranganathan,Pediatrics,Cardiology
+1342,7354779693,Dr. Chasmum Sethi,Cardiology,
+1343,4007121347,Dr. Chaaya Mangat,Oncology,Neurology
+1344,6932742046,Dr. Ojasvi Nayak,Pediatrics,
+1345,7644810155,Dr. Vanya Saini,General Practice,
+1346,8044949129,Dr. Gaurav Sampath,General Practice,Oncology
+1347,4195426445,Dr. Abeer Jhaveri,Oncology,
+1348,5264693280,Dr. Christopher Dewan,General Practice,
+1349,9265122343,Dr. Laban Mitter,Oncology,
+1350,657553404,Dr. Kamya Vig,Cardiology,Neurology
+1351,1748157077,Dr. Logan Nadig,Pediatrics,Oncology
+1352,6170628639,Dr. Ayaan Gala,General Practice,Cardiology
+1353,6533887521,Dr. Anay Patel,Neurology,Pediatrics
+1354,801547833,Dr. Yatan Agarwal,Neurology,
+1355,7122461050,Dr. Utkarsh Grewal,Pediatrics,Neurology
+1356,5553784070,Dr. Vedhika Luthra,Cardiology,
+1357,5225854797,Dr. Dayita Yogi,Pediatrics,
+1358,7534286795,Dr. Aarini Dar,Neurology,General Practice
+1359,7422992315,Dr. Aadi Bhat,Neurology,
+1360,4752346868,Dr. Anamika Dass,Cardiology,
+1361,4977754463,Dr. Adya Kannan,General Practice,Neurology
+1362,2126724335,Dr. Manbir Mutti,Cardiology,Neurology
+1363,5450754438,Dr. Darpan Roy,Cardiology,Oncology
+1364,8435563134,Dr. Yug Roy,Cardiology,Neurology
+1365,2331619907,Dr. Warinder Bail,General Practice,Neurology
+1366,5845003883,Dr. Varenya Tak,Cardiology,General Practice
+1367,8356313847,Dr. Omaja Chawla,Oncology,
+1368,1168553118,Dr. Omkaar Borra,General Practice,Pediatrics
+1369,4278653551,Dr. Edhitha Goswami,General Practice,Cardiology
+1370,2932724603,Dr. Balendra Borah,Neurology,
+1371,9203717071,Dr. Fiyaz Mani,Neurology,
+1372,7076594927,Dr. Jackson Barad,General Practice,
+1373,7157294502,Dr. Alexander Mahal,Pediatrics,Cardiology
+1374,5157419135,Dr. Lakshit Sachdev,Cardiology,
+1375,3178898838,Dr. Bhavini Master,Oncology,Neurology
+1376,872421613,Dr. Gautam Samra,Neurology,General Practice
+1377,366587643,Dr. Nikita Yohannan,Neurology,
+1378,6873605814,Dr. Radha Singhal,Neurology,Oncology
+1379,164911510,Dr. Balveer Rama,General Practice,
+1380,9187585451,Dr. Amol Samra,General Practice,Cardiology
+1381,6227066413,Dr. Harinakshi Hegde,General Practice,Pediatrics
+1382,3719071685,Dr. Faris Mahal,Oncology,Neurology
+1383,6204312964,Dr. Peter Patel,Cardiology,
+1384,1265270399,Dr. Peter Tak,General Practice,Neurology
+1385,6311963134,Dr. Urvashi Dhar,Pediatrics,Oncology
+1386,4134765320,Dr. Ekapad Kohli,Pediatrics,
+1387,2080219969,Dr. Daniel Mishra,Neurology,Pediatrics
+1388,4378854784,Dr. Prisha Sahota,Neurology,General Practice
+1389,9729364567,Dr. Bachittar Char,Cardiology,Oncology
+1390,3781941111,Dr. Edhitha Tiwari,Cardiology,Neurology
+1391,8220508785,Dr. Rachita Pau,Pediatrics,Oncology
+1392,486140964,Dr. Gagan Chhabra,General Practice,Neurology
+1393,3493095932,Dr. Kamala Sem,Pediatrics,Cardiology
+1394,3669749707,Dr. Peter Rattan,Cardiology,
+1395,2067163624,Dr. Ryan Master,Oncology,Cardiology
+1396,6279079317,Dr. Gaurika Malhotra,General Practice,
+1397,9601592210,Dr. Laksh Kakar,Cardiology,
+1398,3478256132,Dr. Vansha Master,General Practice,
+1399,9374813052,Dr. Faras Ranganathan,Oncology,
+1400,1465847733,Dr. Samar Jhaveri,General Practice,Oncology
+1401,7926939101,Dr. Arjun Tank,Cardiology,Cardiology
+1402,3456046096,Dr. Omaja Shere,Neurology,Neurology
+1403,7141288125,Dr. Neha Dasgupta,General Practice,
+1404,6090424605,Dr. Yug Tak,Pediatrics,
+1405,5086990977,Dr. Azad Kapur,Oncology,Neurology
+1406,5142602240,Dr. Aarnav Sahota,General Practice,General Practice
+1407,3558663923,Dr. Meera Gupta,Cardiology,
+1408,3001432264,Dr. Ekani Raghavan,Oncology,
+1409,9842865362,Dr. Ria Guha,Cardiology,Oncology
+1410,114030030,Dr. Charles Kohli,General Practice,General Practice
+1411,7858563166,Dr. Chasmum Batra,General Practice,
+1412,3951969078,Dr. Indira Koshy,Oncology,
+1413,9852055307,Dr. Joshua Ganesh,Pediatrics,
+1414,8973800423,Dr. Benjamin Ramanathan,Cardiology,Pediatrics
+1415,6711038521,Dr. Luke Bhatti,Pediatrics,Pediatrics
+1416,1324762007,Dr. Hemani Patla,Neurology,
+1417,6372900739,Dr. Harita Setty,General Practice,
+1418,2652033939,Dr. Amaira Pall,Pediatrics,
+1419,2458505878,Dr. Hardik Vig,Pediatrics,
+1420,9740317556,Dr. Lekha Contractor,Pediatrics,
+1421,9476055371,Dr. Chaitaly Natt,Oncology,General Practice
+1422,1758192785,Dr. Harish Saha,General Practice,Neurology
+1423,6061941275,Dr. Sachi Hayer,Neurology,
+1424,7334127039,Dr. Utkarsh Kapur,Neurology,Cardiology
+1425,3176450243,Dr. Wriddhish Desai,Cardiology,
+1426,9533558950,Dr. Waida Kannan,Cardiology,Pediatrics
+1427,5852576061,Dr. Chaitanya De,General Practice,
+1428,7945100373,Dr. Jalsa Sachdeva,Neurology,
+1429,8880074564,Dr. Netra Bains,General Practice,
+1430,3616165659,Dr. Yamini Pai,Neurology,
+1431,3586802168,Dr. Yutika Choudhury,Neurology,Cardiology
+1432,7404081301,Dr. Urishilla Ben,Oncology,
+1433,9580640941,Dr. Parth Dada,Neurology,
+1434,1850774133,Dr. Charvi Kar,Neurology,
+1435,9411981057,Dr. Daksh Parekh,Oncology,General Practice
+1436,4940283309,Dr. Pranit Dass,Neurology,Pediatrics
+1437,8955969685,Dr. Kamala Bajwa,Oncology,Neurology
+1438,7858155433,Dr. Faraj Wadhwa,Pediatrics,
+1439,8259806687,Dr. Avni Cherian,General Practice,
+1440,7586519636,Dr. Harrison Dhawan,General Practice,
+1441,1467731905,Dr. Eshana Dutt,Cardiology,
+1442,5244069057,Dr. Shivani Bala,Cardiology,
+1443,1894289924,Dr. Maya Datta,Neurology,Oncology
+1444,9205366572,Dr. Osha Sabharwal,General Practice,
+1445,5806951915,Dr. Aashi Kanda,Cardiology,
+1446,8407148553,Dr. Robert Sahni,Neurology,Cardiology
+1447,7442619928,Dr. Kai Tara,General Practice,
+1448,6685464321,Dr. Rachita Toor,Neurology,Pediatrics
+1449,7720765781,Dr. Xavier D’Alia,Oncology,Cardiology
+1450,2587695092,Dr. Vincent Gupta,Cardiology,Pediatrics
+1451,5904757985,Dr. Janaki Bhargava,Cardiology,General Practice
+1452,9525932265,Dr. Eiravati Mohanty,Pediatrics,General Practice
+1453,1590182560,Dr. Pooja Saha,General Practice,
+1454,3251700540,Dr. Rajata Puri,Oncology,
+1455,8118612821,Dr. Vyanjana Bala,General Practice,
+1456,6099403896,Dr. George Sundaram,Neurology,
+1457,5002650764,Dr. Rayaan Kata,Cardiology,
+1458,2775643231,Dr. Utkarsh Prabhakar,General Practice,
+1459,3858470754,Dr. Zayyan Bhardwaj,Neurology,Pediatrics
+1460,8321081628,Dr. Qabil Krishnamurthy,Cardiology,Neurology
+1461,4646808955,Dr. Ekavir Rana,General Practice,General Practice
+1462,5358679755,Dr. Vritti Divan,Oncology,Neurology
+1463,3461516639,Dr. Caleb Chaudhuri,General Practice,
+1464,5272541506,Dr. Upkaar Cherian,Cardiology,General Practice
+1465,9807237902,Dr. Patrick Dalal,General Practice,
+1466,8290699953,Dr. Kai Som,Neurology,
+1467,5042323683,Dr. Viraj Cherian,Neurology,Pediatrics
+1468,2081504568,Dr. Matthew Mand,Pediatrics,Pediatrics
+1469,9158675684,Dr. Kala Tandon,General Practice,Cardiology
+1470,9811503991,Dr. Isaac Pant,General Practice,
+1471,6674248771,Dr. Laban Brar,Pediatrics,
+1472,9372449032,Dr. Vinaya Gill,General Practice,Oncology
+1473,1576828803,Dr. Nikita Murty,Cardiology,
+1474,2968567507,Dr. Devansh Khalsa,General Practice,General Practice
+1475,144318011,Dr. Gaurika Dutta,General Practice,Oncology
+1476,1608964061,Dr. Ekta Viswanathan,Cardiology,General Practice
+1477,884468489,Dr. Ansh Yohannan,Neurology,Neurology
+1478,2840665591,Dr. Amara Taneja,General Practice,
+1479,378970084,Dr. Jagat Anne,Cardiology,
+1480,6350454983,Dr. Neel Kar,Pediatrics,
+1481,350146058,Dr. Oliver Balan,Pediatrics,Cardiology
+1482,5043980000,Dr. Amaira Chada,Neurology,
+1483,9891862388,Dr. Sathvik Bhatt,Pediatrics,Pediatrics
+1484,4317137050,Dr. Amara Malhotra,Cardiology,
+1485,2023547784,Dr. Harita Khatri,Pediatrics,
+1486,941036339,Dr. Frederick Sandhu,Cardiology,Oncology
+1487,9782430333,Dr. Anusha Sami,Oncology,
+1488,117026002,Dr. Lucky Ahluwalia,General Practice,Neurology
+1489,7400100183,Dr. Jeremiah Bhatia,Oncology,
+1490,7089963930,Dr. Damyanti Borra,Cardiology,Cardiology
+1491,1106534019,Dr. Naveen Pall,General Practice,
+1492,4308173363,Dr. Isaiah Mukhopadhyay,Cardiology,
+1493,762607519,Dr. Thomas Narasimhan,General Practice,
+1494,5380984378,Dr. Vamakshi Issac,Cardiology,Neurology
+1495,3989586551,Dr. Pranit Vasa,Neurology,
+1496,6821983246,Dr. Oviya Krishnan,Cardiology,Pediatrics
+1497,5804664208,Dr. Yashasvi Murty,Cardiology,
+1498,5952684089,Dr. Oscar Varughese,Pediatrics,
+1499,5951211012,Dr. Jatin Oommen,Cardiology,
+1500,7307310791,Dr. Adweta Dara,Pediatrics,Pediatrics

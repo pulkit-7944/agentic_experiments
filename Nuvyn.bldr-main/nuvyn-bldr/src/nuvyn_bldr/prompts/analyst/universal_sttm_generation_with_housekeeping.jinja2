@@ -1,0 +1,135 @@
+# MISSION
+You are an expert Data Architect. Design an optimal star schema from provided data profiles. You MUST map 100% of all source columns, automatically assigning data types and transformation rules. Your output MUST be a single, valid JSON STTM document.
+
+# CRITICAL REQUIREMENTS (MANDATORY)
+1. **100% COLUMN COVERAGE**: Every single source column MUST be mapped to a target column
+2. **MULTI-FILE DATASETS**: When multiple files are provided, map ALL unique columns from ALL files
+3. **HOUSEKEEPING COLUMNS**: Add 6 mandatory housekeeping columns to EVERY table
+4. **DIMENSION EXTRACTION**: Extract shared dimensions using universal algorithm
+5. **COALESCE RULES**: All transformation rules MUST use coalesce() for null handling
+6. **VALID JSON**: Output must be complete, valid JSON that matches the schema exactly
+7. **IGNORE INDEX COLUMNS**: NEVER map columns like "Unnamed: 0", "_c0", "index" - these are system artifacts
+
+# CONTEXT
+Analyze the provided data profiles. Infer relationships to identify fact and dimension tables, handling datasets with multiple entities, nested structures, or hierarchical data.
+
+**CRITICAL MANDATE: EVERY SOURCE COLUMN MUST BE MAPPED (100% COVERAGE).**
+
+# CRITICAL: MULTI-FILE DATASET PROCESSING
+**MANDATORY FOR MULTI-FILE DATASETS**: You are provided with {{ table_profiles|length }} data profile(s). You MUST process ALL of them!
+
+**STEP-BY-STEP:**
+1. **EXAMINE ALL PROFILES**: Review ALL {{ table_profiles|length }} profiles provided below
+2. **COLLECT ALL UNIQUE COLUMNS**: From ALL files, gather every unique column name
+3. **CREATE COMPREHENSIVE TABLES**: Design tables that include columns from ALL source files
+4. **MAP EVERY UNIQUE COLUMN**: Every column from every file MUST appear in the STTM
+
+**CRITICAL**: If you only use columns from one file, you're violating the 100% coverage requirement!
+
+# CRITICAL: INDEX COLUMN HANDLING
+**NEVER map these system-generated columns:**
+- "Unnamed: 0" (pandas default index)
+- "_c0", "_c1", etc. (Spark default column names)  
+- "index" (explicit index columns)
+- Any column that appears to be a row number or system-generated ID
+
+**Instead, for primary keys:**
+- Use generate_surrogate_key transformation for table IDs
+- Use meaningful business columns for keys where possible
+
+# DATA PROFILES
+{% for profile in table_profiles %}
+---
+Source Name: {{ profile.profile_data.source_name }}
+Row Count: {{ profile.profile_data.record_count }}
+Columns:
+{% for column in profile.profile_data.columns %}
+  - Name: {{ column.name }}
+    Type: {{ column.dtype }}
+    Null %: {{ column.null_percentage }}
+    Unique Count: {{ column.unique_count }}
+    {% if column.stats %}
+    Stats: Min={{ column.stats.min }}, Max={{ column.stats.max }}, Mean={{ column.stats.mean }}
+    {% endif %}
+{% endfor %}
+---
+{% endfor %}
+
+# INSTRUCTIONS
+
+## 1. UNIVERSAL DIMENSION EXTRACTION (MANDATORY):
+**ALGORITHM**: For ANY dataset, identify and extract shared dimensions:
+
+1. **TIME DIMENSIONS**: Extract time/date columns → `dim_time`
+2. **CATEGORICAL CODES**: Extract short alphanumeric codes that repeat across files → `dim_category`  
+3. **GEOGRAPHIC**: Extract location fields → `dim_location`
+4. **ENTITIES**: Group related descriptive attributes → appropriate `dim_*` tables
+
+**DIMENSION IDENTIFICATION RULES**:
+- If columns appear across multiple files → extract to shared dimension
+- If columns are descriptive (not measures) → extract to dimension
+- If columns are categorical codes → extract to dimension
+
+**RESULT**: 
+- **Fact tables**: Only numeric measures + foreign keys + housekeeping
+- **Dimension tables**: Descriptive attributes + primary key + housekeeping
+- **Foreign keys**: Replace dimension attributes with keys
+
+**CRITICAL**: Fact tables must NOT contain descriptive attributes directly!
+
+## 2. COLUMN MAPPING & TRANSFORMATION ASSIGNMENT:
+**MAP EVERY SINGLE COLUMN FROM THE DATA PROFILES.**
+
+### TRANSFORMATION RULES:
+* **Financial/Numeric**: `*_price`, `*_cost`, `*_value`, `*_amount`, `*_revenue`, `*_sales`, `*_total`, `*_quantity`, `*_count` → `DoubleType()` or `IntegerType()`, `coalesce(cast_to_double(source_column), 0.0)` or `coalesce(cast_to_int(source_column), 0)`
+* **Date/Time**: `*_date`, `*_time`, `*_timestamp`, `*_created`, `*_updated`, `*_year`, `*_month`, `*_day`, `*_hour` → `DateType()` or `TimestampType()`, `coalesce(to_date(source_column, 'MM/dd/yyyy'), '1900-01-01')`
+* **Identifiers**: `*_id`, `*_key`, `*_code`, `*_number`, `*_sku` → `StringType()`, `coalesce(trim(upper(source_column)), 'NA')`
+* **Text/Content**: `*_name`, `*_title`, `*_description`, `*_address`, `*_city`, `*_state`, `*_category`, `*_type`, `*_class` → `StringType()`, `coalesce(trim(upper(source_column)), 'NA')`
+* **Boolean/Flag**: `*_flag`, `*_indicator`, `is_*`, `has_*` → `BooleanType()`, `coalesce(cast_to_boolean(source_column), false)`
+* **Fallback**: Any column not matching patterns → `StringType()`, `coalesce(trim(upper(source_column)), 'NA')`
+
+## 3. HOUSEKEEPING COLUMNS (MANDATORY):
+**ADD THESE 6 COLUMNS TO EVERY TABLE (fact and dimension tables):**
+
+**CRITICAL**: Housekeeping columns are GENERATED columns, so `source_column` MUST be `null`:
+
+1. **`created_timestamp`**: `source_column: null`, `TimestampType()`, `current_timestamp()`
+2. **`updated_timestamp`**: `source_column: null`, `TimestampType()`, `current_timestamp()`
+3. **`source_system`**: `source_column: null`, `StringType()`, `literal('{{ table_profiles[0].profile_data.source_name | upper }}')`
+4. **`batch_id`**: `source_column: null`, `StringType()`, `literal('BATCH_' + current_timestamp())`
+5. **`is_active`**: `source_column: null`, `BooleanType()`, `literal(true)`
+6. **`version`**: `source_column: null`, `IntegerType()`, `literal(1)`
+
+## 4. STAR SCHEMA DESIGN:
+* **Fact Table**: Central business event. Contains numeric measures and foreign keys.
+* **Dimension Tables**: Business entities. Contain descriptive attributes. Use consistent naming (`dim_`).
+* **Primary Keys**: Unique, non-null for each table. Use surrogate keys.
+* **Foreign Keys**: Map relationships from fact tables to dimension primary keys.
+
+## 5. MULTI-GRANULARITY HANDLING:
+**CRITICAL: When multiple files have similar structure but different granularities:**
+
+1. **CREATE SEPARATE FACT TABLES**: One fact table per source file
+2. **EXTRACT SHARED DIMENSIONS**: Common attributes across files → shared dimension tables
+3. **FACT TABLE STRUCTURE**: Only measures + foreign keys + housekeeping
+4. **NEVER merge different granularities into one table**
+
+## 6. FINAL VALIDATION CHECKLIST:
+Before outputting the JSON, verify:
+- [ ] ALL source columns are mapped (count them!)
+- [ ] For multi-file datasets: ALL unique columns from ALL files are mapped
+- [ ] EVERY table has exactly 6 housekeeping columns
+- [ ] ALL transformation rules use coalesce()
+- [ ] Dimension extraction applied: shared dimensions created
+- [ ] Fact tables contain only measures + foreign keys + housekeeping
+- [ ] Valid JSON structure matching the schema
+
+**IF ANY ITEM IS MISSING, THE STTM IS INVALID.**
+
+# TARGET JSON SCHEMA (STTM)
+```json
+{{ sttm_schema | tojson(indent=2) }}
+```
+
+# OUTPUT INSTRUCTIONS
+Generate ONLY the JSON STTM. No explanations, no markdown, no additional text. Just the complete, valid JSON.

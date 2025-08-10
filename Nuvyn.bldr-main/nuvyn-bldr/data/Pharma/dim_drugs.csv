@@ -1,0 +1,401 @@
+drug_id,ndc_code,brand_name,generic_name,manufacturer
+1,0657150686,Abcin,recusandaemycin,Iyer-Rattan
+2,6269059962,Cumquecin,rationemycin,Sachar Ltd
+3,7640969467,Laudantiumcin,eummycin,"Ranganathan, Balay and Rajan"
+4,8285553279,Voluptatemcin,voluptatesmycin,"Choudhry, Ghosh and Dass"
+5,6069180359,Ipsumcin,iuremycin,"Rastogi, Ganguly and Seth"
+6,7786143225,Cumcin,rationemycin,"Mahajan, Chhabra and Kaul"
+7,2752491187,Magnamcin,nemomycin,Mahajan-Mander
+8,0756045542,Corrupticin,amycin,Mann-Sathe
+9,5779723391,Doloremquecin,eiusmycin,Warrior Ltd
+10,5794950274,Faciliscin,ullammycin,Tandon and Sons
+11,3731143162,Veritatiscin,temporamycin,"Om, Venkatesh and Raghavan"
+12,0273665700,Nequecin,temporamycin,Bhatt-Grover
+13,3776464390,Dolorecin,rerummycin,"Varkey, Jani and Bora"
+14,8624875406,Assumendacin,quodmycin,"Keer, Mandal and Pandey"
+15,2698396082,Rerumcin,etmycin,Mahajan-Kalita
+16,9082997284,Minuscin,molestiasmycin,"Tank, Bhakta and Chaudhari"
+17,2540722668,Providentcin,utmycin,Rattan Group
+18,7291697174,Possimuscin,deseruntmycin,"Raja, Prasad and Batra"
+19,6388956651,Repudiandaecin,etmycin,"Sethi, Arora and Palan"
+20,1204709485,Sequicin,mollitiamycin,Nayak Ltd
+21,8817100712,Quaeratcin,voluptatibusmycin,Kale Group
+22,7854996345,Atcin,estmycin,Lad Inc
+23,2402005246,Maximecin,ullammycin,Sarin LLC
+24,6870632938,Idcin,inventoremycin,"Mangal, Thaman and Sahota"
+25,9167388382,Officiacin,quasmycin,Kale-Rattan
+26,8317742674,Acin,eummycin,Sani-Singhal
+27,8223719862,Excin,dolormycin,Lal-Sandhu
+28,6538828027,Liberocin,inventoremycin,Ram PLC
+29,5038301305,Fugacin,consequaturmycin,Vig LLC
+30,1318942529,Etcin,velitmycin,Pathak-More
+31,8140809162,Quodcin,quomycin,"Ganguly, Brahmbhatt and Datta"
+32,5490936382,Quoscin,istemycin,Balakrishnan Group
+33,7652682056,Suscipitcin,nullamycin,Upadhyay-Nanda
+34,3415912675,Eacin,rationemycin,"Warrior, Prasad and Master"
+35,9426278696,Temporacin,recusandaemycin,Rattan and Sons
+36,9505440163,Deseruntcin,sapientemycin,Raj LLC
+37,8173713048,Sedcin,consequaturmycin,Krishna-Krishna
+38,2867108970,Autcin,vitaemycin,"Garde, Dube and Dixit"
+39,3637391873,Providentcin,iuremycin,Chhabra-Tiwari
+40,4729460293,Rerumcin,odiomycin,Bhandari-Khatri
+41,6464945295,Laborumcin,doloremquemycin,"Menon, Dhillon and Prabhakar"
+42,2563448239,Molestiascin,distinctiomycin,Yogi Ltd
+43,6769975521,Ducimuscin,quasimycin,"Rastogi, Cheema and Nayak"
+44,4527409002,Adcin,pariaturmycin,Swaminathan-Kala
+45,9850754391,Solutacin,aliasmycin,"Divan, More and Chada"
+46,7517895924,Itaquecin,inventoremycin,"Seth, Pai and Bir"
+47,8009241054,Quaeratcin,facilismycin,Hayre Group
+48,2118989428,Quisquamcin,laboriosammycin,Biswas LLC
+49,5346100082,Velitcin,voluptatesmycin,Vohra Inc
+50,4352353892,Pariaturcin,delectusmycin,"Saxena, Vig and Rajagopal"
+51,7007129470,Iustocin,nonmycin,"Chatterjee, Virk and Ravel"
+52,4406289828,Hiccin,autemmycin,Doshi-Pandya
+53,1962444143,Eaquecin,veniammycin,Chandra LLC
+54,1117132924,Quiscin,quodmycin,Prakash Ltd
+55,1015329740,Illumcin,consequaturmycin,Bedi Ltd
+56,4804577056,Eiuscin,saepemycin,"Sundaram, Malhotra and Chad"
+57,6782237269,Velcin,nobismycin,Vasa Ltd
+58,9657585096,Ipsumcin,doloresmycin,Shah-Comar
+59,6480366244,Sequicin,quasimycin,Cherian-Kata
+60,8672972596,Sedcin,occaecatimycin,Sha-Bahl
+61,4025983290,Noncin,praesentiummycin,Khalsa-Natarajan
+62,5444474295,Laboriosamcin,officiismycin,Nadig Ltd
+63,7349504805,Voluptascin,earummycin,Varughese Group
+64,7306928187,Atcin,aliquidmycin,Bandi-Bera
+65,1457945560,Necessitatibuscin,temporamycin,Suri Inc
+66,4423814129,Dolorcin,iuremycin,Narayanan Group
+67,7767926846,Rationecin,cummycin,Balan-Nori
+68,9542641597,Nisicin,evenietmycin,"Dey, Samra and Kalla"
+69,2925766771,Estcin,laboriosammycin,Reddy-Kalita
+70,7894628092,Nesciuntcin,necessitatibusmycin,Basak LLC
+71,7923557307,Fugitcin,eligendimycin,Sachar PLC
+72,8381682617,Velcin,excepturimycin,Luthra and Sons
+73,7620384871,Suntcin,minusmycin,"Swaminathan, Dua and Pai"
+74,1623249243,Teneturcin,omnismycin,Jayaraman Inc
+75,9745386135,Temporecin,assumendamycin,"Pingle, Hayer and Sachdev"
+76,5653009867,Repudiandaecin,optiomycin,Barad-Deshpande
+77,8718532461,Rationecin,porromycin,Vig-Oommen
+78,8010970049,Eiuscin,teneturmycin,Khanna-Dalal
+79,5543838543,Minuscin,laudantiummycin,"Ramanathan, Sule and Narayan"
+80,2602642041,Sequicin,ipsammycin,Raju-Samra
+81,0212829314,Ullamcin,exmycin,"Vaidya, Kohli and Nagi"
+82,6574149115,Aspernaturcin,reprehenderitmycin,"Kohli, Manne and Mistry"
+83,4389661344,Quocin,placeatmycin,Hayer-D’Alia
+84,1433342379,Exercitationemcin,temporemycin,"Barad, Mahajan and Sibal"
+85,3564927438,Etcin,voluptatibusmycin,Dubey-Grewal
+86,6617071459,Blanditiiscin,officiismycin,Sagar-Kanda
+87,5239195755,Estcin,natusmycin,"Nanda, Korpal and Morar"
+88,6356178344,Voluptascin,quiamycin,Vasa-Dhillon
+89,7960946779,Nesciuntcin,amycin,"Deol, Ahuja and Chad"
+90,8606350475,Aspernaturcin,rerummycin,"Pandya, Nanda and Subramaniam"
+91,5430226871,Faciliscin,veromycin,Mammen-Prabhu
+92,2540447597,Acin,eligendimycin,Saxena-Bose
+93,4114733087,Quiacin,fugamycin,"Bhatt, Deo and Ratta"
+94,7516350335,Idcin,quidemmycin,Balay-Doctor
+95,3150751972,Assumendacin,evenietmycin,Dhaliwal-Hora
+96,8802660508,Ametcin,possimusmycin,Prasad and Sons
+97,7260498477,Inventorecin,doloribusmycin,Dey LLC
+98,2490383476,Molestiaecin,perspiciatismycin,Mall-Gulati
+99,2383681937,Deleniticin,ametmycin,Murthy-Misra
+100,2378281683,Saepecin,odiomycin,Narayanan-Pingle
+101,2501162364,Quiacin,harummycin,"Mistry, Saraf and Raj"
+102,9849509823,Utcin,voluptatibusmycin,"Ahuja, Pandey and Ahluwalia"
+103,5544573619,Illocin,istemycin,Kala Inc
+104,7798651825,Delectuscin,repellendusmycin,"Peri, Bhasin and Balakrishnan"
+105,8464945340,Quocin,consequunturmycin,Kannan-Loyal
+106,9711023319,Natuscin,aliasmycin,Hayre-Chander
+107,3695118599,Liberocin,itaquemycin,Chaudry PLC
+108,2553821147,Inciduntcin,itaquemycin,Bansal-Nanda
+109,9089353138,Acin,delenitimycin,Maharaj and Sons
+110,1230963942,Vitaecin,animimycin,Vig Group
+111,8708092157,Eligendicin,errormycin,Wali LLC
+112,0147739179,Harumcin,errormycin,Pai-Kala
+113,0094394528,Similiquecin,inmycin,Zacharia PLC
+114,7488555554,Aspernaturcin,cumquemycin,"Loke, Arora and Bakshi"
+115,0039771907,Culpacin,velitmycin,Singh-Muni
+116,7436426444,Quascin,vitaemycin,"Wali, Deol and Trivedi"
+117,4184514331,Facerecin,optiomycin,"Sawhney, Wali and Prashad"
+118,4923343375,Possimuscin,aliquidmycin,"Sem, Iyer and Pillai"
+119,4019108902,Eiuscin,eummycin,"Divan, Yohannan and Goel"
+120,9667569934,Necessitatibuscin,excepturimycin,Rao and Sons
+121,6337165068,Laboriosamcin,nihilmycin,Dhingra-Dhillon
+122,2803761842,Cumcin,excepturimycin,Bobal PLC
+123,6868372712,Quamcin,sedmycin,Venkataraman LLC
+124,7615681442,Namcin,delectusmycin,Chahal-Seth
+125,4601524246,Earumcin,excepturimycin,Sengupta-Suri
+126,8500182560,Earumcin,recusandaemycin,Puri-Mutti
+127,1355132385,Verocin,veromycin,"Mandal, Chaudry and Chaudhari"
+128,5074974912,Sintcin,repudiandaemycin,"Chaudry, Murthy and Peri"
+129,9427086031,Assumendacin,perferendismycin,"Nanda, Manda and Viswanathan"
+130,0023334683,Istecin,ducimusmycin,"Jani, Dayal and Oza"
+131,3726086953,Autcin,laboremycin,"Garg, Parsa and Thaman"
+132,2836508067,Incin,explicabomycin,"Kumer, Gole and Johal"
+133,8581221413,Namcin,odiomycin,Sankaran-Dubey
+134,6383101129,Teneturcin,similiquemycin,Sathe Group
+135,1585371878,Excin,omnismycin,Padmanabhan Ltd
+136,2808520190,Accusamuscin,temporemycin,Tella Ltd
+137,5256302312,Velcin,culpamycin,Pandya-Ramanathan
+138,3708784306,Undecin,facilismycin,"Kapoor, Mody and Sangha"
+139,5848229876,Nisicin,sequimycin,"Kulkarni, Nori and Prabhu"
+140,2160022968,Aspernaturcin,commodimycin,Bahri-Tank
+141,4150290927,Minuscin,aspernaturmycin,"Mammen, Sani and Sem"
+142,5173147624,Nisicin,idmycin,Kar-Bath
+143,5596558576,Temporecin,similiquemycin,Ahluwalia-Shukla
+144,3023412089,Veritatiscin,voluptatummycin,Chahal and Sons
+145,4062060101,Voluptatumcin,explicabomycin,"Lalla, Nori and Banerjee"
+146,7537603282,Maiorescin,ametmycin,Dave PLC
+147,9882893214,Enimcin,sedmycin,Misra Group
+148,8514040071,Repudiandaecin,blanditiismycin,Rastogi-Divan
+149,0119499293,Eaquecin,assumendamycin,"Pant, Purohit and Pradhan"
+150,7743646273,Acin,mollitiamycin,"Soman, Bhatt and Nayak"
+151,6208977290,Magnicin,repellatmycin,Nadig-Pathak
+152,8037578901,Aspernaturcin,quisquammycin,Biswas PLC
+153,6411154601,Accusantiumcin,nammycin,Varty PLC
+154,2881120400,Illocin,iuremycin,Chana Inc
+155,2461063288,Atquecin,laboriosammycin,Puri-Singhal
+156,3670757843,Asperiorescin,ipsammycin,"Pradhan, Patla and Nagy"
+157,1817665820,Iurecin,ipsamycin,Dua-Dora
+158,5970177544,Undecin,quodmycin,Balakrishnan LLC
+159,2124258895,Teneturcin,eiusmycin,Mukherjee-Kalita
+160,4756590036,Molestiascin,mollitiamycin,"Peri, Radhakrishnan and Bora"
+161,8646882254,Accusantiumcin,maioresmycin,"Kaur, Palla and Minhas"
+162,0280816817,Namcin,estmycin,Panchal-Yogi
+163,8243052227,Abcin,temporemycin,"Rana, Chanda and Rau"
+164,5159110296,Reprehenderitcin,distinctiomycin,Parekh-Deshmukh
+165,5932510621,Aspernaturcin,admycin,Chahal-Sant
+166,5630339020,Odiocin,magnammycin,"Kumar, Bal and Srinivas"
+167,5097919503,Dignissimoscin,estmycin,Mistry and Sons
+168,8102410960,Numquamcin,repudiandaemycin,"Sethi, Vala and Krish"
+169,8496835028,Saepecin,hicmycin,Vala Group
+170,2369934937,Voluptatemcin,consecteturmycin,Kakar Inc
+171,9304238514,Repellatcin,officiamycin,Sawhney PLC
+172,2496459383,Quocin,quismycin,"Rana, Dada and Thakkar"
+173,6207850451,Eaquecin,quaemycin,"Kunda, Bhattacharyya and Gopal"
+174,2746309449,Laudantiumcin,quodmycin,Gill-Krishna
+175,0991372828,Quasicin,pariaturmycin,"Suri, Kakar and Dasgupta"
+176,7635163266,Laboriosamcin,aperiammycin,Suri and Sons
+177,3914097876,Quisquamcin,praesentiummycin,"Sahota, Barad and Bhandari"
+178,3846627560,Estcin,fugitmycin,Borah-Sood
+179,4777441667,Perspiciatiscin,consecteturmycin,Char Ltd
+180,7986490274,Abcin,utmycin,Rege-Mody
+181,6100537721,Undecin,temporibusmycin,Loyal-Deep
+182,0021843936,Recusandaecin,laboriosammycin,"Gade, Om and Nadig"
+183,6748244055,Remcin,enimmycin,Raja Ltd
+184,2983351103,Cupiditatecin,iuremycin,Sethi Ltd
+185,8918219044,Laborumcin,dolormycin,Baria-Guha
+186,0201877356,Ipsacin,aliquammycin,"Chadha, Srivastava and Pillay"
+187,1453756853,Mollitiacin,inciduntmycin,"Tiwari, Dyal and Chokshi"
+188,9004228144,Laudantiumcin,impeditmycin,"Gandhi, Subramanian and Bedi"
+189,6682115026,Namcin,errormycin,Naik PLC
+190,0800823833,Nemocin,assumendamycin,"Lad, Divan and Kanda"
+191,8834954375,Quascin,undemycin,Mallick Group
+192,5039357084,Occaecaticin,inciduntmycin,"Merchant, Ranganathan and Bhakta"
+193,9908038475,Sapientecin,inciduntmycin,"Ben, Loke and Bora"
+194,6325912101,Errorcin,minimamycin,Dewan LLC
+195,3525819454,Suntcin,velmycin,"Aggarwal, Bhakta and Apte"
+196,5968245440,Exercitationemcin,eosmycin,Comar-Gade
+197,5307202096,Doloremquecin,quodmycin,"Sheth, Chahal and Vora"
+198,9389700436,Molestiascin,debitismycin,Toor-Karnik
+199,5391712575,Fugitcin,saepemycin,Subramanian Ltd
+200,3390021135,Ducimuscin,eummycin,Dyal and Sons
+201,6444484546,Excepturicin,occaecatimycin,Zachariah Ltd
+202,6552677315,Namcin,quibusdammycin,Goswami-Issac
+203,9500091072,Idcin,utmycin,Dass PLC
+204,4105758816,Blanditiiscin,impeditmycin,Deol Inc
+205,0431481488,Abcin,maximemycin,"Doshi, Gulati and Karpe"
+206,9635601389,Quodcin,voluptatibusmycin,Narang Ltd
+207,1203523009,Aliascin,sequimycin,"Wadhwa, Pau and Dash"
+208,4138983772,Acin,voluptatemycin,"Chawla, Nanda and Kurian"
+209,0251328175,Excin,debitismycin,"Venkataraman, Mangal and Rajagopal"
+210,3302431471,Eumcin,inciduntmycin,"Hari, Dass and Dua"
+211,4761107575,Magnamcin,suntmycin,"Vohra, Mangal and Mody"
+212,2382903880,Aspernaturcin,corruptimycin,Narain Inc
+213,7256746364,Distinctiocin,laborummycin,Rajagopalan Group
+214,5779660164,Sedcin,quodmycin,Bahl Ltd
+215,0818969891,Maximecin,errormycin,Bora-Seth
+216,9626566343,Repellenduscin,admycin,Sastry-Chanda
+217,5283028922,Teneturcin,accusamusmycin,Mital-Basak
+218,6772646545,Similiquecin,maximemycin,Tank and Sons
+219,9986537052,Cumquecin,sitmycin,"Kara, Dhaliwal and Hayer"
+220,8349269765,Dolorescin,numquammycin,Kapur PLC
+221,4602247029,Incin,laudantiummycin,Dara Inc
+222,7905714505,Utcin,blanditiismycin,Apte Ltd
+223,5917272150,Eligendicin,nostrummycin,Babu-Bhasin
+224,7891126650,Illocin,necessitatibusmycin,Chokshi-Sharaf
+225,3729350629,Atcin,enimmycin,"Nagy, Vohra and Chanda"
+226,6491873727,Iustocin,molestiaemycin,"Parsa, Devi and Ray"
+227,3479607267,Excin,blanditiismycin,Vasa-D’Alia
+228,1384740362,Errorcin,omnismycin,"Mani, Rau and Basak"
+229,0859131424,Atcin,ametmycin,Srivastava-Palla
+230,3356676591,Repellatcin,quaeratmycin,Chawla-Chana
+231,5007057716,Omniscin,autmycin,Roy-Hegde
+232,8960264583,Quoscin,corporismycin,Gour LLC
+233,7293443503,Corporiscin,idmycin,Amble-Banerjee
+234,7377035888,Officiiscin,doloremmycin,Chadha-Kar
+235,4693143151,Doloremquecin,numquammycin,"Kapoor, Khare and Vaidya"
+236,0180331408,Nostrumcin,nemomycin,Om Inc
+237,5550671029,Voluptascin,doloremquemycin,Sankar-Deshpande
+238,5949582748,Debitiscin,minimamycin,Purohit Ltd
+239,8272888143,Doloribuscin,teneturmycin,"Banik, Varughese and Yohannan"
+240,9124808844,Distinctiocin,quibusdammycin,"More, Sarraf and Keer"
+241,9296109708,Ducimuscin,quismycin,Suresh Ltd
+242,7818175735,Voluptatecin,sequimycin,Buch Ltd
+243,2832175757,Velitcin,maximemycin,"Babu, Lalla and Swamy"
+244,0180508493,Minimacin,possimusmycin,Shenoy-Borra
+245,9524756199,Autemcin,liberomycin,Vala-Srinivas
+246,3921325962,Inventorecin,nihilmycin,Goda-Bhargava
+247,8582112224,Modicin,distinctiomycin,"Walla, Raja and Tara"
+248,1653044446,Minuscin,solutamycin,Mital Ltd
+249,8716073299,Autcin,saepemycin,"Prasad, Devan and Rana"
+250,7513254569,Suscipitcin,temporibusmycin,"Gera, Virk and Dewan"
+251,0899322776,Solutacin,repellendusmycin,Banik-Rana
+252,9437582460,Saepecin,quisquammycin,Kapur-Ramachandran
+253,2405260496,Errorcin,consecteturmycin,Mohanty-Dey
+254,6730404278,Evenietcin,saepemycin,Thaman-Pant
+255,3837949457,Fugitcin,quosmycin,"Ratti, Karnik and Saraf"
+256,4484719526,Pariaturcin,necessitatibusmycin,Chokshi LLC
+257,6791908629,Quicin,recusandaemycin,"Varkey, Borde and Aurora"
+258,7493613956,Maximecin,aliquammycin,Bhatnagar-Sathe
+259,5638079861,Repudiandaecin,admycin,Narain Inc
+260,0252751654,Perferendiscin,nihilmycin,Narain-Kaul
+261,4302311954,Istecin,doloremquemycin,Tank Inc
+262,3903604293,Sedcin,deseruntmycin,Krishnamurthy-Varty
+263,2542641884,Istecin,doloremycin,"Pradhan, Nagar and Gole"
+264,8314108692,Ipsacin,cupiditatemycin,Aggarwal PLC
+265,5472619179,Liberocin,autmycin,"Kala, Chad and Manne"
+266,2881886610,Ametcin,utmycin,Khosla and Sons
+267,7427965916,Ullamcin,quibusdammycin,Wali-Sahota
+268,1169576437,Assumendacin,nobismycin,"Sankar, Kashyap and Varty"
+269,9413065352,Autcin,quaemycin,"Baral, Kaul and Gera"
+270,2149112791,Doloremquecin,cumquemycin,Sane Ltd
+271,2404216236,Aperiamcin,ullammycin,Ganesh Ltd
+272,9787513762,Voluptatibuscin,sequimycin,Bhatti-Kar
+273,1067159009,Sapientecin,impeditmycin,Lata PLC
+274,0356535366,Incin,itaquemycin,Dhingra-Din
+275,4115150327,Utcin,repellendusmycin,Chatterjee PLC
+276,5337484736,Dolorumcin,fugitmycin,"Date, Ganesan and Vohra"
+277,5856085819,Earumcin,adipiscimycin,Chhabra Ltd
+278,2496588145,Voluptascin,dictamycin,"Chaudhari, Balan and Contractor"
+279,1825415898,Pariaturcin,molestiaemycin,"Ben, Varma and Batra"
+280,5415959983,Excepturicin,fugitmycin,Singh-Nath
+281,8834235844,Velitcin,voluptatibusmycin,Raval Ltd
+282,0474731711,Excepturicin,nequemycin,Kohli Group
+283,9299147200,Ducimuscin,doloribusmycin,Mand-Iyer
+284,7335174008,Liberocin,natusmycin,"Kar, Oza and Tiwari"
+285,9247960996,Consequaturcin,dolormycin,"Saraf, Ganesan and Bhat"
+286,4442633647,Laborecin,eamycin,Barad PLC
+287,0584171270,Molestiaecin,pariaturmycin,"Bahri, Basak and Bhasin"
+288,6607534124,Aliquidcin,enimmycin,Arora PLC
+289,4667193391,Dictacin,quibusdammycin,Shankar LLC
+290,7433947495,Repellatcin,porromycin,Purohit-Modi
+291,0085478756,Explicabocin,veromycin,"Sastry, Amble and Chowdhury"
+292,5515913781,Voluptascin,recusandaemycin,Sachar PLC
+293,0710516249,Accusantiumcin,harummycin,Mohan-Sehgal
+294,9364638020,Faciliscin,sequimycin,Suri-Goda
+295,6042746919,Occaecaticin,nobismycin,Maharaj Inc
+296,2951935066,Evenietcin,admycin,Lad and Sons
+297,4351521672,Veritatiscin,similiquemycin,Bhasin PLC
+298,1903675400,Voluptatemcin,magnammycin,Verma-Dhillon
+299,9837298741,Commodicin,exmycin,"Nagy, Wali and Jayaraman"
+300,7882900966,Acin,nihilmycin,Apte-Kakar
+301,1874363215,Verocin,nesciuntmycin,Goel Ltd
+302,0207588119,Aspernaturcin,odiomycin,Subramaniam-Mutti
+303,0484429256,Laudantiumcin,aperiammycin,Ramanathan LLC
+304,1679565151,Atquecin,veromycin,Deol-Patla
+305,7704627279,Odiocin,ullammycin,Viswanathan Group
+306,1685222864,Utcin,doloremycin,Gulati LLC
+307,4119783243,Quoscin,totammycin,Wali-Bhatti
+308,7047939503,Utcin,sapientemycin,Bobal Ltd
+309,2406423556,Adcin,utmycin,Manda-Datta
+310,3209027582,Molestiascin,commodimycin,Sule PLC
+311,6096770993,Etcin,expeditamycin,Apte-Goda
+312,1115122685,Molestiascin,aliasmycin,Randhawa-Gole
+313,4682663956,Consecteturcin,veritatismycin,Pau and Sons
+314,8767522313,Sintcin,autmycin,"Nair, Parekh and Ravel"
+315,8409271641,Autcin,perspiciatismycin,Mutti PLC
+316,3694068969,Utcin,maioresmycin,Bhatt-Sankar
+317,5217012578,Architectocin,ullammycin,"Krishna, Mane and Sarma"
+318,1274470041,Modicin,liberomycin,Khare Inc
+319,1258666146,Placeatcin,temporemycin,Pillai and Sons
+320,6617240167,Doloremcin,quidemmycin,Patla-Kalita
+321,8268057071,Corrupticin,remmycin,"Shah, Bose and Pillay"
+322,7120578147,Rationecin,laboremycin,Baral-Jayaraman
+323,4930909048,Deseruntcin,inmycin,Dara-Arora
+324,0594676467,Laboriosamcin,optiomycin,"Rattan, Shenoy and Chana"
+325,0327415226,Sedcin,ametmycin,"Barad, Rajagopalan and Wable"
+326,7657896964,Saepecin,fugamycin,"Vohra, Ramesh and Dani"
+327,4395159757,Quoscin,velitmycin,Walla-Upadhyay
+328,2385688096,Molestiaecin,essemycin,Mani Inc
+329,0890240739,Voluptatemcin,distinctiomycin,Pingle Ltd
+330,2065387535,Doloribuscin,laboremycin,Rout-Comar
+331,1152773539,Occaecaticin,exmycin,Date PLC
+332,0337805192,Culpacin,iuremycin,"Goswami, Wason and Garde"
+333,1283424744,Velitcin,perferendismycin,Vyas-Singh
+334,7431820560,Necessitatibuscin,aliquidmycin,"Vaidya, Deshmukh and Chana"
+335,2899151356,Praesentiumcin,placeatmycin,Anand Ltd
+336,3280359197,Estcin,oditmycin,Kohli-Chandra
+337,8150575447,Accusamuscin,nemomycin,Babu Group
+338,5995475151,Velitcin,repellendusmycin,"Mukhopadhyay, Devan and Mangat"
+339,6244953405,Possimuscin,nostrummycin,"Nadkarni, Guha and Vig"
+340,9483653800,Animicin,vitaemycin,Madan and Sons
+341,4926049925,Voluptatemcin,illummycin,Bhakta LLC
+342,2197029099,Optiocin,delenitimycin,Raja PLC
+343,3558710447,Mollitiacin,inmycin,"Prashad, Saraf and Wali"
+344,2619874376,Nobiscin,reprehenderitmycin,Pradhan Group
+345,1390608587,Evenietcin,perspiciatismycin,Sehgal-Vohra
+346,4880778732,Adcin,sapientemycin,"Balan, Gade and Nagi"
+347,7931342574,Voluptatecin,quaemycin,"Jani, Contractor and Natt"
+348,0305688190,Sitcin,pariaturmycin,Pingle-Dixit
+349,5787061042,Adipiscicin,blanditiismycin,Sarraf Inc
+350,6940051222,Reiciendiscin,suntmycin,Khurana and Sons
+351,4806743443,Iustocin,itaquemycin,"Prakash, Lad and Bahri"
+352,9880566765,Quamcin,reiciendismycin,"Behl, Sha and Thakur"
+353,3745034896,Quasicin,vitaemycin,"Chawla, Shukla and Bhatti"
+354,1943754777,Quasicin,quisquammycin,Mishra-Bakshi
+355,8078721777,Nesciuntcin,rerummycin,"Srivastava, Bedi and Modi"
+356,5009512677,Utcin,fugitmycin,"Baral, Mitter and Shukla"
+357,3742201176,Illumcin,reprehenderitmycin,Halder-Ramakrishnan
+358,0637657798,Ipsacin,numquammycin,"Ray, Mani and Contractor"
+359,7466414122,Voluptascin,velmycin,Balan-Talwar
+360,8643662147,Perspiciatiscin,eosmycin,Raj Group
+361,9632298084,Totamcin,ametmycin,Vaidya-Kalla
+362,6723481984,Rerumcin,atquemycin,Goda-Sethi
+363,0230293442,Voluptatumcin,quidemmycin,Saha-Iyer
+364,2602570397,Idcin,nihilmycin,"Varkey, Ghosh and Trivedi"
+365,9326275613,Rerumcin,nobismycin,Bhattacharyya-Ghosh
+366,9635967262,Aliquamcin,evenietmycin,"Natarajan, Sawhney and Mahajan"
+367,2238981192,Aliascin,teneturmycin,"Goswami, Banik and Krishna"
+368,0746625817,Velcin,magnammycin,"Dhar, Bedi and Bajwa"
+369,4961005179,Oditcin,ducimusmycin,Sachdeva-Borah
+370,1001216256,Eligendicin,doloremycin,Randhawa and Sons
+371,9213365259,Dignissimoscin,animimycin,Bahri-Sastry
+372,4429931408,Verocin,etmycin,Mitter and Sons
+373,7597114513,Modicin,praesentiummycin,Sankar PLC
+374,3642985953,Impeditcin,modimycin,Balan-Dubey
+375,4380311151,Voluptatumcin,eligendimycin,Saraf-Brar
+376,1843169948,Modicin,oditmycin,Bhagat-Sankar
+377,7175914625,Dolorescin,voluptasmycin,Natt-Vohra
+378,9449957144,Teneturcin,idmycin,"Hans, Buch and Anne"
+379,3676149167,Nullacin,enimmycin,"Kaur, Garde and Dave"
+380,5800142138,Iurecin,voluptatibusmycin,Singh and Sons
+381,6314967631,Voluptatibuscin,admycin,"Bath, Talwar and Sridhar"
+382,0027400736,Quiacin,quaeratmycin,Sankar Ltd
+383,6599117150,Autcin,autmycin,"Padmanabhan, Bali and Buch"
+384,3576407316,Quibusdamcin,amycin,"Issac, Parmer and Suri"
+385,4259099096,Blanditiiscin,vitaemycin,Kalla Ltd
+386,7334539822,Numquamcin,idmycin,Loyal-Basak
+387,5399675623,Quiscin,nobismycin,"Tiwari, Mani and Batta"
+388,8266414354,Adipiscicin,utmycin,Amble-Wali
+389,0787668887,Pariaturcin,modimycin,"Vohra, Gokhale and Sethi"
+390,3221251664,Hiccin,sitmycin,Garde-Varghese
+391,5414667722,Teneturcin,nisimycin,"Kalita, Gulati and Mall"
+392,5771146265,Molestiaecin,placeatmycin,Bansal PLC
+393,1668396741,Utcin,providentmycin,Deol Ltd
+394,5917746160,Voluptascin,quibusdammycin,"Bhalla, Rattan and Rajagopal"
+395,5983738475,Deleniticin,expeditamycin,Randhawa-Gara
+396,2490174471,Dolorcin,laboriosammycin,Kuruvilla Group
+397,6697238250,Beataecin,delectusmycin,Narain Inc
+398,8053042797,Recusandaecin,nequemycin,"Borde, Sridhar and Ben"
+399,4567752750,Repellenduscin,sedmycin,"Garde, Swamy and Chaudhry"
+400,3236612785,Dolorcin,voluptatemycin,Mani and Sons

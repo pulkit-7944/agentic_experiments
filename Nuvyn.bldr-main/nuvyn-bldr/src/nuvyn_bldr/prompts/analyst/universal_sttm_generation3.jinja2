@@ -1,0 +1,94 @@
+# MISSION
+You are an expert Data Architect. Design an optimal star schema from provided data profiles. You MUST map 100% of all source columns, automatically assigning data types and transformation rules. Your output MUST be a single, valid JSON STTM document.
+
+# CONTEXT
+Analyze the provided data profiles. Infer relationships to identify fact and dimension tables, handling datasets with:
+- Multiple entities per file
+- Nested or complex data structures
+- Hierarchical data
+- Multi-dimensional processes
+
+**CRITICAL MANDATE: EVERY SOURCE COLUMN MUST BE MAPPED (100% COVERAGE).**
+
+# DATA PROFILES
+{% for profile in table_profiles %}
+---
+Source Name: {{ profile.profile_data.source_name }}
+Row Count: {{ profile.profile_data.record_count }}
+Columns:
+{% for column in profile.profile_data.columns %}
+  - Name: {{ column.name }}
+    Type: {{ column.dtype }}
+    Null %: {{ column.null_percentage }}
+    Unique Count: {{ column.unique_count }}
+    {% if column.stats %}
+    Stats: Min={{ column.stats.min }}, Max={{ column.stats.max }}, Mean={{ column.stats.mean }}
+    {% endif %}
+{% endfor %}
+---
+{% endfor %}
+
+# INSTRUCTIONS
+
+## 1. DATA ANALYSIS & SCHEMA PLANNING:
+* Analyze nulls, cardinality, and data types.
+* Identify business measures, time dimensions, and entity relationships.
+* Determine the primary business process for the fact table.
+* Plan how to handle complex/nested data structures (flattening or field extraction).
+
+## 2. UNIVERSAL COLUMN MAPPING, TYPE & TRANSFORMATION ASSIGNMENT:
+**MAP EVERY SINGLE COLUMN FROM THE DATA PROFILES.**
+
+Apply the most specific rule that matches for `target_type` and `transformation_rule`.
+
+### A. PATTERN-BASED MAPPING RULES:
+* **Financial/Numeric**: `*_price`, `*_cost`, `*_value`, `*_amount`, `*_revenue`, `*_sales`, `*_total`, `*_sum`, `*_quantity`, `*_number`, `*_percentage`, `*_rate`, `*_ratio`, `*_count`, `*_units`, `*_items`, `*_pieces`, `*_weight`, `*_height`, `*_length`, `*_width`, `*_depth`, `*_size`, `*_dimension`, `*_square_feet`, `*_square_meters`, `*_acres`, `*_hectares`, `*_fee`, `*_charge`, `*_payment`, `*_balance`, `*_percent`, `*_proportion`, `*_share`, `*_fraction` -> `DoubleType()` or `IntegerType()`, `cast_to_double` or `cast_to_int`.
+* **Date/Time**: `*_date`, `*_time`, `*_timestamp`, `*_created`, `*_updated`, `*_modified`, `*_year`, `*_month`, `*_day`, `*_hour`, `*_minute`, `*_week`, `*_second`, `*_quarter` -> `DateType()` or `TimestampType()`, `to_date()` or `to_timestamp()`.
+* **Identifiers**: `*_id`, `*_key`, `*_code`, `*_number`, `*_sku`, `*_reference`, `*_identifier`, `*_barcode`, `*_serial` -> `StringType()`, `direct_map`.
+* **Text/Content**: `*_name`, `*_title`, `*_description`, `*_content`, `*_text`, `*_label`, `*_category`, `*_type`, `*_class`, `*_group`, `*_status`, `*_address`, `*_city`, `*_state`, `*_country`, `*_zip`, `*_email`, `*_phone`, `*_link`, `*_url`, `*_website`, `*_web`, `*_site`, `*_page`, `*_path`, `*_route`, `*_street`, `*_postal`, `*_latitude`, `*_longitude`, `*_coordinates`, `*_region`, `*_area`, `*_zone`, `*_district`, `*_mail`, `*_telephone`, `*_mobile`, `*_contact`, `*_communication`, `*_caption`, `*_heading`, `*_subject`, `*_topic`, `*_kind`, `*_sort`, `*_style`, `*_brand`, `*_model`, `*_version`, `*_condition`, `*_phase`, `*_stage`, `*_level`, `*_grade`, `*_rank`, `*_priority` -> `StringType()`, `trim(upper())` or `clean_string`.
+* **Boolean/Flag**: `*_flag`, `*_indicator`, `*_boolean`, `is_*`, `has_*`, `can_*`, `should_*` -> `BooleanType()`, `cast_to_boolean`.
+* **System/Misc**: `Unnamed:`, `index`, `row_number`, `*_system`, `*_metadata`, `*_temp`, `*_staging` -> `StringType()`, `direct_map`.
+
+### B. TRANSFORMATION RULES:
+* `direct_map`: Direct mapping.
+* `cast_to_string`, `cast_to_int`, `cast_to_double`, `cast_to_date(format)`, `cast_to_timestamp(format)`: Type conversions.
+* `trim(upper())`, `clean_string`, `regexp_replace(source_column, '[^0-9]', '')`: String manipulation.
+* `generate_surrogate_key`: For new primary keys.
+* `literal('value')`: Static value.
+* `current_timestamp()`: Current timestamp.
+* `coalesce(source_column, default_value)`: Null handling.
+* `flatten_array(sub_column)`, `extract_struct_field(field_name)`: Complex type handling.
+
+### C. FALLBACK RULE:
+* ANY column not matching patterns -> `StringType()`, `direct_map`.
+
+## 3. STAR SCHEMA DESIGN:
+* **Fact Table**: Represents the central business event. Contains numeric measures and foreign keys. Define granularity.
+* **Dimension Tables**: Describe business entities (e.g., customer, product, date, location). Contain descriptive attributes. Use consistent naming (e.g., `dim_`). Model hierarchies within dimensions.
+* **Primary Keys**: Unique, non-null for each target table. Use natural or surrogate keys.
+* **Foreign Keys**: Map relationships from fact tables to dimension primary keys.
+
+## 4. BUSINESS LOGIC & MEASURES:
+* Identify and include core business KPIs.
+* Ensure schema supports common analytical queries and reporting.
+* Facilitate temporal analysis with date/time dimensions.
+
+## 5. SCHEMA QUALITY CHECKS:
+* Consistent naming for all target tables/columns.
+* No duplicate columns within tables.
+* Correct primary and foreign key relationships.
+* Data integrity considerations (null handling, validation).
+* Adherence to star schema best practices.
+
+## 6. GENERATE THE STTM JSON:
+* Construct the final JSON output.
+* MUST validate strictly against `sttm_schema`.
+* NO extra fields or deviations from structure.
+* Every table needs a `primary_key`.
+* Map `foreign_keys` correctly.
+* Use appropriate PySpark data types.
+* **CRITICAL REMINDER**: 100% column coverage is mandatory.
+
+# TARGET JSON SCHEMA (STTM)
+```json
+{{ sttm_schema | tojson(indent=2) }}

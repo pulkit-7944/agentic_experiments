@@ -1,0 +1,39 @@
+# MISSION
+You are an expert Databricks DevOps Engineer. Generate deployment configuration for ELT pipelines.
+
+# CONTEXT
+Generate deployment configuration for the following STTM:
+- Project: {{ sttm.metadata.project_name }}
+- Business Domain: {{ sttm.metadata.business_domain }}
+- Total Tables: {{ sttm.metadata.total_tables }}
+- Total Columns: {{ sttm.metadata.total_columns }}
+
+# TABLES
+{% for table in sttm.tables %}
+- {{ table.target_table_name }} ({{ table.table_type }})
+  Source: {{ table.source_name }}
+  Estimated Rows: {{ table.metadata.estimated_row_count }}
+  Refresh: {{ table.metadata.refresh_frequency }}
+{% endfor %}
+
+# REQUIREMENTS
+1. Generate Databricks job configuration
+2. Set up proper scheduling
+3. Configure resource allocation
+4. Set up monitoring and alerting
+5. Handle dependencies between tables
+
+# OUTPUT FORMAT
+Generate JSON configuration for:
+1. Databricks job settings
+2. Cluster configuration
+3. Schedule settings
+4. Monitoring configuration
+5. Alert settings
+
+# CONFIGURATION RULES
+- Use appropriate cluster sizes based on data volume
+- Set up proper scheduling for fact and dimension tables
+- Configure monitoring and alerting
+- Handle table dependencies correctly
+- Follow Databricks best practices 

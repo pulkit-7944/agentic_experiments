@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "project_name": "Sample E-commerce Project",
+    "business_domain": "E-commerce",
+    "created_date": "2024-01-15T00:00:00Z"
+  },
+  "tables": [
+    {
+      "target_table_name": "dim_customer",
+      "table_type": "dimension",
+      "source_name": "customer_data.csv",
+      "primary_key": ["customer_id"],
+      "foreign_keys": {},
+      "columns": [
+        {
+          "target_column": "customer_id",
+          "source_column": "customer_id",
+          "target_type": "string",
+          "transformation_rule": "direct_map"
+        },
+        {
+          "target_column": "customer_name",
+          "source_column": "customer_name",
+          "target_type": "string",
+          "transformation_rule": "trim_upper"
+        },
+        {
+          "target_column": "email",
+          "source_column": "email",
+          "target_type": "string",
+          "transformation_rule": "direct_map"
+        }
+      ]
+    },
+    {
+      "target_table_name": "fact_sales",
+      "table_type": "fact",
+      "source_name": "sales_data.csv",
+      "primary_key": ["sale_id"],
+      "foreign_keys": {
+        "customer_id": "dim_customer.customer_id"
+      },
+      "columns": [
+        {
+          "target_column": "sale_id",
+          "source_column": "sale_id",
+          "target_type": "string",
+          "transformation_rule": "direct_map"
+        },
+        {
+          "target_column": "sale_amount",
+          "source_column": "amount",
+          "target_type": "double",
+          "transformation_rule": "cast_to_double"
+        },
+        {
+          "target_column": "sale_date",
+          "source_column": "date",
+          "target_type": "date",
+          "transformation_rule": "cast_to_date"
+        }
+      ]
+    }
+  ]
+} 

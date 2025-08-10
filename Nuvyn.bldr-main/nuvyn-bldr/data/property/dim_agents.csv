@@ -1,0 +1,201 @@
+agent_id,agent_license_num,agent_name,brokerage_name,hire_date,termination_date
+1,53068901,Saanvi Kumer,Solanki-Mitra Properties,2016-10-26,2024-12-01
+2,38615632,Hemangini Dixit,Chanda-Kashyap Properties,2021-04-11,
+3,78205320,Lila Barad,Kalita-Bali Properties,2019-05-08,
+4,26209225,Christopher Mandal,Batta-Chaudhari Properties,2016-12-29,
+5,99255426,Ridhi Mistry,"Pillay, Sastry and Sawhney Properties",2017-01-02,2024-09-17
+6,35182651,Atharv Luthra,"Peri, Kashyap and Raj Properties",2017-05-03,2025-03-29
+7,95705085,Pranit Sen,Khalsa-Shanker Properties,2021-12-20,2025-06-13
+8,6372207,Nathaniel Naidu,"Aurora, Koshy and Virk Properties",2023-08-25,
+9,10156425,Finn Kaul,Bassi and Sons Properties,2016-10-04,2025-01-28
+10,62766241,Yadavi Bassi,"Iyengar, Vasa and Bawa Properties",2016-05-30,2024-12-29
+11,18335592,Tripti Ranganathan,Baral-Pillay Properties,2023-10-10,
+12,82976732,Tanmayi Loke,"Chana, Hora and Dora Properties",2024-07-21,2024-08-09
+13,11972810,Vidhi Lala,Shroff Group Properties,2017-10-17,
+14,51198843,Yagnesh Nagy,"Kaur, Basu and Kashyap Properties",2018-09-11,2025-01-20
+15,5042771,Wyatt Issac,Arya-Gera Properties,2017-06-01,2025-02-20
+16,42716921,Ubika Nanda,Dass and Sons Properties,2016-11-08,2025-01-21
+17,50797707,Warjas Subramanian,Palla-Jha Properties,2018-07-23,2024-10-19
+18,45062911,Jeevika Sampath,Rege-Sarma Properties,2019-11-26,2024-11-12
+19,65980281,Vincent Trivedi,"Madan, Bhakta and Ratti Properties",2019-12-08,
+20,64103930,Rishi Uppal,Jani-Rattan Properties,2016-09-10,2024-08-04
+21,57446042,Dayita Baria,Aurora-Bhatia Properties,2018-08-29,
+22,53398789,Maanav Mistry,Cherian and Sons Properties,2019-01-19,2025-03-26
+23,98456140,Yashoda Gaba,Buch Group Properties,2017-06-06,2025-02-20
+24,95875271,Oscar Gokhale,Nagi LLC Properties,2016-03-12,
+25,42482030,Urvi Shankar,"Bath, Maharaj and Guha Properties",2016-07-30,
+26,25551269,Ekansh Suri,Bhalla-Boase Properties,2018-10-31,2024-11-18
+27,18469772,Maanas Dewan,Sane-Kohli Properties,2015-09-18,2024-09-28
+28,94114698,Janani Sridhar,Purohit-Kaul Properties,2023-05-21,
+29,99326405,Tarak Samra,Dey-Yohannan Properties,2023-09-01,
+30,74325290,Saanvi Rastogi,"Bail, Doctor and Ram Properties",2017-11-10,2024-11-08
+31,97509840,Balhaar Bala,Mody-Shere Properties,2021-07-29,
+32,38220199,Mugdha Talwar,Mani and Sons Properties,2020-10-25,
+33,80859001,Aradhana Khare,Deshmukh-Raman Properties,2017-06-20,2024-10-28
+34,78364811,Raksha Brahmbhatt,"Nagi, Mander and Baral Properties",2019-10-04,2024-11-14
+35,2349224,Gautami Chakraborty,"Verma, Sunder and Nigam Properties",2021-06-22,
+36,29698980,Kalpit Balakrishnan,"Krishnamurthy, Dar and Rajagopal Properties",2023-02-02,2025-02-14
+37,98850272,Gavin Edwin,Batra-Prasad Properties,2016-06-06,
+38,67061514,Irya Nagar,Reddy-Mukherjee Properties,2018-10-17,
+39,56837453,Upasna Kapadia,Prashad and Sons Properties,2015-09-13,2024-08-14
+40,35973882,Maanav Gera,"Venkataraman, Choudhary and Chad Properties",2019-06-03,2024-09-26
+41,43904443,Vivaan Singh,"Kalla, Rout and Rana Properties",2022-03-28,2024-12-26
+42,97619824,Mugdha Bora,"Banik, Devi and Shenoy Properties",2018-05-22,
+43,62451653,Mugdha Agarwal,Koshy-Balay Properties,2022-11-23,2025-05-28
+44,19666058,Saumya Mander,"Nagarajan, Sanghvi and Zachariah Properties",2021-05-07,2025-03-02
+45,54716222,Pahal Naik,Apte PLC Properties,2022-04-17,
+46,90743749,Meghana Arora,Mand LLC Properties,2021-02-07,
+47,3751226,Matthew Batta,"Tandon, Thaker and Buch Properties",2021-10-28,
+48,52839129,Dev Bhattacharyya,"Misra, Brar and Shroff Properties",2023-12-03,2024-12-02
+49,23954113,Falak Dutta,Cherian Ltd Properties,2016-05-21,2024-11-24
+50,76802199,Andrew Vasa,"Batta, Bains and Tella Properties",2018-12-27,2024-09-05
+51,10107477,Jonathan Kari,Radhakrishnan-Jani Properties,2022-02-01,2024-09-25
+52,16146171,Vihaan Sunder,"Pau, Solanki and Hayre Properties",2021-07-27,2025-05-07
+53,76591908,Gopal Morar,Raju and Sons Properties,2023-04-26,2025-06-01
+54,13359108,Ekani Dewan,Lad Ltd Properties,2019-05-06,
+55,79234715,Lohit Lala,Banik Inc Properties,2019-08-23,
+56,85113296,Advika Chopra,Saini LLC Properties,2020-03-26,
+57,87856196,Mahika Lall,Mitter-Vaidya Properties,2023-07-19,2025-07-13
+58,86682880,Mahika Arya,"Ratta, Raghavan and Mohan Properties",2018-08-05,
+59,26970072,Jai Salvi,Basu PLC Properties,2023-11-12,
+60,65451193,Hema Kale,Kulkarni Group Properties,2019-01-12,
+61,44434620,Kalpit Choudhry,"Sathe, Varghese and Dhawan Properties",2023-02-08,
+62,72376031,Ekaraj Khare,Ratti LLC Properties,2023-04-19,
+63,64806247,Advik Purohit,"Sachdeva, Kota and Shetty Properties",2021-10-16,
+64,84927060,Yatan Salvi,"Sane, Halder and Sahota Properties",2020-04-08,2025-02-07
+65,24924020,Vamakshi Solanki,Mutti Inc Properties,2021-05-22,2025-05-04
+66,32967283,Neelima Natarajan,Gokhale-Raja Properties,2024-01-01,
+67,81475493,Vedhika Misra,Kala-Chanda Properties,2018-05-04,
+68,18548237,Krishna Dara,Choudhury PLC Properties,2017-03-01,2024-09-12
+69,244929,Lopa Rana,Reddy LLC Properties,2018-03-09,
+70,63625174,Reyansh Hayer,Kapur-Wadhwa Properties,2018-11-15,2024-08-03
+71,86092301,Advaith Bahri,Edwin-Kar Properties,2017-02-17,
+72,88860837,Rayaan Narula,Singh-Jani Properties,2017-02-05,2025-07-19
+73,94522375,Nitara Edwin,"Venkataraman, Kanda and Patla Properties",2017-05-21,
+74,91108001,Yashvi Kade,Ramaswamy Ltd Properties,2018-04-28,2024-09-21
+75,97426981,Samaksh Mand,"Bhandari, Sanghvi and Chacko Properties",2018-11-10,2024-09-16
+76,58979174,Tarak Manne,Krish-Rau Properties,2022-11-02,
+77,60163686,Wazir Karan,Vaidya-Tella Properties,2017-04-05,2025-03-15
+78,15909913,Aadhya Ratta,Kanda Ltd Properties,2016-11-18,
+79,79716964,Kavya Soni,Rattan Ltd Properties,2021-03-25,
+80,98035559,Mugdha Solanki,Nori-Bedi Properties,2016-05-01,2025-03-31
+81,20105145,Yashawini Bhatti,Rau-Tank Properties,2016-10-07,
+82,75433055,Abeer Dash,Bumb PLC Properties,2024-05-02,
+83,58801422,Bhanumati Chaudry,"Bahri, Ray and Gulati Properties",2018-03-08,
+84,18607348,Siya Kata,Talwar LLC Properties,2016-11-06,
+85,74132279,Chanakya Bala,Narang-Srinivas Properties,2016-10-11,2024-11-07
+86,82870074,Orinder Hari,Bhat Group Properties,2017-03-08,
+87,92518401,Megha Bhatt,Korpal-Singh Properties,2018-02-11,
+88,37393882,Ekalinga Anand,Chokshi-Lall Properties,2017-02-04,
+89,53194140,Frado Mani,"Vasa, Kakar and Bhalla Properties",2017-12-03,2024-10-29
+90,11328055,Falguni Gopal,Kadakia LLC Properties,2017-11-13,
+91,76681061,Adweta Wali,"Barad, Soni and Bhakta Properties",2015-08-14,
+92,81935786,Harshil Wason,"Madan, Saraf and Andra Properties",2023-06-11,
+93,77777547,Qadim Narang,Shenoy Ltd Properties,2016-09-09,2025-01-16
+94,4870789,Osha Bhat,Dewan-Batra Properties,2019-03-17,2025-07-06
+95,66635133,Pranav Nath,"Dave, Oza and Bora Properties",2023-05-31,2025-03-27
+96,38358786,Krishna Agrawal,"Bhardwaj, Khurana and Bansal Properties",2019-11-04,2025-06-17
+97,98884353,Harini Edwin,Luthra-Madan Properties,2017-09-27,
+98,47921882,Niharika Sanghvi,Garg Ltd Properties,2018-03-26,
+99,48230736,Luke Palla,Thaker LLC Properties,2018-06-08,
+100,90266987,Vasudha Savant,Sankaran-Pandit Properties,2016-06-18,
+101,48788969,Geetika Narayan,Krishna Ltd Properties,2016-12-11,2025-01-04
+102,52700588,Anita Ben,"Yohannan, Tata and Bava Properties",2023-05-01,2024-10-06
+103,68932309,Fitan Kala,Bala and Sons Properties,2022-02-04,
+104,25987778,Yashica Devan,Raju-Saraf Properties,2022-03-20,2025-07-24
+105,71833971,Aashi Rau,Chaudhuri PLC Properties,2019-04-10,
+106,22679868,Karan Aggarwal,Master Group Properties,2023-04-30,
+107,33092055,Anya Solanki,Mody Ltd Properties,2022-06-17,
+108,11062745,Maya Muni,"Tella, Rana and Goel Properties",2019-10-14,2025-04-18
+109,51678495,Faris Raja,Munshi-Thakur Properties,2023-07-17,2024-09-08
+110,66836711,Amrita Bhalla,"Butala, Prabhu and Bajaj Properties",2023-12-03,
+111,94896543,Oni Chakraborty,Dora-Dass Properties,2017-02-23,2024-08-22
+112,5657805,Urishilla Raghavan,Rama PLC Properties,2020-06-22,2024-11-04
+113,50626668,Agastya Handa,Kata and Sons Properties,2015-09-06,2025-04-01
+114,35614091,Inaya Kapadia,"Barman, Sengupta and Kuruvilla Properties",2016-01-29,
+115,31258135,Zashil Deshmukh,Rai LLC Properties,2021-12-13,2024-12-19
+116,61040674,Mitali Kale,Bali LLC Properties,2017-10-27,
+117,71769959,Ishaan Kaul,Lall-Butala Properties,2022-10-09,2024-09-22
+118,27135748,Abhiram Lanka,Garg PLC Properties,2022-03-31,2025-04-21
+119,97167704,Leela Roy,"Borde, Jha and Dalal Properties",2023-03-06,
+120,80797217,Isaac Magar,Ahuja-Oak Properties,2022-07-31,2024-09-22
+121,4335937,Benjamin Bhandari,Saraf PLC Properties,2023-09-06,
+122,6152728,Warda Dalal,Sura-Mital Properties,2017-01-16,
+123,57281381,Hemani Nair,Thakur Group Properties,2021-01-24,2024-12-14
+124,71820496,Zarna Jha,Mani-Doshi Properties,2020-08-08,2024-09-22
+125,91901500,Nitesh Suri,Chaudhary-Deol Properties,2017-11-02,2025-03-02
+126,67469788,Qabil Deo,Kara PLC Properties,2021-06-08,2025-01-03
+127,61738848,Quincy Lad,Ganesan PLC Properties,2021-09-28,
+128,77993434,Eshana Sarin,"Borde, Hans and Borah Properties",2022-09-15,2025-02-06
+129,17473420,Hiral Chandra,"Naidu, Panchal and Golla Properties",2017-05-01,
+130,68755098,Qushi Trivedi,Bath-Keer Properties,2021-04-19,2024-10-31
+131,65182778,Veda Agate,"Sengupta, Sandal and Contractor Properties",2024-02-22,2024-12-17
+132,90062330,Mason Batta,Dara PLC Properties,2016-11-28,
+133,21244052,Geetika Edwin,Suri-Bhakta Properties,2017-03-14,2024-11-11
+134,47929899,Deepa Master,Dhillon-Bajwa Properties,2019-02-26,2024-11-03
+135,1521895,Jagdish Sahota,"Dalal, Jha and Behl Properties",2024-07-01,2025-04-26
+136,49728607,Shivani Bir,"Setty, Halder and Gera Properties",2020-07-28,
+137,52490243,Anthony Shan,Pingle-Kade Properties,2017-10-27,
+138,73933609,Ishita Ram,Goda-Choudhury Properties,2020-07-17,
+139,80301573,Ria Wadhwa,Muni-Pall Properties,2017-01-12,
+140,724985,Raksha Chopra,Tandon Inc Properties,2016-02-02,
+141,93156151,Januja Doctor,Chanda-Mital Properties,2021-01-14,
+142,39113681,Janani Seshadri,Vohra-De Properties,2024-03-03,2025-03-27
+143,59013560,Manan Ramaswamy,Ratta PLC Properties,2021-08-11,
+144,74699896,Wridesh Hora,"Swamy, Kant and Pathak Properties",2022-02-26,2024-12-23
+145,71067558,Indali Rastogi,"Bhandari, Divan and Hegde Properties",2022-06-18,2025-02-02
+146,32103538,Sarthak Cherian,"Ganguly, Edwin and Balakrishnan Properties",2019-03-21,2025-03-28
+147,99908254,Ridhi Mahal,Shah-Chadha Properties,2016-09-14,
+148,81326277,Januja Narula,"Gera, Saraf and Gade Properties",2022-12-06,2025-01-02
+149,15405926,Jagdish Patil,Butala-Bali Properties,2022-09-06,
+150,9209651,Xavier Natt,Bhagat Inc Properties,2019-07-07,
+151,41241413,Faras Devi,Rajan PLC Properties,2019-01-04,
+152,9022128,Samesh Sharaf,"Arora, Dubey and Gill Properties",2019-06-13,2024-11-09
+153,77115503,Vedhika Misra,Ravi PLC Properties,2024-02-14,
+154,82638719,Yashodhara Contractor,Nagy Inc Properties,2023-04-28,
+155,73065495,Ojasvi Arora,Walia Ltd Properties,2017-09-05,2025-06-25
+156,59352516,Anvi Krishnamurthy,Kala-Nagy Properties,2021-10-22,
+157,81913497,Rachana Balakrishnan,"Raja, Dhar and Madan Properties",2022-06-15,
+158,96082710,Victor Saran,Rao-Ratta Properties,2024-03-08,2025-03-06
+159,82696830,Tanveer Narayan,Wadhwa-Dhar Properties,2017-05-11,2025-05-01
+160,11762416,Chatresh Mitter,Chanda and Sons Properties,2017-11-21,2025-02-19
+161,80992220,Ethan Dave,Bhatt-Joshi Properties,2022-10-10,
+162,25053254,Ojasvi Kota,Thakkar Inc Properties,2020-11-27,2024-12-10
+163,74056697,Hemang Chana,Chauhan-Solanki Properties,2017-09-10,
+164,52767667,Chanchal Mitra,Rao-Garde Properties,2020-04-14,
+165,21992112,Nidhi Lall,"Bhagat, Mital and Sami Properties",2017-06-26,2024-08-08
+166,57869932,Radhika Behl,"Barad, Behl and Rajan Properties",2019-03-30,
+167,77198160,Sathvik Oommen,"Hora, Mitter and Hayer Properties",2022-11-24,
+168,4389031,Yutika Venkatesh,"Tak, Subramaniam and Sarma Properties",2017-03-19,
+169,4695542,Divya Sama,Mukherjee PLC Properties,2018-09-28,2024-09-16
+170,33783376,Ekantika Dora,"Srivastava, Nair and Koshy Properties",2021-06-03,2024-11-24
+171,48553268,Wahab Kapadia,Muni-Saini Properties,2018-03-18,
+172,13298951,Balveer Saini,"Bhakta, Sur and Saraf Properties",2024-06-09,
+173,30208580,Sachi Borde,Banik-Dhaliwal Properties,2019-01-09,
+174,53370692,Ethan Sinha,Dhar-Sampath Properties,2024-04-12,2025-03-06
+175,58780115,Arin Chaudhari,Gupta PLC Properties,2018-06-25,2024-10-21
+176,86212267,Kabir Parmar,Goswami-Rege Properties,2017-05-04,
+177,80559641,Dakshesh Gill,"Arya, Varghese and Misra Properties",2018-08-17,2024-08-02
+178,62840868,Barkha Rout,Shan PLC Properties,2023-10-31,
+179,52200586,Liam Ganesh,Vig-Gole Properties,2021-06-14,2025-01-02
+180,80429864,Amaira Subramaniam,Keer-Kanda Properties,2018-07-22,
+181,38824683,Aadi Sha,Buch-Sabharwal Properties,2017-03-12,2024-08-07
+182,54669282,Indrajit Mander,"Apte, Dutta and Madan Properties",2021-08-25,
+183,16437081,Maya Lad,Viswanathan-Sathe Properties,2018-07-12,2025-01-14
+184,48104447,Hemang Nagar,"Mangal, Apte and Keer Properties",2022-09-30,2025-03-31
+185,51845609,Charles Buch,Deshpande-Boase Properties,2021-02-13,2024-10-18
+186,37389237,Xalak Parsa,Mammen-Goda Properties,2018-09-01,2025-07-01
+187,65723995,Jonathan Shenoy,Roy Group Properties,2016-12-12,
+188,34158644,Zayyan De,"Vohra, Sarna and Keer Properties",2023-08-30,2024-08-08
+189,2262941,Nathan Guha,Thaker Inc Properties,2020-02-22,
+190,78005065,Radha Bobal,Ghose-Din Properties,2017-12-03,
+191,82070642,Leela Hayre,"Pandya, Goda and Shan Properties",2023-03-15,
+192,80804103,Anjali Kaul,"Bhardwaj, Narain and Boase Properties",2016-05-19,
+193,14278344,Krish Barman,Kala-Narula Properties,2018-01-26,2024-10-13
+194,94940536,Rachana Shanker,Bajwa Group Properties,2023-10-08,2025-03-12
+195,2468249,Ucchal Thaker,"Peri, Kunda and Bains Properties",2017-06-16,2025-03-27
+196,98768564,Zilmil Verma,Chahal and Sons Properties,2018-01-18,
+197,52039861,Balendra Subramanian,Parmer Ltd Properties,2016-12-05,2024-09-27
+198,70319527,Oviya Atwal,"Konda, Deol and Ramaswamy Properties",2023-09-26,
+199,57658740,Fariq Khanna,Yadav Ltd Properties,2015-11-04,2024-11-08
+200,90696736,Devansh Gola,"Chacko, Lal and Ghosh Properties",2024-03-23,

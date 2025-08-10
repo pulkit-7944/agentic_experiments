@@ -1,0 +1,501 @@
+product_id,product_sku,product_name,product_category,list_price,brand
+1,3542536486677,Quae Dicta,Apparel,4123.31,
+2,8472458128193,Officia Maiores,Groceries,4046.34,
+3,1114427326953,Aspernatur Fuga,Home Goods,3133.34,"Chaudhry, Patla and Hari"
+4,5187469225658,Nemo Cum,Groceries,560.56,Dugar-Arya
+5,1571721963299,Dicta Itaque,Electronics,4009.79,
+6,2100377081898,Vitae Inventore,Apparel,3340.93,"Iyengar, Gill and Mann"
+7,5565464159909,Veniam Aliquam,Books,839.36,Devi-Magar
+8,7350641575263,Nobis Consequatur,Books,3390.91,
+9,3496673980263,Iusto Inventore,Groceries,977.26,Guha Ltd
+10,1096089675184,Laborum Expedita,Apparel,1542.69,
+11,2788220701454,Deserunt Esse,Apparel,148.38,Shenoy PLC
+12,4080840286464,Odio Facilis,Books,1602.84,Arora-Om
+13,3056521713667,Eius Ullam,Electronics,3344.68,Bahri LLC
+14,4309274137228,Adipisci Voluptate,Home Goods,2672.85,"Taneja, Hora and Barman"
+15,0693040170255,Inventore Laudantium,Groceries,3574.38,
+16,2852946201441,Nobis Voluptates,Apparel,947.11,
+17,5206423738239,Quibusdam Optio,Books,3328.75,
+18,2957123841936,Blanditiis Quisquam,Apparel,3230.41,Kanda-Sidhu
+19,8645558980309,Vitae Saepe,Books,2817.57,
+20,4499821007972,Laborum Quibusdam,Groceries,2379.55,
+21,0153344442484,Error Doloribus,Books,4174.93,
+22,4817337220973,Itaque Eos,Groceries,4428.19,
+23,6213774849407,Blanditiis Voluptates,Apparel,1825.21,"Raju, Bhardwaj and Tara"
+24,5644067137283,Ipsam Vero,Home Goods,1292.52,
+25,9364629651731,Eos Tenetur,Electronics,3039.73,"Biswas, Chadha and Bhatt"
+26,3119284997061,Recusandae Cupiditate,Electronics,2577.18,
+27,1807890009965,Iure Consequuntur,Books,1084.99,
+28,9701048827154,Quisquam Unde,Electronics,2801.14,
+29,7313666299514,Exercitationem Animi,Apparel,2940.45,Bala-Kulkarni
+30,6475774770703,Neque Blanditiis,Apparel,1296.24,"Dhaliwal, Sule and Hora"
+31,2896799906122,Earum Eum,Books,4749.88,
+32,2427372795699,Laboriosam Veniam,Electronics,4803.23,
+33,2286961283449,Cumque Vel,Groceries,1796.02,
+34,2029746921118,Culpa Molestiae,Apparel,2961.94,
+35,9663115253238,A Maiores,Electronics,2655.17,
+36,6409524368988,Ipsam Voluptas,Electronics,1828.53,Shroff PLC
+37,9366742678824,Quisquam Blanditiis,Home Goods,3315.63,Varty Inc
+38,2745321767802,Nihil Dolorum,Groceries,2999.64,
+39,3286047126416,Ratione Quia,Apparel,1361.81,
+40,4647266181232,Quasi Impedit,Books,2614.05,
+41,3246175856265,Consequuntur Nihil,Electronics,4693.79,
+42,5998102639738,Occaecati Nam,Apparel,4738.84,
+43,6280629014358,Ratione Officia,Books,1980.95,Bava PLC
+44,7179374687001,Nam Non,Home Goods,3968.68,
+45,3943075401860,Magnam Mollitia,Apparel,1980.5,
+46,5215178577253,Omnis Dolorum,Electronics,2273.03,Pandey Ltd
+47,5810651268378,Vitae Aliquid,Books,3857.48,
+48,9039232551937,Provident Neque,Home Goods,4596.82,
+49,0409298458911,Doloribus Adipisci,Books,2347.3,
+50,8500488124899,Esse Commodi,Electronics,4344.63,
+51,7913572027418,Earum Sint,Apparel,2907.68,
+52,5395943556963,Et A,Apparel,4622.18,Purohit-Purohit
+53,8034447696603,Modi Minus,Electronics,1176.65,
+54,4093861830707,Illum Quos,Groceries,4143.35,
+55,1238481710692,Dolorum Voluptates,Groceries,1086.75,
+56,1977986641406,Error Nulla,Apparel,3370.77,
+57,0750993313365,Iusto Tempore,Electronics,4496.33,Bhatti-Thakur
+58,4913702854481,Blanditiis Harum,Apparel,2214.68,Kothari-Sur
+59,9544393372623,Nemo Rerum,Electronics,2844.22,
+60,7288604420667,Cumque Voluptatem,Books,3324.51,
+61,8866452538773,Illum Reprehenderit,Books,3070.6,
+62,7196425462646,Suscipit Nisi,Books,1264.27,"Jani, Thaman and Dhawan"
+63,2706945997501,Illum Voluptates,Home Goods,4724.03,
+64,2807639734454,Consectetur Ipsam,Groceries,239.29,Shroff-Aurora
+65,0351494311654,Exercitationem Optio,Home Goods,4420.11,"Barman, Khanna and Chauhan"
+66,9238621612154,Sint Perspiciatis,Home Goods,4696.78,
+67,8034638770822,Amet Ex,Home Goods,782.85,
+68,8187359732805,Atque Sapiente,Books,4432.93,
+69,5229953033599,Placeat Molestias,Groceries,1619.22,Barad Group
+70,2063503311453,At Voluptatem,Home Goods,771.6,Sidhu Group
+71,3824818728362,Reiciendis Reprehenderit,Books,4777.67,"Kulkarni, Dhillon and Das"
+72,5661675274582,Accusantium Cumque,Electronics,4994.83,Palla LLC
+73,8959438094636,Enim Molestiae,Groceries,1208.21,
+74,7432973132441,Suscipit Deserunt,Apparel,937.53,Konda-Thaker
+75,7048802777570,Odit Perferendis,Groceries,3841.78,"Krishnamurthy, Swaminathan and Acharya"
+76,1034181202051,Esse Esse,Home Goods,2721.47,
+77,7738036504461,Amet Quae,Groceries,3439.91,
+78,5439068199152,Porro Quaerat,Books,1443.57,
+79,4079376132482,Ratione Laborum,Electronics,1430.88,
+80,7450536879688,Ab Dolorem,Groceries,2487.97,
+81,5774880951107,Asperiores Debitis,Groceries,1435.69,
+82,6924514011496,Molestiae Debitis,Books,1873.96,
+83,1140305876579,Illo Ipsa,Home Goods,4264.62,
+84,0301374289771,Hic Temporibus,Groceries,3849.24,
+85,7732641896065,Explicabo Id,Apparel,3699.06,Bhatt Ltd
+86,7854984079421,Maiores Ut,Electronics,4541.95,
+87,9860306026613,Vel Mollitia,Books,3226.75,"Ben, Radhakrishnan and Shanker"
+88,5249782627516,Ipsum Exercitationem,Groceries,4334.76,Bhat-Reddy
+89,4830695336148,Alias Autem,Electronics,1520.93,
+90,5186054210840,Cumque Perferendis,Electronics,528.48,
+91,7898015994987,Atque Asperiores,Groceries,1154.48,
+92,6463818971469,Quaerat Quia,Groceries,410.0,
+93,0709342788392,Ipsa At,Books,2193.95,Das Ltd
+94,3775893720232,Amet Blanditiis,Books,1390.37,Bains-Gara
+95,2409467873819,Reiciendis Possimus,Home Goods,784.92,Purohit-Varma
+96,3165512581007,Optio Eveniet,Electronics,1197.06,
+97,3932587334810,Libero Delectus,Home Goods,4217.4,Verma-Ram
+98,1381792769399,Blanditiis Praesentium,Groceries,3446.35,Pant PLC
+99,3667008569136,Commodi Magnam,Home Goods,870.93,Vaidya-Ramaswamy
+100,7938647827991,Minus Labore,Books,1164.15,Virk Ltd
+101,9604574683198,Ad Eligendi,Books,1006.82,
+102,4021363553602,Harum Rerum,Home Goods,3475.61,
+103,1253127422951,Laudantium Non,Groceries,3054.03,
+104,0276537239477,Laborum Cupiditate,Groceries,438.1,Shah Inc
+105,4459561739908,Magnam Exercitationem,Books,483.29,
+106,6155655457120,Odit Temporibus,Books,2365.04,
+107,0917407920780,Occaecati Odit,Electronics,1323.59,
+108,8654187571062,Voluptatem Ipsam,Electronics,4884.72,"Nayak, Bansal and Manda"
+109,4994618238022,Quo Dolorem,Electronics,2446.63,
+110,3385672316879,Hic Saepe,Apparel,2233.97,
+111,0332245060359,Dolores Debitis,Electronics,3554.88,"Saha, Dash and Behl"
+112,9853150134184,Numquam Vitae,Groceries,4592.6,Prasad-Nayar
+113,1347831536605,Natus Voluptatum,Books,646.44,"Jaggi, Comar and Bhalla"
+114,9500067196599,Porro Repellat,Groceries,3939.37,
+115,8447842954467,Dignissimos Deserunt,Home Goods,1444.05,
+116,8994271520836,Tenetur Dolores,Books,2918.7,
+117,2176124501247,Cum Ea,Apparel,2034.91,
+118,7394533968887,Animi Consequuntur,Home Goods,4785.63,Sekhon LLC
+119,5267739321980,Repellat Voluptas,Home Goods,3831.97,Thaman-Sachdeva
+120,9732784636861,Fugiat Consectetur,Home Goods,3972.72,
+121,7935206115025,Illum Quia,Electronics,1557.81,
+122,3553262641650,Nam Incidunt,Groceries,1399.49,"Dass, Ramakrishnan and Balay"
+123,5895286613434,Harum Accusamus,Books,2605.33,
+124,5216681131017,Commodi Blanditiis,Apparel,503.85,
+125,0400026420699,Recusandae Tenetur,Apparel,457.48,
+126,4244279342010,Voluptate Veniam,Groceries,3450.92,
+127,3636516230609,Impedit Tempore,Home Goods,2862.54,
+128,8197223270241,Qui Voluptatibus,Groceries,2607.46,
+129,4697804274711,Corrupti Doloribus,Apparel,4260.23,"Krishnamurthy, Chadha and Grewal"
+130,5201914259576,Adipisci At,Groceries,2453.53,
+131,6548492479163,Eligendi Hic,Books,2830.99,
+132,0617103071624,Alias Ut,Home Goods,2401.0,Gokhale Inc
+133,8717119231462,Quaerat Repudiandae,Home Goods,2821.2,"D’Alia, Ahuja and Kamdar"
+134,2006815275181,Aut Enim,Electronics,3254.19,"Goyal, Ratti and Subramaniam"
+135,0452732989656,Iste Quasi,Apparel,1414.9,
+136,2025119766140,Corporis Eveniet,Apparel,1084.56,
+137,7596262153088,Nostrum Ea,Apparel,265.87,
+138,7086085301853,Iste Distinctio,Books,984.51,
+139,2791223660727,Ullam Perspiciatis,Groceries,4954.52,Bath PLC
+140,5205857813949,Vel Enim,Groceries,2221.32,"Jayaraman, Sodhi and Lall"
+141,1962975153152,Praesentium Dolorum,Home Goods,3913.82,
+142,5310852595551,Pariatur Sequi,Home Goods,1621.28,
+143,7978043595469,Debitis Iste,Groceries,3734.32,
+144,4263013208535,Optio Quo,Electronics,4664.16,
+145,6840379387289,Asperiores Vero,Electronics,4392.61,"Rastogi, Ben and Bora"
+146,2289480645682,Veritatis Quisquam,Electronics,556.12,Raman-Mitra
+147,7679756844119,Rerum Iure,Apparel,328.25,
+148,9427063586509,Commodi Amet,Home Goods,3251.38,
+149,1042587272998,Laudantium Quasi,Apparel,2752.6,
+150,5288435841381,Labore Error,Electronics,4114.7,
+151,7273876924531,Accusamus Veritatis,Electronics,3153.69,Deshmukh LLC
+152,7225525846053,Animi Aut,Groceries,1722.77,Dhingra and Sons
+153,6070627902395,Ullam Vel,Home Goods,1039.4,
+154,3947374984758,Sit Deserunt,Apparel,1115.2,
+155,0601401234089,Libero Voluptatum,Groceries,3778.87,
+156,6362122133900,Facere Ea,Groceries,1220.98,"Suri, Hegde and Rau"
+157,9924150479084,Odio Quam,Apparel,3493.96,Walia-Chakraborty
+158,5331724155352,Porro Veritatis,Books,202.78,
+159,2033924404911,Temporibus Recusandae,Apparel,1201.16,
+160,4647639638752,Accusantium Nobis,Groceries,655.37,
+161,5144550380610,Sint Vitae,Groceries,2361.11,Salvi Group
+162,9565837539969,Nam Quae,Books,1036.94,
+163,7494401721795,Deleniti Modi,Groceries,496.26,
+164,1924908011199,Libero Fuga,Home Goods,3454.53,
+165,7626239423132,Praesentium Quidem,Books,4902.55,
+166,2539244803408,Ipsam Recusandae,Groceries,232.37,Zachariah LLC
+167,6486510037806,Esse Excepturi,Groceries,3589.35,
+168,5392048618589,Nesciunt Ullam,Groceries,1652.89,
+169,5890370969312,Suscipit Magnam,Books,988.51,"Krishna, Dewan and Gaba"
+170,0219932216940,Odio Eum,Electronics,4357.16,
+171,8794100091328,Ad Quaerat,Electronics,2862.7,Sami-Tripathi
+172,1305479232167,Dignissimos Culpa,Home Goods,4701.32,Aggarwal-Rama
+173,8170353775077,Aliquid Occaecati,Books,4348.56,Dyal and Sons
+174,5512566386818,Vero Excepturi,Electronics,1256.23,"Vaidya, Majumdar and Solanki"
+175,7019205065151,Dolorem Id,Home Goods,1012.01,
+176,2691376572772,Unde Consequuntur,Home Goods,1601.95,
+177,1708678420180,Dolore Deleniti,Books,181.86,Dutta Inc
+178,2461940439226,Minima Modi,Groceries,1456.12,Bhakta-Bhandari
+179,0025860316054,Quia Eligendi,Apparel,682.93,
+180,6780739849531,Minus Excepturi,Books,2671.78,
+181,9306046401803,Eum Officia,Apparel,2076.82,
+182,3663565285038,Voluptates Excepturi,Apparel,1457.42,
+183,9235655998322,Vel Officia,Electronics,3380.76,Koshy-Bera
+184,1585564568320,Quasi Animi,Home Goods,697.19,
+185,8924090276058,At Suscipit,Groceries,4206.11,Pai LLC
+186,1083701855888,Occaecati Veritatis,Books,3009.37,Palan Inc
+187,6335335537544,Sequi Iusto,Home Goods,3244.63,"Ramaswamy, Raj and Sastry"
+188,3420499122491,Iusto Enim,Apparel,1233.88,"Dhar, Wali and Majumdar"
+189,6712426226981,Reiciendis Libero,Groceries,3368.56,Toor PLC
+190,9267947892858,Repellat Aliquam,Groceries,1175.69,"Chana, Parmar and Madan"
+191,9701087684701,Voluptatem Tempora,Groceries,4171.2,
+192,5270965535144,Voluptate Illo,Home Goods,2254.29,
+193,0672234423018,Quisquam Qui,Home Goods,757.78,Sood-Sandhu
+194,7078137793525,Ab Amet,Groceries,126.53,
+195,1891853533208,Amet Laborum,Apparel,1371.93,
+196,8189449843101,Laborum Nesciunt,Books,2608.74,
+197,9081146312036,Repellat Veritatis,Apparel,2748.64,"Mitra, Kibe and Gour"
+198,9460218401982,Cupiditate Assumenda,Apparel,1165.78,
+199,6795519481436,Sed Fuga,Groceries,113.32,Varkey Ltd
+200,5124826616247,Odio Voluptatem,Groceries,3046.66,"Shroff, Dayal and Desai"
+201,4586943331488,Accusantium Recusandae,Groceries,3465.18,
+202,0152555792685,Eveniet Et,Books,4289.15,"Kanda, Dube and Khalsa"
+203,1911541650755,Incidunt Amet,Groceries,4117.91,
+204,7298725075837,Asperiores Cum,Apparel,3020.86,Mukherjee-Joshi
+205,4708571375386,Totam Inventore,Groceries,2990.42,
+206,0133508020185,Sapiente Incidunt,Home Goods,3253.76,
+207,9295668469905,Veritatis Blanditiis,Apparel,302.58,
+208,0377322124074,Harum Earum,Groceries,1938.05,"Pandit, Om and Toor"
+209,9510547900899,Tempore Ratione,Groceries,3543.67,"Sachdev, Singhal and Upadhyay"
+210,5036228893846,Aspernatur Saepe,Groceries,4701.45,Vyas Inc
+211,0208402249489,Dignissimos Corporis,Apparel,2751.97,"Tiwari, Bhattacharyya and Verma"
+212,3286481458692,Earum Aspernatur,Groceries,596.11,Parikh Inc
+213,4392229803644,Eum Ipsum,Apparel,656.17,
+214,6503747155360,Nulla Dicta,Home Goods,4936.31,"Wali, Pandey and D’Alia"
+215,3475645474399,Reprehenderit Iusto,Groceries,2385.54,Mangal PLC
+216,7617188638029,Ut Magnam,Apparel,2942.46,
+217,9672363684534,Eaque Doloribus,Apparel,2552.02,Thakkar Ltd
+218,5554498057114,Architecto Dolorem,Books,2881.69,Yogi-Pandey
+219,2358702660151,Modi Voluptatem,Apparel,336.59,
+220,1577922201659,Repellat Aspernatur,Groceries,1861.46,Viswanathan Ltd
+221,5578020270758,Accusantium Illo,Groceries,4944.03,"Chana, Chawla and Goel"
+222,1653620813667,Id Minus,Electronics,1833.43,
+223,6744061213637,Cum Optio,Apparel,612.13,
+224,2171397069845,Laborum Eligendi,Groceries,4811.87,
+225,2202188309724,Nemo Natus,Home Goods,3457.36,
+226,2813995889097,Culpa Ipsum,Apparel,2007.95,Master-Sarkar
+227,1065844016210,Repellendus Corrupti,Groceries,3413.48,
+228,5998389323511,Enim Accusantium,Electronics,3268.84,Patla Ltd
+229,1188229872017,Quidem Temporibus,Apparel,514.08,Dhaliwal LLC
+230,7580642663007,Delectus Ex,Books,1669.57,
+231,0984717351627,Quos Ducimus,Home Goods,180.88,
+232,4462202255095,Hic Repudiandae,Electronics,4248.14,
+233,8713097648254,Tenetur Eaque,Groceries,3697.7,
+234,9883393135754,Natus Occaecati,Electronics,1030.55,Baria-Chakrabarti
+235,0284789063122,Facilis Eaque,Groceries,3374.3,Bajwa-Verma
+236,8144024367922,Quisquam Omnis,Groceries,4072.64,
+237,8107847369412,Accusantium Aliquid,Electronics,166.53,Handa-Prabhu
+238,6996597957480,Aliquid Reiciendis,Books,3221.09,
+239,7382869319640,Aliquam Voluptate,Books,3565.94,
+240,1487065983278,Qui Facilis,Books,2732.38,"Kanda, Menon and Chaudhari"
+241,6490916458202,Distinctio Corrupti,Books,677.75,
+242,0149560090905,Aut Perferendis,Groceries,2625.98,
+243,7038593139022,Aspernatur Rerum,Electronics,4732.93,Khalsa and Sons
+244,0895527983468,Aliquid Voluptatum,Electronics,1322.65,
+245,7353171118436,Tenetur Accusantium,Apparel,818.01,Sama-Deol
+246,8935209169963,Quaerat Aperiam,Apparel,4033.42,
+247,9840317034067,Aspernatur Fugiat,Groceries,1784.13,
+248,5945693720222,Eligendi Iusto,Electronics,3788.22,"Amble, Kuruvilla and Comar"
+249,4320159882668,Facere Itaque,Home Goods,2038.32,"Acharya, Saxena and Vaidya"
+250,2849352823916,Doloremque Dolore,Books,3959.17,
+251,6591558263732,Deserunt Est,Groceries,4892.05,"Peri, Ramachandran and Lalla"
+252,9610804218900,Totam Nobis,Books,1025.6,"Mandal, Om and Hayre"
+253,4770694460249,Facere Quidem,Electronics,595.86,
+254,0562279805712,Illum Cumque,Apparel,4949.93,
+255,7746954308641,Alias In,Groceries,891.1,
+256,2534074071775,Voluptates In,Electronics,497.98,Mani-Hayre
+257,7875027662417,Ducimus Architecto,Books,2570.07,
+258,2123015006770,Nam Placeat,Home Goods,4679.11,
+259,2857950520847,Neque Necessitatibus,Groceries,4669.94,"Loke, Yohannan and Madan"
+260,6030643060158,Aperiam Unde,Books,4735.57,
+261,1955895073082,In Iure,Apparel,3639.68,
+262,8209902225623,Deleniti Pariatur,Groceries,1719.83,
+263,5128660275851,Doloribus Optio,Electronics,1940.51,Bajaj Inc
+264,6678099071726,Ipsa Minus,Books,3608.31,
+265,7389138364042,Ducimus Esse,Books,720.17,"Bajaj, Dhaliwal and Gupta"
+266,0514430818703,Vitae Unde,Groceries,2127.38,
+267,8753950763298,Doloribus Et,Apparel,694.54,
+268,7776840083390,Consectetur Dolores,Apparel,2349.12,Sani Ltd
+269,7013832050924,Error Repellendus,Apparel,1219.96,"Dara, Kanda and Kadakia"
+270,8611739095506,Cupiditate Modi,Groceries,1004.82,
+271,6012477906055,Esse Nisi,Electronics,1211.82,"Guha, Sha and Savant"
+272,5675287860248,Non Rerum,Books,2458.52,Prabhakar-Dada
+273,1735584787670,Eligendi Sint,Groceries,1684.09,"Chana, Chhabra and Devan"
+274,9932612784997,Necessitatibus Illo,Books,3105.69,
+275,1138648570636,Necessitatibus Dignissimos,Books,4740.6,Dube Inc
+276,2555403139133,Cum Placeat,Books,2848.88,"Bansal, Parikh and Choudhary"
+277,9363935291396,Temporibus Similique,Groceries,4772.08,"Jaggi, Borah and Seshadri"
+278,6326161333875,Dolorum Voluptate,Electronics,314.8,Reddy-Goel
+279,9583220207295,Ipsam Veritatis,Groceries,1414.72,Swaminathan-Sachdev
+280,5463022136082,Dignissimos Occaecati,Groceries,2081.43,Iyengar Ltd
+281,9128251311704,Culpa Debitis,Electronics,496.16,
+282,3074953048676,Necessitatibus Tempore,Groceries,2651.91,
+283,8738189516167,Eum Modi,Books,1768.35,"Patel, Sen and Ahuja"
+284,8951607574444,Quaerat Similique,Groceries,2449.74,Butala-Karpe
+285,2690696143495,Rerum Id,Books,3216.67,
+286,5640694181019,Aliquam Aperiam,Home Goods,2228.54,
+287,8809495298686,Cumque In,Home Goods,3902.35,
+288,8614734094406,Eligendi Excepturi,Electronics,2397.18,
+289,8776339541621,Incidunt Tempora,Books,3096.87,Wable-Bir
+290,9641978527536,Et Quo,Groceries,2185.19,Mahajan Inc
+291,0929432837018,Vero Aspernatur,Apparel,4258.75,Bava LLC
+292,1823664769279,Sint Dicta,Groceries,771.67,Chanda-Grewal
+293,1545772580620,Hic Quaerat,Apparel,3395.79,
+294,3504972683034,Soluta Sint,Apparel,1584.08,Prashad Group
+295,5337402273264,Atque Iusto,Groceries,1217.89,
+296,4367913423354,Ab Aliquam,Books,805.64,"Dey, Bhat and Luthra"
+297,4682040666277,Minima Ut,Groceries,123.99,Kumar PLC
+298,8091041846032,Voluptates Qui,Groceries,3766.77,
+299,1054262556644,Assumenda Quidem,Electronics,2740.75,
+300,0013983644420,Excepturi Neque,Books,704.53,
+301,8711653921001,Modi Eius,Home Goods,156.9,
+302,8969810749993,Soluta Natus,Apparel,464.48,"Sridhar, Hayer and Tripathi"
+303,4192801297560,Deserunt Architecto,Apparel,2443.04,"Bhatt, Kurian and Dixit"
+304,9322587143330,Sequi Labore,Home Goods,2804.31,
+305,0214143021826,Quisquam Ducimus,Apparel,1435.08,"Sha, Sastry and Choudhury"
+306,9490513490060,Consequuntur Quasi,Electronics,2217.95,Chaudhry-Saha
+307,8334690538942,Saepe Rem,Books,2289.92,"Chaudhuri, Bhagat and Kuruvilla"
+308,8627914294732,Numquam Fugiat,Apparel,3441.65,
+309,3097289369628,Eum Delectus,Electronics,4137.19,"Pandey, Shanker and Sem"
+310,7852290654936,Consequuntur Omnis,Apparel,559.69,"Soni, Kapur and Sama"
+311,6663129709205,Harum Dolorem,Apparel,1307.74,
+312,0456081491129,Dolorem Quod,Books,4153.83,Kala PLC
+313,9470245895234,Error Quos,Home Goods,3494.08,"Gaba, Dhar and Lall"
+314,7663535500648,Dolorem Harum,Groceries,562.38,Dhar LLC
+315,5615434541965,Distinctio Repellendus,Books,636.6,Shanker-Vala
+316,4524838657312,Maxime Eveniet,Electronics,1943.05,"Loke, Mittal and Anne"
+317,1542885072035,Asperiores Cupiditate,Apparel,866.75,
+318,0518261623758,Mollitia Quaerat,Books,1126.77,
+319,1772555162111,Dolore Eveniet,Books,615.89,Grewal-Yadav
+320,0698185221534,Eligendi Hic,Groceries,4927.05,
+321,5126555173299,Excepturi Tenetur,Apparel,3847.76,Ganesan Ltd
+322,2328515352154,Possimus Impedit,Books,2640.93,
+323,5614096472044,Voluptatem Eos,Apparel,379.29,
+324,5298350242811,Numquam Rem,Books,906.93,"Comar, Ganguly and Guha"
+325,4293370321462,Quibusdam Illo,Home Goods,3465.27,"Kapoor, Dara and Sood"
+326,7366139621091,Velit Sequi,Groceries,2951.55,
+327,1614473731904,Nulla Nesciunt,Electronics,3141.57,
+328,8969527921514,Tempora Consequatur,Books,2021.78,Mukherjee-Baria
+329,5036143545073,Sapiente Nihil,Apparel,3350.85,
+330,6020298913169,Voluptate At,Groceries,4229.01,Jha PLC
+331,9317250161650,Ad Consequuntur,Books,1863.25,Lata LLC
+332,6309613301950,Consequatur Voluptatibus,Electronics,867.01,
+333,4889028967863,Culpa Totam,Home Goods,1936.77,
+334,5270346126411,Assumenda Animi,Home Goods,2720.87,"Bail, Bhatt and Sarkar"
+335,6885864953662,Totam Nobis,Groceries,4417.92,
+336,8606421872596,Inventore Incidunt,Electronics,4914.33,Sawhney-Oza
+337,4041125545195,Inventore Omnis,Electronics,2766.58,
+338,0616079432002,Nemo Similique,Apparel,215.43,
+339,9989635378979,Rerum Saepe,Apparel,2485.44,
+340,2843220244728,Ducimus Sint,Books,1654.37,
+341,5540623534865,Ullam Accusamus,Books,1785.05,
+342,7054687806151,Cumque Et,Books,3274.06,Bora-Yadav
+343,3798886867325,Quaerat Doloremque,Home Goods,3388.11,
+344,6558759861341,Exercitationem Odit,Groceries,3485.25,
+345,6577575242998,Sequi Commodi,Electronics,1640.58,
+346,9150273533222,Autem Aperiam,Electronics,2867.96,
+347,1583917741239,Dolorum Voluptatibus,Apparel,3653.38,
+348,0606795110995,Dolorum Blanditiis,Home Goods,1683.22,Arya-Johal
+349,1635920703619,Quam Quod,Electronics,669.66,Tripathi PLC
+350,5179808344069,Iste Optio,Electronics,4053.23,
+351,2511628181135,Deserunt Ducimus,Home Goods,1068.56,"Deol, Bava and Bhakta"
+352,6872978398854,Totam Aperiam,Books,4127.82,
+353,6063844197880,Sed Hic,Apparel,2050.26,Tata-Nayak
+354,9511346328822,Voluptates Tenetur,Home Goods,2685.68,Vyas Group
+355,3081369517917,Quidem Pariatur,Groceries,1153.31,
+356,0284883739855,Unde Odio,Home Goods,848.57,
+357,7398157981840,Consectetur Unde,Home Goods,4103.66,"Dar, Kashyap and Parikh"
+358,4140247204765,Dolorum Ducimus,Electronics,4375.29,"Dar, Sangha and Kumer"
+359,1187614704797,Perferendis Sed,Groceries,4470.81,"Dua, Bandi and Dora"
+360,5317680320928,Nobis Minima,Electronics,3283.13,
+361,7850811913302,Officia Cumque,Electronics,4406.73,
+362,4123853977964,Quas Molestias,Groceries,3248.26,Dutta-Bumb
+363,7091618042141,Voluptate Tempore,Apparel,1496.98,"Badal, Nair and Tella"
+364,7014282420862,Explicabo Omnis,Home Goods,113.98,
+365,8514620816658,Expedita Voluptatibus,Groceries,4909.91,Sami LLC
+366,8243410362388,Eius Neque,Electronics,3636.75,
+367,3196812049539,Similique Eveniet,Groceries,1124.03,Kibe-Sani
+368,1785756940785,Deserunt Dolorum,Groceries,2804.01,"Iyer, Ramachandran and Kata"
+369,7595517369205,Similique Quod,Electronics,1401.52,
+370,9754301868340,Ad Dolores,Home Goods,4209.12,
+371,1510682550056,Repellendus Explicabo,Groceries,3584.08,
+372,3787514400287,Adipisci Numquam,Home Goods,3863.6,"Gaba, Nair and Saran"
+373,9485384458424,Sed Magnam,Books,765.06,"Gokhale, Prabhakar and Sur"
+374,9938524831811,Itaque Excepturi,Books,3211.7,"Mangat, Bhatti and Kashyap"
+375,6730545880617,Fugit Veritatis,Groceries,4197.34,
+376,1103260304242,Quo Saepe,Books,3245.89,Kibe-Balasubramanian
+377,7163279189609,Maiores In,Groceries,2406.29,
+378,9140139657704,Suscipit Ut,Books,3447.07,
+379,3272422929253,Modi Magnam,Groceries,504.79,
+380,1720934868093,Nobis A,Electronics,3473.67,"Vala, Sagar and Sami"
+381,3919266675624,Laboriosam Necessitatibus,Books,1184.69,"Mohanty, Pall and Chhabra"
+382,7414916932868,Quod Minima,Groceries,1852.99,
+383,8343532511470,Numquam Facere,Home Goods,1448.97,
+384,3918391965921,Exercitationem Sapiente,Electronics,450.08,
+385,1189780395052,Dicta Numquam,Home Goods,3524.89,
+386,1464366458421,Possimus Nulla,Electronics,2877.44,
+387,3776875556641,Adipisci Voluptatibus,Apparel,4099.01,"Sarin, Gaba and Krish"
+388,7436396982478,Placeat Praesentium,Home Goods,129.45,"Chandra, Varghese and Master"
+389,3280976752975,Aliquid Laboriosam,Books,4451.55,"Biswas, Mane and Solanki"
+390,1316227637387,Dolorem Asperiores,Home Goods,952.93,
+391,0833774443939,Ullam Dicta,Home Goods,473.03,
+392,3020914197006,Dolores Dolores,Home Goods,1466.8,
+393,0020916767125,Quaerat Natus,Apparel,1661.83,Chawla-Badal
+394,5400551839022,Magni Temporibus,Home Goods,4775.08,
+395,3155319761481,Itaque Accusamus,Apparel,2414.02,
+396,2956534293792,Aliquid Accusantium,Electronics,3614.21,
+397,1326331442340,Architecto Amet,Apparel,1819.47,Kale Inc
+398,2738915956560,Enim Labore,Apparel,3507.07,Dhingra Inc
+399,4437267816444,Dignissimos Consectetur,Home Goods,1383.97,
+400,5696760928910,Hic Beatae,Books,2327.18,Sethi Ltd
+401,2076492277181,Aut Numquam,Home Goods,2076.52,Keer-Dhawan
+402,4606280024918,Aperiam Itaque,Groceries,485.07,
+403,3474828086954,Harum Ex,Electronics,2076.43,
+404,4540864899304,Eveniet Veniam,Home Goods,4649.67,
+405,9898192827779,Odio Assumenda,Groceries,1174.87,
+406,8729305468149,Id Aperiam,Apparel,1692.78,
+407,6667146128094,Mollitia Temporibus,Apparel,1837.48,
+408,5127162046389,Veniam Sed,Apparel,4970.48,Goyal Ltd
+409,6988584490452,Maxime Assumenda,Home Goods,4616.2,
+410,6992376823687,Vero Facilis,Books,1920.87,
+411,0219181165907,Deserunt Quisquam,Electronics,2565.97,Bail-Lata
+412,6249844472503,Iusto Reprehenderit,Groceries,354.62,
+413,2265032264792,Quas Quis,Apparel,4930.6,
+414,1948150073163,Ut Aut,Apparel,873.78,Garg PLC
+415,2791608216839,Eos Itaque,Groceries,1926.6,
+416,3676196362382,Quidem Numquam,Apparel,4140.3,
+417,3013914340442,Et Pariatur,Home Goods,4374.37,
+418,5847893436630,Magnam Reiciendis,Apparel,4942.4,
+419,2109670539297,In Autem,Electronics,4815.04,
+420,6286573605925,Officiis Voluptatum,Groceries,4342.32,"Kakar, Agarwal and Pall"
+421,9508134754420,Sunt Dicta,Electronics,100.84,Bora-Yadav
+422,3169651977363,Temporibus Perferendis,Groceries,4019.46,Tara and Sons
+423,1587114182437,Officiis Exercitationem,Home Goods,3129.77,
+424,8092544898122,Beatae Et,Apparel,4590.54,Tella-Nagi
+425,5282904614186,Aliquam Quia,Books,4503.6,
+426,3430151904952,Necessitatibus Esse,Books,4525.35,Golla LLC
+427,8342326223278,Natus Repellat,Apparel,4787.04,Nagar PLC
+428,0595819314238,Placeat Molestiae,Apparel,2117.76,
+429,1637243604048,Dolorum Illo,Home Goods,3538.17,
+430,1409118352602,Atque Cupiditate,Home Goods,1111.11,
+431,7154930599448,Nobis Natus,Groceries,4169.47,Vala Ltd
+432,1783062975705,Facilis Adipisci,Apparel,1528.49,Mall-Loyal
+433,8506954014336,Amet In,Groceries,3633.28,Kota Ltd
+434,6247948141196,Eum Quo,Groceries,3452.37,"Jha, Luthra and Ramachandran"
+435,3014668397058,Tempore Esse,Home Goods,2276.2,Badal LLC
+436,4783721041243,Consequuntur Blanditiis,Apparel,546.38,Gara Inc
+437,2841081150950,Suscipit Officiis,Apparel,2929.01,
+438,3992073763340,Eligendi Doloribus,Books,428.16,"Reddy, Sant and Behl"
+439,9298713866759,Provident Mollitia,Books,4444.93,"Saini, Parmer and Vala"
+440,5037407790734,Id Voluptatum,Electronics,4797.66,Sule-Karan
+441,3688811617746,Quo Molestiae,Home Goods,2093.49,Lala-Trivedi
+442,3817342231903,Quidem Deserunt,Books,4682.06,Menon-Kant
+443,5474294546639,Quis Tenetur,Books,2389.81,Sha and Sons
+444,5537546007279,Repudiandae Odio,Home Goods,3289.11,"Bava, Thakkar and Sarna"
+445,5999050821312,Incidunt Unde,Electronics,3325.0,
+446,3043455017862,Laboriosam Maiores,Electronics,368.57,"Chakrabarti, Kale and Gokhale"
+447,4743823841318,Aliquam Laboriosam,Groceries,3256.27,
+448,1999694178227,Harum Molestias,Groceries,3255.85,Bahl Group
+449,2075632056730,Eveniet Id,Electronics,1226.2,
+450,7488560051541,Magnam Quibusdam,Groceries,927.21,
+451,2167548384905,Iure Laudantium,Apparel,2938.47,Dara-Minhas
+452,3316759153162,Quidem Voluptate,Groceries,2413.13,
+453,5326543276920,Consequuntur Esse,Home Goods,4086.61,
+454,1932505584909,Ea Nemo,Home Goods,893.19,
+455,1465823016420,Quod Earum,Electronics,3000.7,
+456,3962361432470,Id Eligendi,Electronics,3818.89,"Kala, Dara and Sachdeva"
+457,7637011959244,Suscipit Incidunt,Home Goods,3196.5,
+458,5785897141870,Dolores Fugiat,Books,2864.42,Puri and Sons
+459,7342113374139,Aut Provident,Apparel,3591.71,
+460,5244314864452,Quam Vitae,Apparel,504.67,
+461,9802403610937,Veritatis Omnis,Groceries,4099.12,"Sachdeva, Manda and More"
+462,8469396139848,Quo Aut,Electronics,4081.13,
+463,1072184173664,Eos Aspernatur,Electronics,851.11,
+464,9346717891588,Culpa Praesentium,Groceries,1582.47,Wable-Ahluwalia
+465,7803809056185,Labore Eligendi,Groceries,1767.56,
+466,2890788553601,Id Tempora,Books,222.54,
+467,1918335186599,Earum Molestias,Groceries,2536.83,
+468,9075401429621,Officiis Doloremque,Apparel,3315.99,
+469,7528439751780,Animi Adipisci,Books,4877.1,"Badal, Gill and Chowdhury"
+470,3561369938443,Rerum Rerum,Groceries,2813.03,Wable-Gera
+471,2817068963387,Alias Necessitatibus,Books,1105.54,
+472,1200993536732,Corrupti Natus,Apparel,1299.72,
+473,7996549116025,Atque Illum,Apparel,4947.64,
+474,4385739199529,Deleniti Hic,Books,2118.07,Swaminathan-Sankar
+475,5008040006285,Expedita Libero,Electronics,4780.01,
+476,2527250127113,Nulla Placeat,Electronics,4842.46,Raval-Agate
+477,1396814616933,Delectus Cumque,Home Goods,415.72,Barman-Rana
+478,9466086755950,Quia Quae,Apparel,1173.86,
+479,9474808156473,Atque Nobis,Groceries,3276.28,
+480,4502882851559,Quibusdam Ullam,Electronics,4259.46,
+481,9740328530858,Ut Temporibus,Home Goods,3565.78,
+482,9060133593214,Amet Adipisci,Apparel,1967.61,
+483,8945370121271,Vero Asperiores,Apparel,4506.51,Deshpande and Sons
+484,1845330013035,Error Quisquam,Apparel,1788.46,"Mani, Edwin and Mahajan"
+485,0637982422898,Possimus Quae,Groceries,3676.82,
+486,7516131415710,Dignissimos Nihil,Home Goods,2714.79,"Cheema, Raj and Sabharwal"
+487,9693090504971,Architecto Expedita,Apparel,4922.45,
+488,0980980594846,Non Atque,Electronics,4167.39,Sethi Group
+489,3224075817272,Quaerat Maxime,Home Goods,1985.84,
+490,3554942376732,Dolore Fugit,Groceries,4012.39,Puri-Bava
+491,8722357874807,Nihil Voluptatibus,Books,1817.71,"Ahluwalia, Gopal and Garde"
+492,7869733036112,Totam Blanditiis,Groceries,1549.63,
+493,8180485970813,Illum Dolores,Apparel,2719.5,
+494,6912619936790,Occaecati Dolorem,Home Goods,3596.88,"Bhandari, Baral and Solanki"
+495,4087755417853,Voluptates Culpa,Groceries,3458.35,Uppal Ltd
+496,3851312988244,Adipisci Ipsam,Groceries,301.14,"Sehgal, Bhattacharyya and Dua"
+497,5409231163884,Ipsa Quam,Groceries,117.88,
+498,1077030257055,Error Eum,Electronics,4403.55,"Shankar, Kashyap and Tata"
+499,9665738511665,Quasi Ea,Groceries,3932.47,
+500,7605069742934,Cumque Deleniti,Apparel,2941.69,"Baral, Murty and Sachdeva"

@@ -1,0 +1,40 @@
+# MISSION
+You are an expert Data Quality Engineer. Generate comprehensive data quality validation code.
+
+# CONTEXT
+Generate data quality validation for the following table:
+- Table: {{ table.target_table_name }}
+- Type: {{ table.table_type }}
+- Source: {{ table.source_name }}
+
+# COLUMN VALIDATIONS
+{% for column in table.columns %}
+## {{ column.target_column }}
+- Data Type: {{ column.target_type }}
+- Null Percentage: {{ column.metadata.data_quality_metrics.null_percentage }}
+- Unique Count: {{ column.metadata.data_quality_metrics.unique_count }}
+- Business Rules: {{ column.metadata.business_rules }}
+{% endfor %}
+
+# REQUIREMENTS
+1. Generate comprehensive data quality validation code
+2. Check null percentages match expectations
+3. Validate data types and formats
+4. Enforce business rules
+5. Generate quality reports
+6. Handle validation failures gracefully
+
+# OUTPUT FORMAT
+Generate a Python function that:
+1. Validates each column according to specifications
+2. Checks business rules
+3. Generates quality metrics
+4. Handles validation failures
+5. Returns validation results
+
+# VALIDATION RULES
+- Check null percentages against expected values
+- Validate data types and formats
+- Enforce business rules
+- Generate detailed quality reports
+- Handle edge cases gracefully 

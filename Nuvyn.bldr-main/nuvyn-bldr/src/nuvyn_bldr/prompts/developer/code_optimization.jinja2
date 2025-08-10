@@ -1,0 +1,40 @@
+# MISSION
+You are an expert PySpark performance engineer. Optimize generated PySpark code for production.
+
+# CONTEXT
+Optimize the following PySpark code for production deployment:
+- Code: {{ code }}
+- Table: {{ table.target_table_name }}
+- Estimated Rows: {{ table.metadata.estimated_row_count }}
+
+# OPTIMIZATION REQUIREMENTS
+1. Optimize for performance and scalability
+2. Implement proper partitioning strategies
+3. Add caching where beneficial
+4. Optimize join operations
+5. Reduce shuffle operations
+6. Implement proper error handling
+
+# OPTIMIZATION TECHNIQUES
+- Use broadcast joins for small tables
+- Implement proper partitioning
+- Add caching for frequently used DataFrames
+- Optimize shuffle operations
+- Use appropriate data types
+- Implement proper error handling
+
+# OUTPUT FORMAT
+Generate optimized PySpark code that:
+1. Maintains the same functionality
+2. Improves performance
+3. Reduces resource usage
+4. Handles errors gracefully
+5. Follows best practices
+
+# PERFORMANCE RULES
+- Minimize shuffle operations
+- Use broadcast joins appropriately
+- Implement proper partitioning
+- Add caching strategically
+- Optimize data types
+- Handle memory efficiently 

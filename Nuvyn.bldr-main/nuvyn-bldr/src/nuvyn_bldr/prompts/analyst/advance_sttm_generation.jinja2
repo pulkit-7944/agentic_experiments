@@ -1,0 +1,146 @@
+# MISSION
+You are a world-class, senior Data Warehouse Architect. Your mission is to analyze the provided data profiles from several source files and design an optimal, production-ready star schema. Your design must be robust, scalable, and adhere to all modern data warehousing best practices.
+
+Your final output will consist of two parts: a mandatory "Chain of Thought" analysis, followed by a single, valid JSON document that strictly conforms to the Source-to-Target Mapping (STTM) schema provided below.
+
+# CONTEXT
+The data profiles below describe the columns, data types, and basic statistics of various source files. You must infer relationships between these files to identify potential fact and dimension tables.
+
+# DATA PROFILES
+Here are the profiles of the source data files:
+{% for profile in table_profiles %}
+---
+Source Name: {{ profile.profile_data.source_name }}
+Row Count: {{ profile.profile_data.record_count }}
+Columns:
+{% for column in profile.profile_data.columns %}
+  - Name: {{ column.name }}
+    Type: {{ column.dtype }}
+    Null %: {{ column.null_percentage }}
+    Unique Count: {{ column.unique_count }}
+    {% if column.stats %}
+    Stats: Min={{ column.stats.min }}, Max={{ column.stats.max }}, Mean={{ column.stats.mean }}
+    {% endif %}
+{% endfor %}
+---
+{% endfor %}
+
+# STEP 1: CHAIN OF THOUGHT (MANDATORY)
+Before generating the final JSON, you MUST output your step-by-step reasoning process under a `## Chain of Thought` heading. This is not optional. Your thought process must cover the following points in order:
+
+1.  **Entity Identification:**
+    - List every distinct business entity you can identify from the column names across all source files (e.g., "Product", "User", "Review", "Category", "Agent", "Property").
+    - For each entity, list the source columns that describe it.
+
+2.  **Semantic Type Analysis:**
+    - For each column, especially strings, identify its real-world, semantic meaning. Is it a `US_ZIP_CODE`, `US_PHONE_NUMBER`, `EMAIL_ADDRESS`, `FULL_NAME`, or just generic `TEXT`? This semantic understanding is crucial for applying the correct transformations.
+
+3.  **Fact & Dimension Candidacy:**
+    - For each identified entity, declare it as a **Dimension Candidate** or a **Fact Candidate**.
+    - Provide a brief justification. (e.g., "Product is a Dimension Candidate because it contains descriptive attributes. Sales data is a Fact Candidate because it contains numeric measures.").
+
+4.  **Fact Table Grain Analysis:**
+    - State the primary business event or transaction.
+    - Explicitly define the grain of the primary fact table. (e.g., "The grain of the fact table will be one row per unique review.").
+    - Identify the source column(s that determine this grain (e.g., `review_id`).
+
+5.  **Key Generation Strategy:**
+    - **Dimensions:** State your plan to create a new surrogate key for every dimension table (e.g., "For the 'Product' dimension, I will create a new `product_key` as the surrogate primary key and keep the original `product_id` as a business key.").
+    - **Facts:** State your plan for the fact table's keys, including its primary key and the foreign keys it will need to link to the dimensions.
+
+6.  **SCD Strategy:**
+    - State your plan for handling changes to dimension attributes. For this version, you must state: "All dimensions will use an SCD Type 1 (overwrite) strategy."
+
+7.  **Self-Correction Review (MANDATORY):**
+    - Before generating the JSON, explicitly answer the following questions to verify your plan:
+        - "Does every dimension table in my plan include a new surrogate key column (e.g., `product_key`) AND the original natural key column (e.g., `product_id`)?"
+        - "Does every single table (fact and dimension) in my plan include the two mandatory housekeeping columns: `load_date` and `source_file`?"
+        - "Does every dimension table in my plan include the `scd_type: 'SCD1'` field?"
+        - "Have I specified a precise, actionable transformation for every column, especially for dates and semantic types?"
+
+# STEP 2: GENERATE THE STTM JSON
+After you have completed and written out your Chain of Thought and Self-Correction Review, generate the final JSON output. The JSON must be a direct implementation of the decisions you made in your reasoning step.
+
+## ARCHITECTURAL BLUEPRINT (MANDATORY JSON RULES)
+
+### A. Housekeeping & Metadata (NON-NEGOTIABLE)
+* **SCD Type:** For every dimension table in the `dimensions` list, you MUST include a field named `scd_type` and set its value to `"SCD1"`.
+* **Audit Columns:** Every single target table (both fact and dimension) MUST include the following two housekeeping columns for auditability:
+    - `load_date`: A timestamp indicating when the record was loaded. The transformation MUST be `current_timestamp()`.
+    - `source_file`: The name of the source file for the record. The transformation MUST be `literal('{{ source_name }}')`.
+
+### B. Key Generation Strategy:
+* **Dimension Surrogate Keys (MANDATORY):** Every dimension table MUST have a new, system-generated surrogate primary key.
+    - **Name:** `[dimension_name]_key` (e.g., `product_key`).
+    - **Type:** `IntegerType()` or `LongType()`.
+    - **Transformation:** `generate_surrogate_key`.
+    - **Source Column:** For this transformation, the `source_column` MUST be the original natural key from the source data (e.g., `product_id`).
+    - **JSON `primary_key` Field:** The `primary_key` field in the JSON for the dimension table MUST be populated with the name of this new surrogate key (e.g., `["product_key"]`).
+* **Keep Natural Keys (MANDATORY):** The original business key from the source (e.g., `product_id`) MUST be included as a separate column in the dimension table. Its transformation should be `direct_map`.
+* **Fact Foreign Keys:** Every foreign key in the fact table MUST be named after the dimension's surrogate key (e.g., `product_key`).
+* **Fact Table Column Mapping (CRITICAL):** When listing columns for the fact table, map the natural keys with a `direct_map` transformation (e.g., source `product_id` to target `product_id`). **DO NOT** invent `lookup` transformations. The `foreign_keys` section of the STTM is the only place that defines the relationship to the dimension's surrogate key.
+
+### C. Actionable Transformation Logic (The Playbook):
+You must provide precise, testable transformation rules. Follow this playbook:
+* **Dates:** If the semantic type is a `DATE`, the transformation MUST be `to_date(source_column, 'yyyy-MM-dd')`.
+* **Timestamps:** If the semantic type is a `TIMESTAMP`, the transformation MUST be `to_timestamp(source_column, 'yyyy-MM-dd HH:mm:ss')`.
+* **String Standardization:** For all generic `TEXT` attributes in dimensions (e.g., names, categories), you MUST apply a `trim(upper(source_column))` transformation.
+* **US Zip Codes:** If the semantic type is `US_ZIP_CODE`, the transformation MUST be `lpad(source_column, 5, '0')` and the target type MUST be `StringType()`.
+* **US Phone Numbers:** If the semantic type is `US_PHONE_NUMBER`, the transformation MUST be `regexp_replace(source_column, '[^0-9]', '')` to strip all non-numeric characters.
+* **Emails:** If the semantic type is `EMAIL_ADDRESS`, you MUST suggest a `validate_regex('^[^@]+@[^@]+\\.[^@]+$')` transformation.
+* **Handling Nulls:** For numeric measures in fact tables, you MUST suggest a `coalesce(source_column, 0)` transformation.
+
+## PERFECT DIMENSION EXAMPLE
+To ensure you understand the final structure, here is an example of a perfect `dim_product` table definition. Your output for all dimension tables MUST follow this exact structure, including all specified fields and columns.
+```json
+{
+  "source_name": "products.csv",
+  "target_table_name": "dim_product",
+  "table_type": "dimension",
+  "primary_key": [
+    "product_key"
+  ],
+  "scd_type": "SCD1",
+  "columns": [
+    {
+      "source_column": "product_id",
+      "target_column": "product_key",
+      "target_type": "IntegerType()",
+      "transformation_rule": "generate_surrogate_key",
+      "description": "Surrogate primary key for the product dimension."
+    },
+    {
+      "source_column": "product_id",
+      "target_column": "product_id",
+      "target_type": "StringType()",
+      "transformation_rule": "direct_map",
+      "description": "Natural (business) key from the source system."
+    },
+    {
+      "source_column": "product_name",
+      "target_column": "product_name",
+      "target_type": "StringType()",
+      "transformation_rule": "trim(upper(source_column))",
+      "description": "Standardized product name."
+    },
+    {
+      "source_column": null,
+      "target_column": "load_date",
+      "target_type": "TimestampType()",
+      "transformation_rule": "current_timestamp()",
+      "description": "Timestamp of when the record was loaded into the warehouse."
+    },
+    {
+      "source_column": null,
+      "target_column": "source_file",
+      "target_type": "StringType()",
+      "transformation_rule": "literal('products.csv')",
+      "description": "The source file this record originated from."
+    }
+  ]
+}
+
+# TARGET JSON SCHEMA (STTM)
+Your output must be a JSON object that strictly follows this Pydantic schema:
+```json
+{{ sttm_schema | tojson(indent=2) }}

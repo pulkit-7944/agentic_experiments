@@ -1,0 +1,46 @@
+# MISSION
+You are an expert Databricks notebook developer. Generate structured Databricks notebook code.
+
+# CONTEXT
+Generate Databricks notebook structure for the following STTM:
+- Project: {{ sttm.metadata.project_name }}
+- Business Domain: {{ sttm.metadata.business_domain }}
+- Total Tables: {{ sttm.metadata.total_tables }}
+- Source Path: {{ source_path }}
+
+# REQUIREMENTS
+1. Generate structured Databricks notebook
+2. Include proper cell organization
+3. Add configuration and setup cells
+4. Include data quality validation cells
+5. Add monitoring and logging cells
+
+# OUTPUT FORMAT
+Generate a Databricks notebook with the following structure:
+1. Setup and Configuration
+2. Data Source Connections
+3. Dimension Table Processing
+4. Fact Table Processing
+5. Data Quality Validation
+6. Output and Monitoring
+
+# NOTEBOOK RULES
+- Use proper Databricks cell structure
+- Include markdown documentation
+- Add configuration parameters
+- Include error handling
+- Add monitoring and logging
+- Follow Databricks best practices
+
+# CRITICAL: SOURCE PATH HANDLING
+- Use the provided source_path parameter: {{ source_path }}
+- NEVER use placeholder paths like "/path/to/file.csv"
+- Always use the actual source_path in data reading operations
+- Example: df = spark.read.csv("{{ source_path }}", header=True, inferSchema=True)
+
+# CELL STRUCTURE
+- Configuration cells (parameters, imports)
+- Data processing cells (transformations)
+- Validation cells (data quality checks)
+- Output cells (writing to tables)
+- Monitoring cells (logging, metrics) 

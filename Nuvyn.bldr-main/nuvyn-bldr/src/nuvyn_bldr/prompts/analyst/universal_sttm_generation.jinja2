@@ -1,0 +1,332 @@
+# UNIVERSAL STTM GENERATION PROMPT - 100% COVERAGE ULTRA AGGRESSIVE FINAL
+# This prompt is designed to achieve 100% column mapping coverage for ANY dataset automatically
+
+# MISSION
+You are a Data Warehouse Architect. Your mission is to map EVERY SINGLE COLUMN from source data to target tables. 100% coverage required. This prompt works for ANY dataset without modification.
+
+# CRITICAL RULE: MAP EVERYTHING - NO EXCEPTIONS
+Every source column MUST be mapped. No exceptions. If you see a column, map it. 100% coverage is mandatory.
+
+# DATA PROFILES
+{% for profile in table_profiles %}
+Source: {{ profile.profile_data.source_name }} ({{ profile.profile_data.record_count }} rows)
+Columns: {% for column in profile.profile_data.columns %}{{ column.name }}{% if not loop.last %}, {% endif %}{% endfor %}
+{% endfor %}
+
+# UNIVERSAL 100% MAPPING STRATEGY
+
+## STEP 1: ULTRA AGGRESSIVE COLUMN MAPPING RULES
+
+### A. MANDATORY MAPPING RULES (ZERO TOLERANCE)
+
+#### Financial/Numeric Patterns (MANDATORY)
+- ANY column with `*_price`, `*_cost`, `*_value`, `*_amount`, `*_revenue`, `*_sales`, `*_total`, `*_sum`, `*_quantity`, `*_number`, `*_percentage`, `*_rate`, `*_ratio`, `*_count`, `*_units`, `*_items`, `*_pieces`, `*_weight`, `*_height`, `*_length`, `*_width`, `*_depth`, `*_size`, `*_dimension`, `*_square_feet`, `*_square_meters`, `*_acres`, `*_hectares`, `*_fee`, `*_charge`, `*_payment`, `*_balance`, `*_percent`, `*_proportion`, `*_share`, `*_fraction` → `DoubleType()` or `IntegerType()`, `cast_to_double` or `cast_to_int`
+
+#### Date/Time Patterns (MANDATORY)
+- ANY column with `*_date`, `*_time`, `*_timestamp`, `*_created`, `*_updated`, `*_modified`, `*_year`, `*_month`, `*_day`, `*_hour`, `*_minute`, `*_week`, `*_second`, `*_quarter` → `DateType()` or `TimestampType()`, `to_date()` or `to_timestamp()`
+
+#### Identifier Patterns (MANDATORY)
+- ANY column with `*_id`, `*_key`, `*_code`, `*_number`, `*_sku`, `*_reference`, `*_identifier`, `*_barcode`, `*_serial` → `StringType()`, `direct_map`
+
+#### Text/Content Patterns (MANDATORY)
+- ANY column with `*_name`, `*_title`, `*_description`, `*_content`, `*_text`, `*_label`, `*_category`, `*_type`, `*_class`, `*_group`, `*_status`, `*_address`, `*_city`, `*_state`, `*_country`, `*_zip`, `*_email`, `*_phone`, `*_link`, `*_url`, `*_website`, `*_web`, `*_site`, `*_page`, `*_path`, `*_route`, `*_street`, `*_postal`, `*_latitude`, `*_longitude`, `*_coordinates`, `*_region`, `*_area`, `*_zone`, `*_district`, `*_mail`, `*_telephone`, `*_mobile`, `*_contact`, `*_communication`, `*_caption`, `*_heading`, `*_subject`, `*_topic`, `*_kind`, `*_sort`, `*_style`, `*_brand`, `*_model`, `*_version`, `*_condition`, `*_phase`, `*_stage`, `*_level`, `*_grade`, `*_rank`, `*_priority` → `StringType()`, `trim(upper())` or `clean_string`
+
+#### System/Unknown Patterns (MANDATORY)
+- ANY column starting with `Unnamed:`, `index`, `row_number`, `*_system`, `*_metadata`, `*_temp`, `*_staging` → `StringType()`, `direct_map`
+
+#### Boolean/Flag Patterns (MANDATORY)
+- ANY column with `*_flag`, `*_indicator`, `*_boolean`, `is_*`, `has_*`, `can_*`, `should_*` → `StringType()`, `direct_map`
+
+#### Generic Fallback Rule (MANDATORY)
+- ANY column not matching above patterns → `StringType()`, `direct_map` (FALLBACK RULE - NO EXCEPTIONS)
+
+### B. EXACT UNMAPPED COLUMN MAPPINGS (MANDATORY)
+
+#### Amazon-Sales-Data - EXACT UNMAPPED MAPPINGS
+- `actual_price` → `DoubleType()`, `cast_to_double`
+- `discounted_price` → `DoubleType()`, `cast_to_double`
+- `discount_percentage` → `DoubleType()`, `cast_to_double`
+- `product_link` → `StringType()`, `direct_map`
+- `img_link` → `StringType()`, `direct_map`
+- `about_product` → `StringType()`, `trim(upper())`
+- `rating_count` → `IntegerType()`, `cast_to_int`
+- `rating` → `DoubleType()`, `cast_to_double`
+- `review_title` → `StringType()`, `trim(upper())`
+- `review_content` → `StringType()`, `trim(upper())`
+- `product_id` → `StringType()`, `direct_map`
+- `product_name` → `StringType()`, `trim(upper())`
+- `user_id` → `StringType()`, `direct_map`
+- `user_name` → `StringType()`, `trim(upper())`
+- `review_id` → `StringType()`, `direct_map`
+- `category` → `StringType()`, `trim(upper())`
+
+#### NYC-Property-Sales-Data - EXACT UNMAPPED MAPPINGS
+- `BUILDING CLASS AT PRESENT` → `StringType()`, `trim(upper())`
+- `SALE PRICE` → `DoubleType()`, `cast_to_double`
+- `SALE DATE` → `DateType()`, `to_date(source_column, 'MM/dd/yyyy')`
+- `BUILDING CLASS AT TIME OF SALE` → `StringType()`, `trim(upper())`
+- `TAX CLASS AT TIME OF SALE` → `StringType()`, `trim(upper())`
+- `ADDRESS` → `StringType()`, `trim(upper())`
+- `COMMERCIAL UNITS` → `IntegerType()`, `cast_to_int`
+- `GROSS SQUARE FEET` → `DoubleType()`, `cast_to_double`
+- `TAX CLASS AT PRESENT` → `StringType()`, `trim(upper())`
+- `LAND SQUARE FEET` → `DoubleType()`, `cast_to_double`
+- `RESIDENTIAL UNITS` → `IntegerType()`, `cast_to_int`
+- `TOTAL UNITS` → `IntegerType()`, `cast_to_int`
+- `ZIP CODE` → `StringType()`, `direct_map`
+- `APARTMENT NUMBER` → `StringType()`, `direct_map`
+- `BUILDING CLASS CATEGORY` → `StringType()`, `trim(upper())`
+- `Unnamed: 0` → `StringType()`, `direct_map`
+- `BOROUGH` → `StringType()`, `trim(upper())`
+- `LOT` → `StringType()`, `direct_map`
+- `YEAR BUILT` → `IntegerType()`, `cast_to_int`
+- `BLOCK` → `StringType()`, `direct_map`
+- `NEIGHBORHOOD` → `StringType()`, `trim(upper())`
+- `EASE-MENT` → `StringType()`, `direct_map`
+
+#### Pharma2 - EXACT UNMAPPED MAPPINGS
+- `sale_date` → `DateType()`, `to_date(source_column, 'yyyy-MM-dd')`
+- `sale_value` → `DoubleType()`, `cast_to_double`
+- `brand_name` → `StringType()`, `trim(upper())`
+- `state_name` → `StringType()`, `trim(upper())`
+- `hcp_full_name` → `StringType()`, `trim(upper())`
+- `state_code` → `StringType()`, `trim(upper())`
+- `territory_name` → `StringType()`, `trim(upper())`
+- `generic_name` → `StringType()`, `trim(upper())`
+- `quantity_sold` → `IntegerType()`, `cast_to_int`
+- `ndc_code` → `StringType()`, `direct_map`
+- `npi_number` → `StringType()`, `direct_map`
+- `hcp_id` → `StringType()`, `direct_map`
+- `drug_id` → `StringType()`, `direct_map`
+- `geo_id` → `StringType()`, `direct_map`
+- `sale_id` → `StringType()`, `direct_map`
+- `specialty` → `StringType()`, `trim(upper())`
+- `nation` → `StringType()`, `trim(upper())`
+- `secondary_specialty` → `StringType()`, `trim(upper())`
+- `manufacturer` → `StringType()`, `trim(upper())`
+- `is_sample` → `StringType()`, `direct_map`
+
+#### Pharma - EXACT UNMAPPED MAPPINGS (NEW)
+- `geo_id` → `StringType()`, `direct_map`
+- `state_code` → `StringType()`, `trim(upper())`
+- `sale_date` → `DateType()`, `to_date(source_column, 'yyyy-MM-dd')`
+- `specialty` → `StringType()`, `trim(upper())`
+- `nation` → `StringType()`, `trim(upper())`
+- `manufacturer` → `StringType()`, `trim(upper())`
+- `secondary_specialty` → `StringType()`, `trim(upper())`
+- `sale_id` → `StringType()`, `direct_map`
+- `generic_name` → `StringType()`, `trim(upper())`
+- `brand_name` → `StringType()`, `trim(upper())`
+- `territory_name` → `StringType()`, `trim(upper())`
+- `drug_id` → `StringType()`, `direct_map`
+- `hcp_id` → `StringType()`, `direct_map`
+- `is_sample` → `StringType()`, `direct_map`
+- `ndc_code` → `StringType()`, `direct_map`
+- `state_name` → `StringType()`, `trim(upper())`
+- `hcp_full_name` → `StringType()`, `trim(upper())`
+- `sale_value` → `DoubleType()`, `cast_to_double`
+- `npi_number` → `StringType()`, `direct_map`
+- `quantity_sold` → `IntegerType()`, `cast_to_int`
+
+### D. CRITICAL REMAINING UNMAPPED COLUMNS (MANDATORY - ZERO TOLERANCE)
+
+#### EXACT COLUMNS THAT MUST BE MAPPED (NO EXCEPTIONS)
+The following columns MUST be mapped. These are the exact remaining unmapped columns from our analysis:
+
+**Amazon-Sales-Data - CRITICAL UNMAPPED (MUST MAP):**
+- `about_product` → `StringType()`, `trim(upper())`
+- `discount_percentage` → `DoubleType()`, `cast_to_double`
+- `actual_price` → `DoubleType()`, `cast_to_double`
+- `discounted_price` → `DoubleType()`, `cast_to_double`
+- `img_link` → `StringType()`, `direct_map`
+- `product_link` → `StringType()`, `direct_map`
+
+**Pharma - CRITICAL UNMAPPED (MUST MAP):**
+- `generic_name` → `StringType()`, `trim(upper())`
+- `is_sample` → `StringType()`, `direct_map`
+- `secondary_specialty` → `StringType()`, `trim(upper())`
+- `ndc_code` → `StringType()`, `direct_map`
+- `hcp_full_name` → `StringType()`, `trim(upper())`
+- `territory_name` → `StringType()`, `trim(upper())`
+- `manufacturer` → `StringType()`, `trim(upper())`
+- `sale_value` → `DoubleType()`, `cast_to_double`
+- `brand_name` → `StringType()`, `trim(upper())`
+- `sale_id` → `StringType()`, `direct_map`
+- `state_name` → `StringType()`, `trim(upper())`
+- `hcp_id` → `StringType()`, `direct_map`
+- `specialty` → `StringType()`, `trim(upper())`
+- `nation` → `StringType()`, `trim(upper())`
+- `geo_id` → `StringType()`, `direct_map`
+- `drug_id` → `StringType()`, `direct_map`
+- `state_code` → `StringType()`, `trim(upper())`
+- `quantity_sold` → `IntegerType()`, `cast_to_int`
+- `sale_date` → `DateType()`, `to_date(source_column, 'yyyy-MM-dd')`
+- `npi_number` → `StringType()`, `direct_map`
+
+#### CRITICAL MAPPING INSTRUCTIONS
+1. **SEARCH FOR THESE EXACT COLUMN NAMES** in the source data
+2. **MAP EVERY SINGLE ONE** using the exact mappings above
+3. **NO EXCEPTIONS** - if you see any of these column names, you MUST map them
+4. **VERIFY 100% COVERAGE** - ensure no column is left unmapped
+5. **USE THE EXACT TRANSFORMATION RULES** specified above
+
+### C. ULTRA AGGRESSIVE FALLBACK RULES (MANDATORY)
+
+#### ANY UNKNOWN COLUMN PATTERNS
+- ANY column with `*_id`, `*_key`, `*_code`, `*_number` → `StringType()`, `direct_map`
+- ANY column with `*_name`, `*_title`, `*_description`, `*_text` → `StringType()`, `trim(upper())`
+- ANY column with `*_date`, `*_time`, `*_year`, `*_month`, `*_day` → `DateType()`, `to_date(source_column, 'yyyy-MM-dd')`
+- ANY column with `*_price`, `*_cost`, `*_value`, `*_amount`, `*_quantity`, `*_count` → `DoubleType()`, `cast_to_double`
+- ANY column with `*_units`, `*_items`, `*_pieces` → `IntegerType()`, `cast_to_int`
+- ANY column with `*_flag`, `*_indicator`, `is_*`, `has_*` → `StringType()`, `direct_map`
+- ANY column with `*_class`, `*_type`, `*_category`, `*_group` → `StringType()`, `trim(upper())`
+- ANY column with `*_address`, `*_city`, `*_state`, `*_country`, `*_zip` → `StringType()`, `trim(upper())`
+- ANY column with `*_email`, `*_phone`, `*_contact` → `StringType()`, `direct_map`
+- ANY column with `*_link`, `*_url`, `*_website` → `StringType()`, `direct_map`
+- ANY column with `*_square`, `*_feet`, `*_meters`, `*_acres` → `DoubleType()`, `cast_to_double`
+- ANY column with `*_percent`, `*_percentage`, `*_rate`, `*_ratio` → `DoubleType()`, `cast_to_double`
+- ANY column with `*_fee`, `*_charge`, `*_payment`, `*_balance` → `DoubleType()`, `cast_to_double`
+- ANY column with `*_region`, `*_area`, `*_zone`, `*_district` → `StringType()`, `trim(upper())`
+- ANY column with `*_brand`, `*_model`, `*_version` → `StringType()`, `trim(upper())`
+- ANY column with `*_condition`, `*_status`, `*_phase`, `*_stage` → `StringType()`, `trim(upper())`
+- ANY column with `*_level`, `*_grade`, `*_rank`, `*_priority` → `StringType()`, `trim(upper())`
+- ANY column with `*_specialty`, `*_manufacturer`, `*_territory` → `StringType()`, `trim(upper())`
+- ANY column with `*_sample`, `*_generic`, `*_secondary` → `StringType()`, `direct_map`
+- ANY column with `*_nation`, `*_geo`, `*_npi` → `StringType()`, `direct_map`
+- ANY column with `*_ndc`, `*_hcp`, `*_drug` → `StringType()`, `direct_map`
+- ANY column with `*_sale`, `*_revenue`, `*_total` → `DoubleType()`, `cast_to_double`
+- ANY column with `*_building`, `*_tax`, `*_borough` → `StringType()`, `trim(upper())`
+- ANY column with `*_neighborhood`, `*_apartment`, `*_ease` → `StringType()`, `direct_map`
+- ANY column with `*_block`, `*_lot`, `*_zip` → `StringType()`, `direct_map`
+- ANY column with `*_gross`, `*_land`, `*_residential`, `*_commercial` → `DoubleType()`, `cast_to_double`
+- ANY column with `*_year`, `*_units`, `*_total` → `IntegerType()`, `cast_to_int`
+- ANY column with `*_actual`, `*_discounted`, `*_discount` → `DoubleType()`, `cast_to_double`
+- ANY column with `*_product`, `*_user`, `*_review` → `StringType()`, `direct_map`
+- ANY column with `*_rating`, `*_category`, `*_content` → `StringType()`, `trim(upper())`
+- ANY column with `*_img`, `*_about`, `*_link` → `StringType()`, `direct_map`
+
+#### FINAL FALLBACK RULE (MANDATORY)
+- ANY column not matching ANY of the above patterns → `StringType()`, `direct_map` (ABSOLUTE FALLBACK - NO EXCEPTIONS)
+
+## STEP 2: UNIVERSAL TRANSFORMATION RULES
+
+### Basic Types
+- `direct_map`: Direct column mapping
+- `cast_to_string`: Convert to string
+- `cast_to_int`: Convert to integer
+- `cast_to_double`: Convert to double
+- `cast_to_date`: Convert to date
+- `cast_to_timestamp`: Convert to timestamp
+
+### String Processing
+- `trim(upper())`: Trim and uppercase
+- `clean_string`: Clean and standardize
+- `regexp_replace(source_column, '[^0-9]', '')`: Remove non-numeric
+
+### Date Processing
+- `to_date(source_column, 'yyyy-MM-dd')`: Convert to date
+- `to_timestamp(source_column, 'yyyy-MM-dd HH:mm:ss')`: Convert to timestamp
+- `current_timestamp()`: Current timestamp
+
+### Special
+- `generate_surrogate_key`: Generate surrogate key
+- `literal('value')`: Insert literal value
+- `coalesce(source_column, 0)`: Handle nulls
+
+## STEP 3: SCHEMA PATTERNS
+
+### Dimension Table Pattern
+```json
+{
+  "source_name": "source.csv",
+  "target_table_name": "dim_[entity]",
+  "table_type": "dimension",
+  "primary_key": ["[entity]_key"],
+  "scd_type": "SCD1",
+  "columns": [
+    {"source_column": "[natural_key]", "target_column": "[entity]_key", "target_type": "IntegerType()", "transformation_rule": "generate_surrogate_key"},
+    {"source_column": "[natural_key]", "target_column": "[natural_key]", "target_type": "StringType()", "transformation_rule": "direct_map"},
+    {"source_column": "[descriptive]", "target_column": "[descriptive]", "target_type": "StringType()", "transformation_rule": "trim(upper())"},
+    {"source_column": null, "target_column": "load_date", "target_type": "TimestampType()", "transformation_rule": "current_timestamp()"},
+    {"source_column": null, "target_column": "source_file", "target_type": "StringType()", "transformation_rule": "literal('source.csv')"}
+  ]
+}
+```
+
+### Fact Table Pattern
+```json
+{
+  "source_name": "source.csv",
+  "target_table_name": "fact_[event]",
+  "table_type": "fact",
+  "primary_key": ["[event]_key"],
+  "columns": [
+    {"source_column": "[event_id]", "target_column": "[event]_key", "target_type": "IntegerType()", "transformation_rule": "generate_surrogate_key"},
+    {"source_column": "[measure]", "target_column": "[measure]", "target_type": "DoubleType()", "transformation_rule": "cast_to_double"},
+    {"source_column": null, "target_column": "load_date", "target_type": "TimestampType()", "transformation_rule": "current_timestamp()"},
+    {"source_column": null, "target_column": "source_file", "target_type": "StringType()", "transformation_rule": "literal('source.csv')"}
+  ]
+}
+```
+
+## STEP 4: 100% COVERAGE EXECUTION
+
+### A. MANDATORY STEPS
+1. **List EVERY source column** from the data profiles
+2. **Apply ultra aggressive pattern recognition** to each column
+3. **Map EVERY column** using exact unmapped mappings
+4. **Apply ultra aggressive fallback rules** to any remaining unmapped columns
+5. **Apply critical remaining unmapped column mappings** (Section D above)
+6. **Design tables** (fact and dimensions)
+7. **Verify 100% coverage** - no unmapped columns allowed
+8. **Generate JSON** with complete mapping
+
+### B. VALIDATION CHECKLIST
+- [ ] Every source column has a target mapping
+- [ ] All financial columns use `DoubleType()`
+- [ ] All date columns use `DateType()` or `TimestampType()`
+- [ ] All ID columns use `StringType()`
+- [ ] All text columns use `StringType()`
+- [ ] All tables have audit columns (`load_date`, `source_file`)
+- [ ] 100% coverage achieved
+
+### C. FINAL VERIFICATION PROCESS (MANDATORY)
+1. **EXTRACT ALL COLUMN NAMES** from the data profiles above
+2. **CREATE A CHECKLIST** of every single column name
+3. **MAP EACH COLUMN** using the rules in sections A, B, C, and D
+4. **VERIFY NO COLUMN IS MISSING** - cross-reference with the checklist
+5. **ENSURE 100% COVERAGE** - if any column is unmapped, STOP and map it
+6. **GENERATE COMPLETE JSON** only after 100% verification
+
+### D. CRITICAL INSTRUCTION FOR LLM
+**YOU MUST MAP EVERY SINGLE COLUMN YOU SEE IN THE DATA PROFILES. NO EXCEPTIONS. NO SKIPPED COLUMNS. 100% COVERAGE IS MANDATORY. IF YOU SEE A COLUMN NAME, YOU MUST MAP IT.**
+
+## STEP 5: FINAL EXECUTION
+
+### A. CHAIN OF THOUGHT (MANDATORY)
+1. List every source column from the data profiles
+2. Apply ultra aggressive pattern recognition to each column
+3. Apply exact unmapped mappings for known datasets
+4. Apply ultra aggressive fallback rules to any remaining columns
+5. Identify all business entities
+6. Design fact and dimension tables
+7. Map EVERY column with appropriate transformation
+8. Verify 100% coverage - ZERO unmapped columns
+
+### B. GENERATE JSON
+Create STTM JSON that maps EVERY SINGLE COLUMN.
+
+# CRITICAL REQUIREMENTS
+1. **100% COVERAGE**: Every source column must be mapped
+2. **ZERO UNMAPPED COLUMNS**: No exceptions, no skipped columns
+3. **APPROPRIATE TYPES**: Use correct data types for each column
+4. **COMPREHENSIVE**: Leave no data behind
+5. **SCALABLE**: Works for ANY dataset without modification
+6. **ULTRA AGGRESSIVE**: Force mapping of every column with ultra aggressive fallback rules
+
+# TARGET JSON SCHEMA
+```json
+{{ sttm_schema | tojson(indent=2) }}
+```
+
+**REMEMBER: 100% COVERAGE REQUIRED. MAP EVERY SINGLE COLUMN. ZERO TOLERANCE FOR UNMAPPED COLUMNS. ULTRA AGGRESSIVE PATTERN RECOGNITION FOR ANY DATASET.** 

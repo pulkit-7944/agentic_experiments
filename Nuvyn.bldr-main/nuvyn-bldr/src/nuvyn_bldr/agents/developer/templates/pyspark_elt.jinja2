@@ -1,0 +1,55 @@
+# Generated ELT Pipeline for {{ sttm.metadata.project_name }}
+# Created: {{ sttm.metadata.created_date }}
+
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import *
+from pyspark.sql.types import *
+
+def create_spark_session():
+    return SparkSession.builder \
+        .appName("{{ sttm.metadata.project_name }}_ELT") \
+        .config("spark.sql.adaptive.enabled", "true") \
+        .getOrCreate()
+
+{% for table in sttm.tables %}
+{% if table.table_type == 'dimension' %}
+def process_{{ table.target_table_name }}():
+    """Process {{ table.metadata.business_description }}"""
+    df = spark.read.csv("{{ table.source_name }}")
+    
+    {% for column in table.columns %}
+    # {{ column.metadata.business_description }}
+    df = df.withColumn("{{ column.target_column }}", 
+        {{ column.transformation_rule }})
+    {% endfor %}
+    
+    return df
+
+{% endif %}
+{% endfor %}
+
+# Main processing function
+def main():
+    spark = create_spark_session()
+    
+    # Process dimension tables first
+    {% for table in sttm.tables %}
+    {% if table.table_type == 'dimension' %}
+    {{ table.target_table_name }}_df = process_{{ table.target_table_name }}()
+    {% endif %}
+    {% endfor %}
+    
+    # Process fact tables
+    {% for table in sttm.tables %}
+    {% if table.table_type == 'fact' %}
+    {{ table.target_table_name }}_df = process_{{ table.target_table_name }}()
+    {% endif %}
+    {% endfor %}
+    
+    # Write to target tables
+    {% for table in sttm.tables %}
+    {{ table.target_table_name }}_df.write.mode("overwrite").saveAsTable("{{ table.target_table_name }}")
+    {% endfor %}
+
+if __name__ == "__main__":
+    main() 

@@ -1,0 +1,29 @@
+# Core Agent & Orchestration Libraries
+langchain
+langgraph
+langchain-core
+langchain-community
+langchain-groq
+openai
+
+# Data Handling & Profiling
+pandas
+numpy
+
+# Databricks & Cloud Integration
+databricks-sdk
+azure-keyvault-secrets
+azure-identity
+
+# Vector Store for Knowledge Base
+chromadb
+
+# Configuration & Schemas
+pydantic
+python-dotenv
+
+# Templating for Code Generation
+Jinja2
+
+# Testing
+pytest

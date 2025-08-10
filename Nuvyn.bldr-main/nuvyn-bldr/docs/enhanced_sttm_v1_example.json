@@ -1,0 +1,243 @@
+{
+  "sttm_id": "sttm_v1_enhanced",
+  "description": "Enhanced star schema model for e-commerce data warehouse with comprehensive metadata and data quality metrics",
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2025-07-29T12:30:00Z",
+    "last_modified_date": "2025-07-29T12:30:00Z",
+    "author": "Nuvyn.bldr AI Analyst Agent",
+    "project_name": "E-commerce Data Warehouse",
+    "business_domain": "E-commerce & Retail",
+    "data_warehouse_name": "ecommerce_dw",
+    "total_tables": 4,
+    "total_columns": 34,
+    "coverage_percentage": 100.0,
+    "data_quality_score": 95.2,
+    "transformation_complexity": "medium"
+  },
+  "tables": [
+    {
+      "source_name": "fact_sales.csv",
+      "target_table_name": "fact_sales",
+      "table_type": "fact",
+      "primary_key": ["sale_id"],
+      "foreign_keys": {
+        "customer_id": "dim_customers",
+        "product_id": "dim_products",
+        "store_id": "dim_stores"
+      },
+      "metadata": {
+        "business_description": "Core sales transaction table containing all e-commerce sales data",
+        "technical_description": "Fact table storing sales transactions with foreign keys to dimension tables",
+        "grain": "One row per sale transaction",
+        "refresh_frequency": "Daily",
+        "data_retention_policy": "Keep for 7 years",
+        "estimated_row_count": 1000000,
+        "estimated_size_gb": 2.5,
+        "source_system": "E-commerce Platform",
+        "business_owner": "Sales Operations Team",
+        "technical_owner": "Data Engineering Team"
+      },
+      "columns": [
+        {
+          "source_column": "sale_id",
+          "target_column": "sale_id",
+          "target_type": "StringType()",
+          "transformation_rule": "direct_map",
+          "metadata": {
+            "business_description": "Unique identifier for each sales transaction",
+            "technical_description": "Primary key for the sales fact table",
+            "source_data_type": "string",
+            "target_data_type": "StringType()",
+            "data_quality_metrics": {
+              "null_percentage": 0.0,
+              "unique_count": 1000000,
+              "cardinality": "high",
+              "data_type_consistency": true,
+              "format_compliance": true,
+              "range_check": {
+                "pattern": "SALE_[0-9]{8}_[0-9]{6}"
+              }
+            },
+            "business_rules": [
+              "Must be unique across all sales",
+              "Cannot be null",
+              "Must follow SALE_YYYYMMDD_HHMMSS format"
+            ],
+            "validation_rules": [
+              "regex: ^SALE_[0-9]{8}_[0-9]{6}$",
+              "not_null",
+              "unique"
+            ],
+            "sample_values": ["SALE_20250729_143022", "SALE_20250729_143023"],
+            "is_sensitive": false,
+            "is_required": true
+          }
+        },
+        {
+          "source_column": "total_amount",
+          "target_column": "total_amount",
+          "target_type": "DoubleType()",
+          "transformation_rule": "cast_to_double",
+          "metadata": {
+            "business_description": "Total amount of the sale including taxes and discounts",
+            "technical_description": "Monetary value representing the total sale amount",
+            "source_data_type": "decimal(10,2)",
+            "target_data_type": "DoubleType()",
+            "data_quality_metrics": {
+              "null_percentage": 0.1,
+              "unique_count": 50000,
+              "cardinality": "medium",
+              "data_type_consistency": true,
+              "format_compliance": true,
+              "range_check": {
+                "min": 0.01,
+                "max": 99999.99
+              }
+            },
+            "business_rules": [
+              "Must be greater than 0",
+              "Cannot exceed $99,999.99",
+              "Should include all applicable taxes and fees"
+            ],
+            "validation_rules": [
+              "range: 0.01 to 99999.99",
+              "not_null",
+              "numeric"
+            ],
+            "sample_values": ["125.50", "89.99", "299.99"],
+            "is_sensitive": false,
+            "is_required": true
+          }
+        },
+        {
+          "source_column": "sale_datetime",
+          "target_column": "sale_datetime",
+          "target_type": "TimestampType()",
+          "transformation_rule": "to_timestamp",
+          "metadata": {
+            "business_description": "Date and time when the sale transaction occurred",
+            "technical_description": "Timestamp of the sales transaction for temporal analysis",
+            "source_data_type": "datetime",
+            "target_data_type": "TimestampType()",
+            "data_quality_metrics": {
+              "null_percentage": 0.0,
+              "unique_count": 1000000,
+              "cardinality": "high",
+              "data_type_consistency": true,
+              "format_compliance": true,
+              "range_check": {
+                "min": "2020-01-01 00:00:00",
+                "max": "2025-12-31 23:59:59"
+              }
+            },
+            "business_rules": [
+              "Must be a valid date/time",
+              "Cannot be in the future",
+              "Should be within reasonable business hours"
+            ],
+            "validation_rules": [
+              "date_format: YYYY-MM-DD HH:MM:SS",
+              "not_null",
+              "not_future"
+            ],
+            "sample_values": ["2025-07-29 14:30:22", "2025-07-29 15:45:33"],
+            "is_sensitive": false,
+            "is_required": true
+          }
+        }
+      ]
+    },
+    {
+      "source_name": "dim_customers.csv",
+      "target_table_name": "dim_customers",
+      "table_type": "dimension",
+      "primary_key": ["customer_id"],
+      "foreign_keys": {},
+      "metadata": {
+        "business_description": "Customer dimension table containing customer demographic and contact information",
+        "technical_description": "Slowly changing dimension table for customer data",
+        "grain": "One row per customer",
+        "refresh_frequency": "Weekly",
+        "data_retention_policy": "Keep for 10 years",
+        "estimated_row_count": 50000,
+        "estimated_size_gb": 0.5,
+        "source_system": "Customer Management System",
+        "business_owner": "Customer Success Team",
+        "technical_owner": "Data Engineering Team"
+      },
+      "columns": [
+        {
+          "source_column": "customer_id",
+          "target_column": "customer_id",
+          "target_type": "StringType()",
+          "transformation_rule": "direct_map",
+          "metadata": {
+            "business_description": "Unique identifier for each customer",
+            "technical_description": "Primary key for the customer dimension table",
+            "source_data_type": "string",
+            "target_data_type": "StringType()",
+            "data_quality_metrics": {
+              "null_percentage": 0.0,
+              "unique_count": 50000,
+              "cardinality": "high",
+              "data_type_consistency": true,
+              "format_compliance": true,
+              "range_check": {
+                "pattern": "CUST_[0-9]{6}"
+              }
+            },
+            "business_rules": [
+              "Must be unique across all customers",
+              "Cannot be null",
+              "Must follow CUST_XXXXXX format"
+            ],
+            "validation_rules": [
+              "regex: ^CUST_[0-9]{6}$",
+              "not_null",
+              "unique"
+            ],
+            "sample_values": ["CUST_000001", "CUST_000002"],
+            "is_sensitive": false,
+            "is_required": true
+          }
+        },
+        {
+          "source_column": "email_address",
+          "target_column": "email_address",
+          "target_type": "StringType()",
+          "transformation_rule": "trim(lower())",
+          "metadata": {
+            "business_description": "Customer's email address for communication",
+            "technical_description": "Normalized email address for customer contact",
+            "source_data_type": "string",
+            "target_data_type": "StringType()",
+            "data_quality_metrics": {
+              "null_percentage": 5.0,
+              "unique_count": 48000,
+              "cardinality": "high",
+              "data_type_consistency": true,
+              "format_compliance": true,
+              "range_check": {
+                "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+              }
+            },
+            "business_rules": [
+              "Must be a valid email format",
+              "Should be unique per customer",
+              "Used for marketing communications"
+            ],
+            "validation_rules": [
+              "email_format",
+              "unique",
+              "not_empty"
+            ],
+            "sample_values": ["john.doe@email.com", "jane.smith@company.org"],
+            "is_sensitive": true,
+            "is_required": false
+          }
+        }
+      ]
+    }
+  ]
+}

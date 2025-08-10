@@ -1,0 +1,249 @@
+# MISSION
+You are an expert Data Engineer specializing in PySpark and Databricks. 
+Generate production-ready ELT code from the provided STTM (Source-to-Target Mapping) document.
+
+# CONTEXT
+The STTM document contains a complete data warehouse design with:
+- Fact and dimension table definitions
+- Column mappings with transformation rules
+- Data quality requirements
+- Business rules and validation logic
+
+# REQUIREMENTS
+1. Generate syntactically correct PySpark code
+2. Implement all transformation rules from STTM
+3. Include comprehensive data quality checks
+4. Follow Databricks best practices
+5. Ensure optimal performance and scalability
+
+# CRITICAL: SOURCE DATA PATH HANDLING
+- Use the provided source_path parameter for reading source data
+- Replace any hardcoded paths with the dynamic source_path variable
+- Example: source_data = spark.read.csv(source_path, header=True, inferSchema=True)
+- NEVER use placeholder paths like "/path/to/file.csv" - always use the actual source_path parameter
+- In the main execution section, use: source_path = "{{ source_path }}" or pass it as a parameter
+
+# CRITICAL: DATABASE AND TABLE CREATION
+- Create database schema if it doesn't exist using: spark.sql("CREATE DATABASE IF NOT EXISTS database_name")
+- Use saveAsTable() function to create tables in the database
+- ALWAYS use overwriteSchema option to handle schema conflicts: df.write.mode("overwrite").option("overwriteSchema", "true").saveAsTable("database_name.table_name")
+- This prevents DELTA_FAILED_TO_MERGE_FIELDS errors when existing tables have different schemas
+- Ensure tables are created with proper schema and partitioning
+
+# STTM DOCUMENT
+{{ sttm | tojson(indent=2) }}
+
+# OUTPUT FORMAT
+Generate a complete PySpark script with the following structure:
+1. Imports and configuration
+2. Database schema creation
+3. Data source connections (using source_path)
+4. Dimension table processing (ALL dimension tables from STTM)
+5. Fact table processing with joins (ALL fact tables from STTM)
+6. Data quality validation
+7. Table creation using saveAsTable()
+8. Output and monitoring
+
+# CRITICAL: COMPLETE IMPORTS SECTION
+**MANDATORY**: Use EXACTLY this imports section at the top of EVERY script - DO NOT modify or reduce:
+
+```python
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import (
+    col, coalesce, lit, current_timestamp, upper, trim, 
+    monotonically_increasing_id, to_date, to_timestamp,
+    cast, when, regexp_replace, hash, md5, sha1,
+    year, month, day, hour, minute, second,
+    sum, count, avg, max, min, stddev,
+    concat, concat_ws, split, substring, length,
+    isnan, isnull, desc, asc
+)
+from pyspark.sql.types import (
+    StringType, IntegerType, DoubleType, FloatType, 
+    BooleanType, DateType, TimestampType, DecimalType,
+    StructType, StructField, ArrayType
+)
+```
+
+**CRITICAL**: Copy this imports section EXACTLY - do not remove any functions! Missing imports cause NameError exceptions.
+**ESPECIALLY IMPORTANT**: Always include `concat` (used for batch_id), `to_date` (used for dates), and all other functions.
+
+# CRITICAL: COMPLETE TABLE PROCESSING
+- Generate a processing function for EVERY table in the STTM
+- Process ALL dimension tables: {% for table in sttm.tables %}{% if table.table_type == "dimension" %}{{ table.target_table_name }}{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}
+- Process ALL fact tables: {% for table in sttm.tables %}{% if table.table_type == "fact" %}{{ table.target_table_name }}{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}
+- Include ALL table processing in the main() function
+- NEVER use placeholder comments like "# Process other dimensions..." - implement actual processing
+
+# MAIN EXECUTION SECTION
+- Include a main() function that accepts source_path as parameter
+- In the if __name__ == "__main__": section, use the actual source_path
+- **CRITICAL**: Read specific source files for each table based on STTM source_name
+- **NEVER assume separate files for dimensions** - extract from existing source files
+
+  def main(source_path):
+      # Read source files based on STTM source_name field
+      {% for table in sttm.tables %}
+      {% if table.source_name and table.source_name != "All Sources" %}
+      {{ table.source_name.replace('.csv', '').replace('.', '_') }}_df = read_source_data(spark, source_path, "{{ table.source_name }}")
+      {% endif %}
+      {% endfor %}
+      
+      # Process dimension tables (extract from appropriate source files)
+      {% for table in sttm.tables %}{% if table.table_type == "dimension" %}
+      {% if table.source_name == "All Sources" %}
+      # Extract {{ table.target_table_name }} from first available fact table source file
+      {{ table.target_table_name }}_df = process_{{ table.target_table_name }}({% for src_table in sttm.tables %}{% if src_table.table_type == "fact" and src_table.source_name %}{{ src_table.source_name.replace('.csv', '').replace('.', '_') }}_df{% endif %}{% endfor %})
+      {% else %}
+      {{ table.target_table_name }}_df = process_{{ table.target_table_name }}({{ table.source_name.replace('.csv', '').replace('.', '_') }}_df)
+      {% endif %}
+      {% endif %}{% endfor %}
+      
+      # Process fact tables
+      {% for table in sttm.tables %}{% if table.table_type == "fact" %}
+      {{ table.target_table_name }}_df = process_{{ table.target_table_name }}({{ table.source_name.replace('.csv', '').replace('.', '_') }}_df)
+      {% endif %}{% endfor %}
+    
+    # Save all tables with schema overwrite to handle conflicts
+    {% for table in sttm.tables %}{{ table.target_table_name }}_df.write.mode("overwrite").option("overwriteSchema", "true").saveAsTable("database_name.{{ table.target_table_name }}")
+    {% endfor %}
+  
+  if __name__ == "__main__":
+      source_path = "{{ source_path }}"
+      main(source_path)
+
+# CODE GENERATION RULES
+- Use PySpark DataFrame API
+- Implement all transformation rules exactly as specified
+- Add proper error handling and logging
+- Include data quality checks for each column
+- Optimize for performance (partitioning, caching)
+- Follow naming conventions from STTM
+- Use saveAsTable() for all table outputs
+- Create database schema before creating tables
+
+# CRITICAL: COLUMN NAME HANDLING
+- Use exact column names from the STTM source_column and target_column fields
+- For source columns with spaces or special characters, use col("COLUMN NAME") syntax
+- ALWAYS create target columns with the exact target_column names from STTM
+- Example: df.withColumn("target_col", coalesce(trim(upper(col("SOURCE COLUMN"))), lit("NA")))
+- Ensure all column references match the STTM exactly
+- Handle column name sanitization properly (spaces, special characters, etc.)
+
+# CRITICAL: COLUMN NAME SANITIZATION FOR DATABRICKS
+**MANDATORY**: Databricks Delta tables REQUIRE sanitized column names - NO SPACES OR SPECIAL CHARACTERS ALLOWED!
+
+**COLUMN NAME TRANSFORMATION RULES:**
+1. **Source columns**: Use original names with spaces in col("ORIGINAL NAME") syntax
+2. **Target columns**: MUST be sanitized - replace spaces with underscores, convert to lowercase
+3. **Example transformations**:
+   * Source: col("BUILDING CLASS CATEGORY") -> Target: "building_class_category" 
+   * Source: col("TAX CLASS AT PRESENT") -> Target: "tax_class_at_present"
+   * Source: col("LAND SQUARE FEET") -> Target: "land_square_feet"
+   * Source: col("ZIP CODE") -> Target: "zip_code"
+
+**CRITICAL IMPLEMENTATION**:
+```python
+# CORRECT - Use original source name in col(), sanitized target name in withColumn()
+df = df.withColumn("building_class_category", coalesce(trim(upper(col("BUILDING CLASS CATEGORY"))), lit("NA")))
+
+# WRONG - Don't use spaces in target column names
+df = df.withColumn("BUILDING CLASS CATEGORY", ...)  # ❌ WILL FAIL IN DATABRICKS
+```
+
+**SANITIZATION FUNCTION**: Replace all spaces with underscores, convert to lowercase, remove special characters ' ,;{}()\n\t=
+
+# CRITICAL: TABLE PROCESSING FUNCTIONS
+Generate a complete processing function for each table in the STTM:
+
+{% for table in sttm.tables %}
+# {{ table.target_table_name }} ({{ table.table_type }})
+def process_{{ table.target_table_name }}(source_df):
+    df = source_df
+    
+    # Process ALL columns from STTM - CREATE TARGET COLUMNS:
+    {% for column in table.columns %}
+    # {{ column.target_column }}: {{ column.transformation_rule }}
+    {% if column.source_column %}
+    # Source: "{{ column.source_column }}" -> Target: "{{ column.target_column }}"
+    df = df.withColumn("{{ column.target_column }}", IMPLEMENT_{{ column.transformation_rule.replace('(', '_').replace(')', '').replace(',', '_').replace(' ', '_').upper() }})
+    {% else %}
+    # Generated column (no source): "{{ column.target_column }}"
+    df = df.withColumn("{{ column.target_column }}", IMPLEMENT_{{ column.transformation_rule.replace('(', '_').replace(')', '').replace(',', '_').replace(' ', '_').upper() }})
+    {% endif %}
+    {% endfor %}
+    
+    # Add housekeeping columns (only if NOT already defined in STTM):
+    {% set existing_columns = table.columns | map(attribute='target_column') | list %}
+    {% if 'created_timestamp' not in existing_columns %}df = df.withColumn("created_timestamp", current_timestamp()){% endif %}
+    {% if 'updated_timestamp' not in existing_columns %}df = df.withColumn("updated_timestamp", current_timestamp()){% endif %}
+    {% if 'source_system' not in existing_columns %}df = df.withColumn("source_system", lit("SOURCE_NAME")){% endif %}
+    {% if 'batch_id' not in existing_columns %}df = df.withColumn("batch_id", concat(lit("BATCH_"), current_timestamp())){% endif %}
+    {% if 'is_active' not in existing_columns %}df = df.withColumn("is_active", lit(True)){% endif %}
+    {% if 'version' not in existing_columns %}df = df.withColumn("version", lit(1)){% endif %}
+    
+    # CRITICAL: SELECT ONLY TARGET COLUMNS (MANDATORY TO AVOID DATABRICKS COLUMN NAME ERRORS)
+    # This removes original source columns with spaces and keeps only sanitized target columns
+    target_columns = [{% for column in table.columns %}"{{ column.target_column }}"{% if not loop.last %}, {% endif %}{% endfor %}]
+    {% set existing_columns = table.columns | map(attribute='target_column') | list %}
+    {% if 'created_timestamp' not in existing_columns %}target_columns.append("created_timestamp"){% endif %}
+    {% if 'updated_timestamp' not in existing_columns %}target_columns.append("updated_timestamp"){% endif %}
+    {% if 'source_system' not in existing_columns %}target_columns.append("source_system"){% endif %}
+    {% if 'batch_id' not in existing_columns %}target_columns.append("batch_id"){% endif %}
+    {% if 'is_active' not in existing_columns %}target_columns.append("is_active"){% endif %}
+    {% if 'version' not in existing_columns %}target_columns.append("version"){% endif %}
+    df = df.select(*target_columns)  # MANDATORY: Must select only target columns!
+    
+    # Save to table (use CREATE OR REPLACE to handle schema conflicts)
+    df.write.mode("overwrite").option("overwriteSchema", "true").saveAsTable("database_name.{{ table.target_table_name }}")
+    return df
+
+{% endfor %}
+
+# CRITICAL: TRANSFORMATION RULE IMPLEMENTATIONS
+For each transformation rule in the STTM, implement the exact PySpark equivalent:
+
+- coalesce(cast_to_double(source_column), 0.0) -> coalesce(col("SOURCE_COLUMN").cast(DoubleType()), lit(0.0))
+- coalesce(cast_to_int(source_column), 0) -> coalesce(col("SOURCE_COLUMN").cast(IntegerType()), lit(0))
+- coalesce(trim(upper(source_column)), 'NA') -> coalesce(trim(upper(col("SOURCE_COLUMN"))), lit("NA"))
+- coalesce(to_date(source_column, 'MM/dd/yyyy'), '1900-01-01') -> coalesce(to_date(col("SOURCE_COLUMN"), "MM/dd/yyyy"), lit("1900-01-01"))
+- coalesce(to_timestamp(source_column), '1900-01-01 00:00:00') -> coalesce(to_timestamp(col("SOURCE_COLUMN")), lit("1900-01-01 00:00:00"))
+- generate_surrogate_key -> monotonically_increasing_id() (when source_column is null)
+- generate_surrogate_key -> hash(col("SOURCE_COLUMN")) (when source_column exists)
+- current_timestamp() -> current_timestamp()
+- literal('value') -> lit('value')
+
+**CRITICAL**: Always ensure the imports section includes ALL functions used in transformations!
+
+# CRITICAL: COMPLETE COLUMN PROCESSING
+- Process EVERY column listed in each table's STTM definition
+- Create target columns with EXACT names from STTM target_column field
+- Apply the EXACT transformation_rule from STTM
+- Include ALL housekeeping columns in every table
+- **MANDATORY**: Select only target columns in final output (exclude ALL source columns)
+- This prevents Databricks column name errors from source columns with spaces
+- NEVER skip columns or use placeholder comments
+- EVERY function MUST end with df.select(*target_columns) before return
+
+# EXAMPLE COMPLETE FUNCTION:
+def process_dim_property(source_df):
+    df = source_df
+    
+    # Create ALL target columns from STTM
+    df = df.withColumn("property_key", monotonically_increasing_id())  # from ADDRESS
+    df = df.withColumn("block", coalesce(col("BLOCK").cast(IntegerType()), lit(0)))
+    df = df.withColumn("lot", coalesce(col("LOT").cast(IntegerType()), lit(0)))
+    df = df.withColumn("zip_code", coalesce(trim(upper(col("ZIP CODE"))), lit("NA")))
+    # ... continue for ALL columns in STTM
+    
+    # Add housekeeping columns (only if not already in STTM)
+    # Check existing columns and add missing housekeeping columns
+    df = df.withColumn("created_timestamp", current_timestamp())
+    df = df.withColumn("updated_timestamp", current_timestamp())
+    # ... (other housekeeping columns if not in STTM)
+    
+    # Select target columns (all STTM columns + any added housekeeping columns)
+    target_columns = ["property_key", "block", "lot", "zip_code", "created_timestamp", "updated_timestamp", "source_system", "batch_id", "is_active", "version"]
+    df = df.select(*target_columns)
+    
+    return df 

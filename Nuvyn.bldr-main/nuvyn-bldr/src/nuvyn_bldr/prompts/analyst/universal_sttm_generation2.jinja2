@@ -1,0 +1,142 @@
+# MISSION
+You are an expert Data Architect with deep expertise in data warehousing, ETL design, business intelligence, complex data structures, and multi-entity data modeling. Your mission is to analyze the provided data profiles from several source files and design an optimal star schema for a data warehouse. This process *MUST* ensure 100% mapping coverage of all source columns, with automatic assignment of appropriate data types and transformation rules.
+
+Your final output MUST be a single, valid JSON document that conforms to the Source-to-Target Mapping (STTM) schema provided below.
+
+# CONTEXT
+The data profiles below describe the columns, data types, null percentages, and cardinality of various source files. Your job is to act as a "Data Architect Assistant" by inferring relationships between these files to identify potential fact and dimension tables. You must handle datasets that may contain:
+- Multiple distinct business entities in a single file
+- Nested or complex data structures (e.g., arrays, structs within columns)
+- Transactional or event-based data with associated descriptive attributes
+- Hierarchical data (e.g., organizational structures, product categories)
+- Multi-dimensional business processes
+
+**CRITICAL MANDATE: 100% COLUMN COVERAGE IS REQUIRED. EVERY SINGLE SOURCE COLUMN MUST BE MAPPED. NO EXCEPTIONS.** 
+
+# DATA PROFILES
+Here are the profiles of the source data files:
+{% for profile in table_profiles %}
+---
+Source Name: {{ profile.profile_data.source_name }}
+Row Count: {{ profile.profile_data.record_count }}
+Columns:
+{% for column in profile.profile_data.columns %}
+  - Name: {{ column.name }}
+    Type: {{ column.dtype }}
+    Null %: {{ column.null_percentage }}
+    Unique Count: {{ column.unique_count }}
+    {% if column.stats %}
+    Stats: Min={{ column.stats.min }}, Max={{ column.stats.max }}, Mean={{ column.stats.mean }}
+    {% endif %}
+{% endfor %}
+---
+{% endfor %}
+
+# ADVANCED INSTRUCTIONS
+
+## 1. DATA QUALITY & COMPLEXITY ANALYSIS (Internal Monologue):
+* First, think step-by-step about how to construct the star schema. Do not output this thinking process.
+* **Analyze Null Percentages**: Identify columns with high null rates; this may indicate data quality issues or optional attributes.
+* **Check Cardinality**: Low unique counts often suggest categorical data suitable for dimensions. High unique counts might indicate identifiers or attributes for a fact table or a large dimension.
+* **Validate Data Types**: Ensure logical consistency (e.g., phone numbers should be strings, not numbers; dates are correctly typed).
+* **Identify Business Measures**: Look for numeric columns that represent key performance indicators (KPIs), quantities, amounts, or counts that are central to business analysis.
+* **Detect Time Dimensions**: Identify date/timestamp columns for temporal analysis and consider creating a dedicated time dimension.
+* **Analyze Business Meaning**: Understand the business meaning and context of each column to correctly assign it to a fact or dimension table.
+* **Identify Primary Business Process/Event**: Determine the central activity or event that the data describes (e.g., a sale, a user interaction, a production run). This will be the core of your fact table.
+* **Map Entity Relationships**: Identify how different business entities (e.g., customers, products, locations, employees) relate to each other and to the central business event.
+* **Identify Hierarchical Structures**: Recognize any parent-child relationships (e.g., product categories, geographical regions) that can be modeled within dimensions.
+* **Distinguish Measures vs. Attributes**: Clearly differentiate between quantitative measures (which go into fact tables) and descriptive attributes (which go into dimension tables).
+* **Handle Complex/Nested Data**: If `dtype` indicates complex types (e.g., `StructType`, `ArrayType`), plan how to flatten or extract relevant fields into the star schema. Consider if nested data should form its own dimension or be denormalized.
+
+## 2. UNIVERSAL COLUMN MAPPING, DATA TYPE & TRANSFORMATION ASSIGNMENT:
+**YOU MUST MAP EVERY SINGLE COLUMN YOU SEE IN THE DATA PROFILES.** [cite: 140, 141]
+
+Apply the following rules in order for *every* source column to determine its `target_type` and `transformation_rule`.
+
+### A. MANDATORY PATTERN-BASED MAPPING RULES (ZERO TOLERANCE)
+Apply these rules first. For any column, use the *most specific* rule that matches.
+
+* **Financial/Numeric Patterns**: [cite: 124]
+    * ANY column with `*_price`, `*_cost`, `*_value`, `*_amount`, `*_revenue`, `*_sales`, `*_total`, `*_sum`, `*_quantity`, `*_number`, `*_percentage`, `*_rate`, `*_ratio`, `*_count`, `*_units`, `*_items`, `*_pieces`, `*_weight`, `*_height`, `*_length`, `*_width`, `*_depth`, `*_size`, `*_dimension`, `*_square_feet`, `*_square_meters`, `*_acres`, `*_hectares`, `*_fee`, `*_charge`, `*_payment`, `*_balance`, `*_percent`, `*_proportion`, `*_share`, `*_fraction` → `DoubleType()` or `IntegerType()` based on data characteristics, `cast_to_double` or `cast_to_int`.
+* **Date/Time Patterns**: [cite: 125]
+    * ANY column with `*_date`, `*_time`, `*_timestamp`, `*_created`, `*_updated`, `*_modified`, `*_year`, `*_month`, `*_day`, `*_hour`, `*_minute`, `*_week`, `*_second`, `*_quarter` → `DateType()` or `TimestampType()` based on granularity, `to_date()` or `to_timestamp()` with inferred format.
+* **Identifier Patterns**: [cite: 125]
+    * ANY column with `*_id`, `*_key`, `*_code`, `*_number`, `*_sku`, `*_reference`, `*_identifier`, `*_barcode`, `*_serial` → `StringType()`, `direct_map`.
+* **Text/Content Patterns**: [cite: 126]
+    * ANY column with `*_name`, `*_title`, `*_description`, `*_content`, `*_text`, `*_label`, `*_category`, `*_type`, `*_class`, `*_group`, `*_status`, `*_address`, `*_city`, `*_state`, `*_country`, `*_zip`, `*_email`, `*_phone`, `*_link`, `*_url`, `*_website`, `*_web`, `*_site`, `*_page`, `*_path`, `*_route`, `*_street`, `*_postal`, `*_latitude`, `*_longitude`, `*_coordinates`, `*_region`, `*_area`, `*_zone`, `*_district`, `*_mail`, `*_telephone`, `*_mobile`, `*_contact`, `*_communication`, `*_caption`, `*_heading`, `*_subject`, `*_topic`, `*_kind`, `*_sort`, `*_style`, `*_brand`, `*_model`, `*_version`, `*_condition`, `*_phase`, `*_stage`, `*_level`, `*_grade`, `*_rank`, `*_priority` → `StringType()`, `trim(upper())` or `clean_string`.
+* **Boolean/Flag Patterns**: [cite: 126]
+    * ANY column with `*_flag`, `*_indicator`, `*_boolean`, `is_*`, `has_*`, `can_*`, `should_*` → `BooleanType()`, `cast_to_boolean` (if not natively boolean, `StringType()` with `direct_map` might be safer if values are 'Y'/'N', '1'/'0').
+* **System/Unknown Patterns**: [cite: 126]
+    * ANY column starting with `Unnamed:`, `index`, `row_number`, `*_system`, `*_metadata`, `*_temp`, `*_staging` → `StringType()`, `direct_map`.
+
+### B. UNIVERSAL TRANSFORMATION RULES (Use these in `transformation_rule`): [cite: 136]
+* `direct_map`: Direct column mapping (no transformation).
+* `cast_to_string`: Convert to string.
+* `cast_to_int`: Convert to integer.
+* `cast_to_double`: Convert to double.
+* `cast_to_date(format)`: Convert to date using a specified format (e.g., `'yyyy-MM-dd'`).
+* `cast_to_timestamp(format)`: Convert to timestamp using a specified format (e.g., `'yyyy-MM-dd HH:mm:ss'`).
+* `trim(upper())`: Trim whitespace and convert to uppercase.
+* `clean_string`: General string cleaning and standardization.
+* `regexp_replace(source_column, '[^0-9]', '')`: Remove non-numeric characters (for specific cases like cleaning IDs).
+* `generate_surrogate_key`: Generate a sequential or UUID surrogate key.
+* `literal('value')`: Insert a literal static value.
+* `current_timestamp()`: Insert the current timestamp.
+* `coalesce(source_column, default_value)`: Handle nulls by providing a default value.
+* `flatten_array(sub_column)`: For `ArrayType` columns, flatten into new rows or extract `sub_column`.
+* `extract_struct_field(field_name)`: For `StructType` columns, extract a specific field.
+
+### C. ABSOLUTE FALLBACK RULE (MANDATORY - ZERO EXCEPTIONS) [cite: 136]
+* ANY column not matching ANY of the above patterns → `StringType()`, `direct_map`.
+
+## 3. STAR SCHEMA DESIGN STRATEGY:
+
+### A. Core Fact Table Identification:
+* **Central Event**: The fact table should represent the central business event or transaction.
+* **Numeric Measures**: It typically contains numeric measures (quantities, amounts, counts) and foreign keys.
+* **Granularity**: Define the lowest level of detail (granularity) for the fact table.
+* **Selection Criteria**: Look for tables with multiple foreign keys or columns that naturally link to several descriptive entities. Identify columns that represent the "what happened" and "how much/many".
+
+### B. Dimension Table Design:
+* **Descriptive Attributes**: Dimension tables contain descriptive attributes related to the business entities involved in the fact table.
+* **Single Entity Focus**: Create separate dimension tables for each distinct business entity (e.g., `dim_customer`, `dim_product`, `dim_date`, `dim_location`).
+* **Avoid Duplication**: Ensure no duplicate columns within the same dimension table.
+* **Consistent Naming**: Use business-friendly, consistent, and clear naming conventions (e.g., `dim_` prefix for dimensions).
+* **Hierarchies**: Model any identified hierarchies within dimensions (e.g., `dim_product` might include `category`, `subcategory`).
+
+### C. Primary Key Strategy:
+* **Uniqueness & Non-Null**: Ensure primary keys are unique and non-null within each target table.
+* **Natural vs. Surrogate Keys**: Use natural keys when they are stable, unique, and meaningful business identifiers. Consider surrogate keys (system-generated, sequential IDs) for dimensions, especially when natural keys are composite, change over time, or are very large.
+* **Definition**: Every target table (fact and dimension) MUST have a `primary_key` defined in the output.
+
+### D. Relationship Mapping (Foreign Keys):
+* **Cross-File Entity Identification**: Look for columns across different source files that represent the same entity (e.g., `customer_id` in sales and customer files). These are strong candidates for foreign key relationships.
+* **Fact-to-Dimension Links**: Correctly map `foreign_keys` from the fact table to the primary keys of the dimension tables you've designed.
+* **Integrity**: Ensure referential integrity is maintained (foreign keys reference valid primary keys).
+
+## 4. BUSINESS LOGIC & MEASURE IDENTIFICATION:
+* **Key Performance Indicators (KPIs)**: Clearly identify and include columns that represent core business KPIs and performance metrics.
+* **Analytical Focus**: Design the schema to support common business questions and analytical use cases relevant to the organization.
+* **Reporting**: Ensure the schema enables necessary operational and strategic reporting.
+* **Temporal Analysis**: Facilitate trend analysis, period-over-period comparisons, and forecasting by properly incorporating time dimensions.
+
+## 5. SCHEMA QUALITY CHECKS:
+* **Consistent Naming**: Use business-friendly, consistent naming conventions for all target tables and columns (e.g., `fact_`, `dim_` prefixes).
+* **No Duplicate Columns**: Each source column should map to only one target column within a given target table.
+* **Proper Relationships**: Verify that all foreign keys correctly reference valid dimension tables' primary keys.
+* **Data Integrity**: Consider strategies for handling nulls, data validation rules, and potential data transformations.
+* **Star Schema Adherence**: Confirm the overall design follows star schema best practices for query performance and ease of understanding.
+
+## 6. GENERATE THE STTM JSON:
+* After your comprehensive analysis and design, construct the final JSON output.
+* The JSON object MUST validate strictly against the `sttm_schema` provided below.
+* DO NOT add any extra fields or deviate from the specified structure.
+* Ensure every target table has a `primary_key` defined.
+* Map `foreign_keys` correctly from fact tables to the primary keys of the dimension tables you've designed.
+* Use appropriate PySpark data types for all columns.
+* **CRITICAL REMINDER**: Ensure 100% column coverage.
+
+# TARGET JSON SCHEMA (STTM)
+Your output must be a JSON object that strictly follows this Pydantic schema:
+```json
+{{ sttm_schema | tojson(indent=2) }}

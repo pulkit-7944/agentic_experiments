@@ -1,0 +1,101 @@
+security_id,ticker_symbol,isin_code,company_name,exchange_code,sector,ipo_date
+1,QAXS,INE000301146A01,Nanda and Sons,BSE,Technology,
+2,YYJQ,INE000479524A01,Kohli-Thaker,BSE,Technology,
+3,PEJX,INE000000886A01,"Taneja, Nagarajan and Sastry",BSE,Healthcare,
+4,UWEU,INE000822964A01,Bose and Sons,NSE,Consumer Goods,2021-04-07
+5,NMLC,INE000834534A01,Ghosh PLC,BSE,Healthcare,2019-09-04
+6,LQWJ,INE000187153A01,Dhar PLC,NSE,Industrials,
+7,BSLH,INE000635131A01,Shere LLC,NSE,Healthcare,2013-09-07
+8,MRYM,INE000441978A01,Dhingra-Sen,NSE,Industrials,
+9,CUND,INE000705749A01,"Sampath, Pant and Singh",BSE,Financials,
+10,FRZS,INE000964675A01,Koshy-Natt,BSE,Industrials,
+11,EBKF,INE000256327A01,"Chauhan, Kade and Barad",BSE,Consumer Goods,2018-05-23
+12,THIB,INE000121078A01,Saraf Inc,BSE,Technology,2018-01-24
+13,GXAT,INE000041771A01,Bhatia Inc,BSE,Technology,2005-11-23
+14,FFWZ,INE000304696A01,"Pal, Khosla and Lanka",NSE,Industrials,2018-05-12
+15,YMQN,INE000404004A01,Loyal PLC,BSE,Consumer Goods,2015-01-18
+16,QRBP,INE000562022A01,"Vora, Mannan and Reddy",NSE,Industrials,
+17,ZNHM,INE000137124A01,Sane-Ray,NSE,Technology,
+18,CTSB,INE000649256A01,Dua-Parikh,NSE,Healthcare,
+19,SDKY,INE000927833A01,"Palan, Lal and Subramaniam",BSE,Consumer Goods,2005-12-25
+20,ZQRJ,INE000408238A01,Ramakrishnan Inc,BSE,Healthcare,2015-01-03
+21,PJZN,INE000334504A01,Luthra Ltd,NSE,Healthcare,2015-12-19
+22,OQNV,INE000642453A01,"Mitra, Srivastava and Bhagat",NSE,Consumer Goods,2023-10-19
+23,HCNE,INE000450689A01,Sami Inc,BSE,Technology,
+24,SFLR,INE000919468A01,Suresh LLC,BSE,Healthcare,2010-12-20
+25,HWDZ,INE000812361A01,"Seshadri, Agrawal and Lala",BSE,Consumer Goods,
+26,SVKN,INE000890681A01,Seth-Savant,BSE,Technology,2016-07-31
+27,YZQF,INE000489516A01,"Lala, Borah and Suri",NSE,Consumer Goods,2006-01-16
+28,BPSE,INE000948837A01,Sharma Ltd,BSE,Healthcare,
+29,FOVB,INE000054245A01,Saha and Sons,NSE,Financials,2014-09-01
+30,BRVL,INE000395392A01,Sankar-Karnik,BSE,Industrials,
+31,QUAM,INE000727320A01,Pai-Gulati,BSE,Technology,2010-01-21
+32,CRPL,INE000587907A01,Kara PLC,BSE,Consumer Goods,2018-01-20
+33,BNHS,INE000152364A01,Loyal Inc,BSE,Healthcare,
+34,HOWJ,INE000276511A01,Parikh Ltd,BSE,Technology,2020-10-29
+35,HOBS,INE000038551A01,Bail LLC,BSE,Technology,2022-09-15
+36,ZMMZ,INE000370238A01,Ram LLC,NSE,Consumer Goods,2005-08-26
+37,PNWL,INE000875483A01,Walla Ltd,BSE,Industrials,2016-07-19
+38,ULRM,INE000335001A01,"Ratta, Bahl and Ram",BSE,Industrials,2019-09-25
+39,VZWJ,INE000390776A01,"Agate, Karan and Bir",NSE,Industrials,2020-01-26
+40,OIZW,INE000119474A01,"Saxena, Datta and Magar",NSE,Healthcare,2015-03-12
+41,OZEW,INE000444815A01,Bhattacharyya LLC,NSE,Technology,2006-10-06
+42,UCNV,INE000019321A01,"Dubey, Dhawan and Karnik",NSE,Financials,
+43,ILJV,INE000452527A01,"Sule, Sandhu and Sur",NSE,Technology,
+44,MHRY,INE000470801A01,"Radhakrishnan, Thakur and Bera",BSE,Consumer Goods,
+45,EJPL,INE000989766A01,Choudhary and Sons,NSE,Healthcare,
+46,HWUH,INE000817401A01,"Kota, Mutti and Patel",NSE,Consumer Goods,
+47,SPNZ,INE000537476A01,Krish-Kohli,BSE,Financials,2012-11-12
+48,LYPO,INE000952848A01,"Soni, Kapoor and Bhargava",BSE,Consumer Goods,2015-10-13
+49,RNKC,INE000013162A01,Ramaswamy-Kala,NSE,Financials,2022-06-03
+50,PQYG,INE000083907A01,Kadakia and Sons,NSE,Consumer Goods,2007-04-05
+51,JHAW,INE000308066A01,Talwar Inc,NSE,Financials,
+52,OROA,INE000264527A01,Roy-Brar,BSE,Consumer Goods,
+53,NQQE,INE000035283A01,"Dash, Golla and Bhakta",NSE,Industrials,2019-06-17
+54,CXQG,INE000120673A01,Murthy-Sane,NSE,Healthcare,
+55,SVQY,INE000383994A01,Sanghvi and Sons,BSE,Consumer Goods,2021-06-01
+56,RNIK,INE000198061A01,Thaker-Ramesh,NSE,Technology,2018-05-01
+57,AMFA,INE000588669A01,Bhavsar-Seshadri,BSE,Healthcare,
+58,ZGOO,INE000939994A01,"Anand, Pau and Pant",BSE,Financials,
+59,OOWA,INE000425442A01,Sood PLC,NSE,Industrials,
+60,VWKU,INE000714250A01,"Pau, Contractor and Deshmukh",BSE,Technology,
+61,YREO,INE000809156A01,Dugar Inc,NSE,Financials,2007-04-13
+62,SJVZ,INE000153692A01,"Korpal, Bhalla and Menon",BSE,Consumer Goods,2016-12-11
+63,YQSC,INE000017380A01,Dhillon-Sani,BSE,Healthcare,
+64,EJKQ,INE000423465A01,Chauhan PLC,NSE,Technology,
+65,XLJD,INE000618869A01,"Bahl, Dalal and Mukhopadhyay",NSE,Consumer Goods,
+66,XAKU,INE000868340A01,Tata and Sons,NSE,Healthcare,2018-04-20
+67,BJVT,INE000796754A01,Arora-Babu,NSE,Industrials,
+68,PQZQ,INE000324403A01,Dixit-Nadig,BSE,Industrials,
+69,KWIH,INE000127826A01,Dewan Group,NSE,Healthcare,
+70,KIVO,INE000985727A01,Dubey LLC,NSE,Consumer Goods,2016-12-14
+71,LCLN,INE000618091A01,Rau-Parekh,BSE,Consumer Goods,
+72,QRYC,INE000113972A01,Bava PLC,NSE,Healthcare,2015-01-28
+73,ZXKS,INE000490419A01,"Naik, Shanker and Chaudhary",BSE,Healthcare,
+74,FYCI,INE000371126A01,Edwin-Ramesh,BSE,Consumer Goods,2009-07-12
+75,ARVE,INE000858177A01,"Srinivasan, Nayak and Kari",NSE,Consumer Goods,2022-07-16
+76,LPNM,INE000373562A01,Sarin Inc,BSE,Healthcare,
+77,MUUT,INE000717493A01,Dass Group,NSE,Financials,2010-03-03
+78,BUDD,INE000552531A01,Ahuja-Goyal,NSE,Healthcare,
+79,XZWB,INE000850669A01,"Chand, Golla and Bera",BSE,Technology,
+80,ATNL,INE000999664A01,Datta Group,NSE,Healthcare,
+81,OYGT,INE000603411A01,Varma Group,NSE,Financials,
+82,YWSY,INE000608215A01,Ganesh PLC,BSE,Financials,
+83,MSRO,INE000570347A01,Lal LLC,NSE,Financials,2007-07-23
+84,YRTG,INE000045291A01,Koshy-Ravi,NSE,Consumer Goods,
+85,OWVP,INE000595570A01,Lad Group,BSE,Technology,
+86,TLST,INE000101352A01,Seth Ltd,NSE,Industrials,
+87,RLPS,INE000691230A01,Pandit-Pandit,NSE,Consumer Goods,
+88,BJKM,INE000997730A01,"Raju, Kapur and Krishnan",NSE,Consumer Goods,
+89,DYLI,INE000135872A01,Edwin-Rajagopalan,BSE,Consumer Goods,
+90,LZZI,INE000893480A01,"Halder, Choudhary and Pant",NSE,Industrials,2008-06-30
+91,UWBR,INE000907622A01,Roy-Dyal,BSE,Healthcare,2013-01-18
+92,NDYP,INE000937798A01,Kala Group,NSE,Industrials,
+93,IISU,INE000222210A01,"Banik, Varkey and Sur",NSE,Healthcare,
+94,YTZC,INE000541403A01,"Zachariah, Talwar and Rattan",BSE,Industrials,2011-05-11
+95,JQLB,INE000289287A01,Dara-Kanda,BSE,Industrials,2008-07-18
+96,HVWE,INE000614691A01,"Saran, Das and Pandey",NSE,Technology,2021-01-09
+97,XTJR,INE000192261A01,Dara-Banik,NSE,Healthcare,2021-04-27
+98,DRNC,INE000942072A01,"Ray, Palla and Bajaj",NSE,Consumer Goods,
+99,NFPC,INE000705853A01,Kaul-Sharma,NSE,Healthcare,
+100,KCVU,INE000128002A01,Kari Ltd,NSE,Healthcare,2018-02-01
